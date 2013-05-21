@@ -1,4 +1,4 @@
 Blocks
 ======
 
-A ver cool game!
+A very cool game!
