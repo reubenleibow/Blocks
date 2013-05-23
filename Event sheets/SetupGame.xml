@@ -202,7 +202,7 @@
                 <action id="-15" name="Set visible" sid="7706091790654114" type="Sprite7">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-3" name="Set position" sid="2582425421200769" type="SmallStars">
+                <action id="-3" name="Set position" sid="2582425421200769" type="Sprite7">
                     <param id="0" name="X">280</param>
                     <param id="1" name="Y">204</param>
                 </action>
@@ -245,6 +245,18 @@
                 </action>
                 <action behavior="Physics" id="21" name="Set immovable" sid="8534613985856892" type="SlidingDoor">
                     <param id="0" name="Setting">1</param>
+                </action>
+                <action behavior="Physics" id="12" name="Set world gravity" sid="9076445075844812" type="Explosivelong">
+                    <param id="0" name="Gravity">0</param>
+                </action>
+                <action behavior="Physics" id="12" name="Set world gravity" sid="5469416383188152" type="ExplosiveShort">
+                    <param id="0" name="Gravity">0</param>
+                </action>
+                <action behavior="Physics" id="12" name="Set world gravity" sid="9898437268245323" type="ObBlocks">
+                    <param id="0" name="Gravity">0</param>
+                </action>
+                <action behavior="Physics" id="12" name="Set world gravity" sid="6187399084450949" type="ObBlocks2">
+                    <param id="0" name="Gravity">0</param>
                 </action>
             </actions>
         </event-block>
