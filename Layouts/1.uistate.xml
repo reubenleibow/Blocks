@@ -6,7 +6,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <camera>
         <position-x>542.441</position-x>
         <position-y>173.45</position-y>
-        <position-z>133.1</position-z>
+        <position-z>75.1315</position-z>
         <lookat-x>542.441</lookat-x>
         <lookat-y>173.45</lookat-y>
         <lookat-z>0</lookat-z>
@@ -21,11 +21,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Margins" />
         <property expanded="1" name="Effects" />
     </properties>
-    <active-layer name="Background" />
+    <active-layer name="Menu" />
     <layers>
         <layer locked="1" name="Background" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Game" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Border" parallax-in-editor="0" visible="1" />
-        <layer locked="1" name="Menu" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Menu" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>

@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>MenuActions</name>
     <events>
-        <variable constant="1" name="MENU_WIDTH" sid="535316460153231" static="0" type="number">360</variable>
+        <variable constant="1" name="MENU_WIDTH" sid="535316460153231" static="0" type="number">300</variable>
         <variable constant="1" name="MENU_STEP_SIZE" sid="5610398998929509" static="0" type="number">8</variable>
         <event-block sid="1120">
             <conditions>

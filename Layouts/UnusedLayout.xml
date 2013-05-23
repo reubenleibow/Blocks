@@ -30,7 +30,7 @@
                 <instance type="SlidingMenu" uid="68">
                     <properties>
                         <left-margin>0</left-margin>
-                        <right-margin>200</right-margin>
+                        <right-margin>255</right-margin>
                         <top-margin>0</top-margin>
                         <bottom-margin>0</bottom-margin>
                         <edges>Tile</edges>
@@ -42,11 +42,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-107</x>
-                        <y>-170</y>
+                        <x>-438</x>
+                        <y>-42</y>
                         <z>0</z>
-                        <width>87</width>
-                        <height>548</height>
+                        <width>424</width>
+                        <height>627</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
