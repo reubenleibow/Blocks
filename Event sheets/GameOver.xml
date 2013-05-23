@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>GameOver</name>
+    <events>
+        <variable constant="1" name="TOTAL_GAME_TIME" sid="7133339750766053" static="0" type="number">50</variable>
+        <variable constant="1" name="PORTAL_CLOSING_TIME" sid="4469883810396425" static="0" type="number">10</variable>
+        <variable constant="1" name="SHOW_MENU_TIME" sid="1022769540302522" static="0" type="number">2</variable>
+        <variable constant="0" name="CountdownStarted" sid="9640555897683182" static="0" type="number">0</variable>
+        <variable constant="0" name="CountdownTime" sid="5350714101605865" static="0" type="number">0</variable>
+        <event-group collapsed="1" description="" sid="5293643546838865" title="Time Level Blaaa Blaaa">
+            <sub-events>
+                <event-block sid="316">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="317" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="318" type="System">
+                            <param id="0" name="Variable">BlocksLeft</param>
+                            <param id="1" name="Value">LightBlocks.Count</param>
+                        </action>
+                        <action id="0" name="Set text" sid="347" type="BlockLeft">
+                            <param id="0" name="Text">BlocksLeft</param>
+                        </action>
+                        <action id="0" name="Set text" sid="437" type="TimeToNextLevel">
+                            <param id="0" name="Text">CountdownTime</param>
+                        </action>
+                        <action id="0" name="Set text" sid="708" type="FPS1">
+                            <param id="0" name="Text">fps</param>
+                        </action>
+                        <action id="0" name="Set text" sid="1119" type="LevelOn">
+                            <param id="0" name="Text">CurrentLevel</param>
+                        </action>
+                        <action id="0" name="Set text" sid="1127" type="BlocksColeccted">
+                            <param id="0" name="Text">CollectedBlocks</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="2001936861431471" type="Sprite3">
+                            <param id="0" name="Frame number">CollectedBlocks</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="7764851889092804" type="Sprite7">
+                            <param id="0" name="Frame number">CollectedBlocks/3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="368">
+                    <conditions>
+                        <condition id="-3" name="On end of layout" sid="369" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set local value" sid="370" type="WebStorage">
+                            <param id="0" name="Key">&quot;LevelScore&quot; &amp; CurrentLevel</param>
+                            <param id="1" name="Value">max(CurrentLevelScore, int(WebStorage.LocalValue(&quot;LevelScore&quot; &amp; CurrentLevel)))</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="363">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="364" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Set group active" sid="5677926011553419" type="System">
+                            <param id="0" name="Group name">&quot;StartEndgameCountdown&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6295539502789275" type="System">
+                            <param id="0" name="Variable">CountdownStarted</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6639853465390905" type="System">
+                            <param id="0" name="Variable">CurrentLevelScore</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="4025622848223082" type="System">
+                            <param id="0" name="Variable">CollectedBlocks</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="7895964938958616" type="Function">
+                            <param id="0" name="Name">&quot;StartEndgameCountdown&quot;</param>
+                            <param id="1" name="Parameter {n}">TOTAL_GAME_TIME</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="3737329949046407" title="Finished Level">
+            <sub-events>
+                <event-block sid="924">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="925" type="Touch">
+                            <param id="0" name="Object">GoToMenuSar</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="926" type="GoToMenuSar" />
+                        <condition id="-14" name="Compare variable" sid="930" type="System">
+                            <param id="0" name="Variable">SelectLevel123</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="928" type="System">
+                            <param id="0" name="Layout">LevelSelect</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="931">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="932" type="Touch">
+                            <param id="0" name="Object">GoToMenuSar</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="933" type="GoToMenuSar" />
+                        <condition id="-14" name="Compare variable" sid="934" type="System">
+                            <param id="0" name="Variable">SelectLevel123</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="935" type="System">
+                            <param id="0" name="Layout">LevelSelect2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="936">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="937" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="938" type="System">
+                            <param id="0" name="Variable">SelectLevel123</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="940">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="941" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">30</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="943" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="942" type="System">
+                            <param id="0" name="Variable">SelectLevel123</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="1971752468810086" title="Next level buttons when finnished stars">
+            <sub-events>
+                <event-block sid="1319">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="1320" type="Touch">
+                            <param id="0" name="Object">NextLevelSar</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="1321" type="NextLevelSar" />
+                        <condition id="-14" name="Compare variable" sid="1322" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="7802864174312834" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1323" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Value">CurrentLevel+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1324" type="System">
+                            <param id="0" name="Variable">BlocksLeft</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="1325" type="System">
+                            <param id="0" name="Layout">LevelSelect</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1296">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="1297" type="Touch">
+                            <param id="0" name="Object">NextLevelSar</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1302" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="1298" type="NextLevelSar" />
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="3382040228556286" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1299" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Value">CurrentLevel+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1300" type="System">
+                            <param id="0" name="Variable">BlocksLeft</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-25" name="Go to layout (by name)" sid="1301" type="System">
+                            <param id="0" name="Layout">str(CurrentLevel)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1303">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="1304" type="Touch">
+                            <param id="0" name="Object">NextLevelSar</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1317" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1306" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">30</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="1305" type="NextLevelSar" />
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="2501189557963235" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1307" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Value">CurrentLevel+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1308" type="System">
+                            <param id="0" name="Variable">BlocksLeft</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-25" name="Go to layout (by name)" sid="1309" type="System">
+                            <param id="0" name="Layout">str(CurrentLevel)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1310">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="1311" type="Touch">
+                            <param id="0" name="Object">NextLevelSar</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1318" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">31</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1313" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">45</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="1312" type="NextLevelSar" />
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="1672318272450184" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1314" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Value">CurrentLevel+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1315" type="System">
+                            <param id="0" name="Variable">BlocksLeft</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-25" name="Go to layout (by name)" sid="1316" type="System">
+                            <param id="0" name="Layout">str(CurrentLevel)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1326">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="1327" type="Touch">
+                            <param id="0" name="Object">NextLevelSar</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="1328" type="NextLevelSar" />
+                        <condition id="-14" name="Compare variable" sid="1329" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">30</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="836502744445857" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1330" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Value">CurrentLevel+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1331" type="System">
+                            <param id="0" name="Variable">BlocksLeft</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="1332" type="System">
+                            <param id="0" name="Layout">LevelSelect2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1333">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="1334" type="Touch">
+                            <param id="0" name="Object">NextLevelSar</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="1335" type="NextLevelSar" />
+                        <condition id="-14" name="Compare variable" sid="1336" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">45</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="6276895098704402" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1337" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Value">CurrentLevel+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1338" type="System">
+                            <param id="0" name="Variable">BlocksLeft</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="1339" type="System">
+                            <param id="0" name="Layout">LeveSelect3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="1134">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="1137" type="System">
+                    <param id="0" name="Variable">BlocksLeft</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="2637016880531341" type="Function">
+                    <param id="0" name="Name">&quot;StartEndgameCountdown&quot;</param>
+                    <param id="1" name="Parameter {n}">SHOW_MENU_TIME</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="449">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="450" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="5220529443232938" type="System">
+                    <param id="0" name="Variable">CountdownStarted</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="1220636828847784" type="System">
+                    <param id="0" name="Variable">CountdownTime</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1136">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="3816690473928139" type="System">
+                    <param id="0" name="Variable">CountdownStarted</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="5695849621786605" type="System">
+                    <param id="0" name="Variable">CountdownTime</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="784051112269471" type="System">
+                    <param id="0" name="Group name">&quot;ShowEndgameMenu&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="801">
+            <conditions>
+                <condition id="-5" name="Compare width" sid="803" type="ShowStars">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="Width">940</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="804" type="NextLevelSar">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="822" type="RestartSar">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="908" type="GoToMenuSar">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="911">
+            <conditions>
+                <condition id="-6" name="Compare height" sid="7433895940104442" type="ShowStars">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="Height">200</param>
+                </condition>
+                <condition id="-6" name="Compare height" sid="1892622864017241" type="ShowStars">
+                    <param id="0" name="Comparison">3</param>
+                    <param id="1" name="Height">200</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="4466410413775451" type="Puse">
+                    <param id="0" name="Instance variable">Visible</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-10" name="Set value" sid="8407690171804103" type="RestartLevel">
+                    <param id="0" name="Instance variable">Visible</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" inactive="1" sid="2286561618474687" title="ShowEndgameMenu">
+            <sub-events>
+                <event-block sid="4852267668395841">
+                    <conditions>
+                        <condition id="-15" name="Is group active" sid="232236771924742" type="System">
+                            <param id="0" name="Group name">&quot;ShowEndgameMenu&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="2105132489355361" type="ShowStars">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="8491560126674464" type="Function">
+                            <param id="0" name="Name">&quot;MakeGrayscale&quot;</param>
+                            <param id="1" name="Parameter {n}">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1734791024286693" type="System">
+                            <param id="0" name="Variable">UnLocketLevel</param>
+                            <param id="1" name="Value">max(UnLocketLevel, CurrentLevel + 1)</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="284685992471293" type="System">
+                            <param id="0" name="Group name">&quot;HideGameButtons&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="786">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="787" type="System">
+                            <param id="0" name="Interval (seconds)">0.01</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="780">
+                            <conditions>
+                                <condition id="-6" name="Compare height" sid="781" type="ShowStars">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="Height">300</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="785" type="ShowStars">
+                                    <param id="0" name="Width">ShowStars.Width</param>
+                                    <param id="1" name="Height">ShowStars.Height+30</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="782">
+                            <conditions>
+                                <condition id="-5" name="Compare width" sid="783" type="ShowStars">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="Width">960</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-7" name="Set size" sid="784" type="ShowStars">
+                                    <param id="0" name="Width">ShowStars.Width+50</param>
+                                    <param id="1" name="Height">ShowStars.Height</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="796">
+                    <conditions>
+                        <condition id="-6" name="Compare height" sid="797" type="ShowStars">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Height">164</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="799" type="ShowStars">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Width">950</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="7658333909374351" type="Puse">
+                            <param id="0" name="Instance variable">Visible</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="2013308011921063" type="RestartLevel">
+                            <param id="0" name="Instance variable">Visible</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="800" type="NextLevelSar">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="821" type="RestartSar">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="907" type="GoToMenuSar">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-13" name="Set time scale" sid="825" type="System">
+                            <param id="0" name="Time scale">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="4363242508033845" type="Sprite7">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="915">
+                    <conditions>
+                        <condition id="-6" name="Compare height" sid="2820039022005734" type="ShowStars">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Height">200</param>
+                        </condition>
+                        <condition id="-6" name="Compare height" sid="1245674506594742" type="ShowStars">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Height">200</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="5525460286325617" type="Puse">
+                            <param id="0" name="Instance variable">Visible</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="5038051491741883" type="RestartLevel">
+                            <param id="0" name="Instance variable">Visible</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="6053900531268281">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="564182902984059" type="System">
+                            <param id="0" name="Variable">CollectedBlocks</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7128085263070908" type="System">
+                            <param id="0" name="Variable">BlocksLeft</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="7301753802067636" type="NextLevelSar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="4847424929172757" type="Sprite7">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="2736055126974977">
+            <conditions>
+                <condition id="0" name="On function" sid="1951035212209491" type="Function">
+                    <param id="0" name="Name">&quot;StartEndgameCountdown&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="711640665131419">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="8296492773055518" type="System">
+                            <param id="0" name="Variable">CountdownStarted</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="7959175929198645" type="System">
+                            <param id="0" name="Variable">CountdownTime</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">Function.Param(0)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="8049232398434655" type="System">
+                            <param id="0" name="Variable">CountdownStarted</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6229533488474865" type="System">
+                            <param id="0" name="Variable">CountdownTime</param>
+                            <param id="1" name="Value">Function.Param(0)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

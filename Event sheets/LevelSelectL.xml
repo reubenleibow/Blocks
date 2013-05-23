@@ -190,7 +190,7 @@
             <actions>
                 <action id="-24" name="Stop loop" sid="1286" type="System" />
                 <action id="-2" name="Go to layout" sid="1262" type="System">
-                    <param id="0" name="Layout">Layout 1</param>
+                    <param id="0" name="Layout">SlideMenu</param>
                 </action>
             </actions>
         </event-block>

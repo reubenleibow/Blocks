@@ -11,12 +11,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout active="1">1</layout>
-        <layout>LevelSelect</layout>
-        <layout>Layout 1</layout>
-        <layout>LevelSelect2</layout>
-        <layout>LeveSelect3</layout>
+        <layout>UnusedLayout</layout>
+        <layout>SlideMenu</layout>
+        <event-sheet>GameOver</event-sheet>
         <event-sheet>Game</event-sheet>
-        <event-sheet>LevelSelectL</event-sheet>
+        <event-sheet>MenuActions</event-sheet>
+        <event-sheet>SetupGame</event-sheet>
         <event-sheet>Event sheet 1</event-sheet>
     </open-tabs>
     <properties>
@@ -25,7 +25,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="0" name="Window Size" />
         <property expanded="1" name="Configuration Settings" />
     </properties>
-    <families-expanded root="0">
+    <families-expanded root="1">
         <family expanded="0" name="Blocks" />
+        <family expanded="0" name="SlidingMenuButtons" />
+        <family expanded="1" name="SlidingMenuText" />
     </families-expanded>
 </c2uistate>

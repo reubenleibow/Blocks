@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>SetupGame</name>
+    <events>
+        <event-block sid="369151018440584">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="2620752096003947" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="9798657413273748" type="ExplosiveAreaShort">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4599516809518558" type="ExplosiveArealong">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-16" name="Wait" sid="2838281056564393" type="System">
+                    <param id="0" name="Seconds">0.01</param>
+                </action>
+                <action id="-3" name="Create object" sid="8291369516937298" type="System">
+                    <param id="0" name="Object to create">SlidingMenu</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">-100</param>
+                    <param id="3" name="Y">-64</param>
+                </action>
+                <action id="-3" name="Set position" sid="6793378021618332" type="SlidingMenu">
+                    <param id="0" name="X">-100</param>
+                    <param id="1" name="Y">-5</param>
+                </action>
+                <action id="-3" name="Create object" sid="7028832176932778" type="System">
+                    <param id="0" name="Object to create">ShowStars</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">320</param>
+                    <param id="3" name="Y">280</param>
+                </action>
+                <action id="-3" name="Create object" sid="1745474388404571" type="System">
+                    <param id="0" name="Object to create">RestartSar</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">292</param>
+                    <param id="3" name="Y">300</param>
+                </action>
+                <action id="-3" name="Create object" sid="2060653818325117" type="System">
+                    <param id="0" name="Object to create">NextLevelSar</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">390</param>
+                    <param id="3" name="Y">302</param>
+                </action>
+                <action id="-3" name="Create object" sid="3445076324028114" type="System">
+                    <param id="0" name="Object to create">GoToMenuSar</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">242</param>
+                    <param id="3" name="Y">313</param>
+                </action>
+                <action id="-3" name="Create object" sid="1002790390777701" type="System">
+                    <param id="0" name="Object to create">ResumePause</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">100</param>
+                    <param id="3" name="Y">200</param>
+                </action>
+                <action id="-3" name="Create object" sid="9547454526450543" type="System">
+                    <param id="0" name="Object to create">SoundPause</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">100</param>
+                    <param id="3" name="Y">200</param>
+                </action>
+                <action id="-3" name="Create object" sid="3751475014682562" type="System">
+                    <param id="0" name="Object to create">RestarPause</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">110</param>
+                    <param id="3" name="Y">197</param>
+                </action>
+                <action id="-3" name="Create object" sid="8875986223085837" type="System">
+                    <param id="0" name="Object to create">HelplPause</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">100</param>
+                    <param id="3" name="Y">200</param>
+                </action>
+                <action id="-3" name="Create object" sid="5309487444340117" type="System">
+                    <param id="0" name="Object to create">GoToMenuPause</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">100</param>
+                    <param id="3" name="Y">200</param>
+                </action>
+                <action id="-3" name="Create object" sid="5189328909624931" type="System">
+                    <param id="0" name="Object to create">LevelOn</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">100</param>
+                    <param id="3" name="Y">200</param>
+                </action>
+                <action id="-3" name="Create object" sid="2336011688595747" type="System">
+                    <param id="0" name="Object to create">L</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">100</param>
+                    <param id="3" name="Y">200</param>
+                </action>
+                <action id="-3" name="Create object" sid="2712499360485271" type="System">
+                    <param id="0" name="Object to create">PauseText</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">10</param>
+                    <param id="3" name="Y">20</param>
+                </action>
+                <action id="-3" name="Create object" sid="2832531408190657" type="System">
+                    <param id="0" name="Object to create">Puller</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">-100</param>
+                    <param id="3" name="Y">-100</param>
+                </action>
+                <action id="-3" name="Create object" sid="8245624230746628" type="System">
+                    <param id="0" name="Object to create">ParticlesByTouch</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">-100</param>
+                    <param id="3" name="Y">-100</param>
+                </action>
+                <action id="-7" name="Set size" sid="1241639936282432" type="LightBlocks">
+                    <param id="0" name="Width">30</param>
+                    <param id="1" name="Height">30</param>
+                </action>
+                <action id="-6" name="Set height" sid="2512491916648742" type="DeathH">
+                    <param id="0" name="Height">32</param>
+                </action>
+                <action id="-5" name="Set width" sid="6324446844701517" type="Deathv">
+                    <param id="0" name="Width">32</param>
+                </action>
+                <action id="-3" name="Set position" sid="9514107603184772" type="GoToMenuSar">
+                    <param id="0" name="X">380</param>
+                    <param id="1" name="Y">370</param>
+                </action>
+                <action id="-3" name="Set position" sid="8664672805943607" type="RestartSar">
+                    <param id="0" name="X">480</param>
+                    <param id="1" name="Y">370</param>
+                </action>
+                <action id="-3" name="Set position" sid="6589961524803995" type="NextLevelSar">
+                    <param id="0" name="X">580</param>
+                    <param id="1" name="Y">370</param>
+                </action>
+                <action id="-7" name="Set size" sid="4548612805241419" type="ShowStars">
+                    <param id="0" name="Width">34</param>
+                    <param id="1" name="Height">18</param>
+                </action>
+                <action id="-3" name="Set position" sid="7286071747024129" type="ResumePause">
+                    <param id="0" name="X">173</param>
+                    <param id="1" name="Y">280</param>
+                </action>
+                <action id="-3" name="Set position" sid="9631672392473559" type="GoToMenuPause">
+                    <param id="0" name="X">110</param>
+                    <param id="1" name="Y">370</param>
+                </action>
+                <action id="-3" name="Set position" sid="8592795270027638" type="SoundPause">
+                    <param id="0" name="X">157</param>
+                    <param id="1" name="Y">480</param>
+                </action>
+                <action id="-3" name="Set position" sid="23870095493999" type="HelplPause">
+                    <param id="0" name="X">60</param>
+                    <param id="1" name="Y">480</param>
+                </action>
+                <action id="-3" name="Set position" sid="8654423783534453" type="L">
+                    <param id="0" name="X">24</param>
+                    <param id="1" name="Y">55</param>
+                </action>
+                <action id="-3" name="Set position" sid="7163854282342944" type="LevelOn">
+                    <param id="0" name="X">100</param>
+                    <param id="1" name="Y">55</param>
+                </action>
+                <action id="-3" name="Set position" sid="7887169247337009" type="ShowStars">
+                    <param id="0" name="X">480</param>
+                    <param id="1" name="Y">280</param>
+                </action>
+                <action id="-15" name="Set visible" sid="3199062739840077" type="NextLevelSar">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8485979325736746" type="ResumePause">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4432832599362657" type="GoToMenuSar">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5088702920291458" type="Puller">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-7" name="Set size" sid="5621356742052147" type="Puller">
+                    <param id="0" name="Width">360</param>
+                    <param id="1" name="Height">360</param>
+                </action>
+                <action id="-15" name="Set visible" sid="9495013110042176" type="SoundPause">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5239967891089468" type="RestarPause">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1126259040035599" type="GoToMenuPause">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="9971419491971235" type="HelplPause">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="9643746236596089" type="ShowStars">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action behavior="Physics" id="12" name="Set world gravity" sid="5579604359270203" type="LightBlocks">
+                    <param id="0" name="Gravity">2</param>
+                </action>
+                <action id="-15" name="Set visible" sid="7706091790654114" type="Sprite7">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="2582425421200769" type="Sprite">
+                    <param id="0" name="X">280</param>
+                    <param id="1" name="Y">204</param>
+                </action>
+                <action id="-24" name="Move to top" sid="5321992284734139" type="Sprite7" />
+                <action id="-15" name="Set visible" sid="5907398891642222" type="PauseText">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action behavior="Physics" id="21" name="Set immovable" sid="5011257770652083" type="Prongs">
+                    <param id="0" name="Setting">1</param>
+                </action>
+                <action behavior="Physics" id="21" name="Set immovable" sid="9964774322907176" type="Deathv">
+                    <param id="0" name="Setting">1</param>
+                </action>
+                <action behavior="Physics" id="21" name="Set immovable" sid="2262369395143552" type="Deathv">
+                    <param id="0" name="Setting">1</param>
+                </action>
+                <action behavior="Physics" id="21" name="Set immovable" sid="4481946204161401" type="Sprite5">
+                    <param id="0" name="Setting">1</param>
+                </action>
+                <action behavior="Physics" id="16" name="Set density" sid="4305462697947178" type="ObBlocks">
+                    <param id="0" name="Density">0.1</param>
+                </action>
+                <action behavior="Sine" id="3" name="Set movement" sid="6966162412483834" type="Deathv">
+                    <param id="0" name="Movement">1</param>
+                </action>
+                <action behavior="Sine" id="3" name="Set movement" sid="9336364638661342" type="DeathH">
+                    <param id="0" name="Movement">0</param>
+                </action>
+                <action behavior="Physics" id="16" name="Set density" sid="2581613217180925" type="LightBlocks">
+                    <param id="0" name="Density">0.5</param>
+                </action>
+                <action behavior="Physics" id="21" name="Set immovable" sid="2475551910047829" type="Prongs">
+                    <param id="0" name="Setting">1</param>
+                </action>
+                <action id="-8" name="Set angle" sid="8097500228319908" type="PauseText">
+                    <param id="0" name="Angle">353.164</param>
+                </action>
+                <action behavior="Physics" id="21" name="Set immovable" sid="5967729806556669" type="LeftEnd">
+                    <param id="0" name="Setting">1</param>
+                </action>
+                <action id="-18" name="Rotate clockwise" sid="7756425670312992" type="RightEnd">
+                    <param id="0" name="Degrees">0</param>
+                </action>
+                <action behavior="Physics" id="21" name="Set immovable" sid="2416680937290809" type="PlatformWithNoEnds">
+                    <param id="0" name="Setting">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5820646144020085">
+            <conditions>
+                <condition id="5" name="On share" sid="8474867730230057" type="Windows8" />
+            </conditions>
+            <actions>
+                <action id="7" name="Share HTML" sid="123097973162933" type="Windows8">
+                    <param id="0" name="Title">&quot;sadfasdf&quot;</param>
+                    <param id="1" name="Description">&quot;sdfasdf&quot;</param>
+                    <param id="2" name="HTML">&quot;sdfasdf&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9245829986079966">
+            <conditions>
+                <condition id="1" name="On view state changed" sid="8794677276742637" type="Windows8">
+                    <param id="0" name="State">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="204988000616806" type="System">
+                    <param id="0" name="Group name">&quot;ShowSlidingMenu&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+                <action id="11" name="Set live tile text" sid="343192127387682" type="Windows8">
+                    <param id="0" name="Template">1</param>
+                    <param id="1" name="Text 1">&quot;dsadfsfasf&quot;</param>
+                    <param id="2" name="Text 2">&quot;asafdfasdfad&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
