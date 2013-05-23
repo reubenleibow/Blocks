@@ -3280,7 +3280,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite7" uid="170">
+                <instance type="EndgameStars" uid="170">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3296,11 +3296,11 @@
                         <x>338</x>
                         <y>-144</y>
                         <z>0</z>
-                        <width>373</width>
-                        <height>168</height>
+                        <width>444</width>
+                        <height>144</height>
                         <depth>0</depth>
-                        <hotspotX>0.502040803</hotspotX>
-                        <hotspotY>0.50505048</hotspotY>
+                        <hotspotX>0.502252281</hotspotX>
+                        <hotspotY>0.506944418</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

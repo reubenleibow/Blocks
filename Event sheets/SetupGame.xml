@@ -195,14 +195,14 @@
                 <action behavior="Physics" id="12" name="Set world gravity" sid="5579604359270203" type="LightBlocks">
                     <param id="0" name="Gravity">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="7706091790654114" type="Sprite7">
+                <action id="-15" name="Set visible" sid="7706091790654114" type="EndgameStars">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-3" name="Set position" sid="2582425421200769" type="Sprite7">
+                <action id="-3" name="Set position" sid="2582425421200769" type="EndgameStars">
                     <param id="0" name="X">280</param>
                     <param id="1" name="Y">204</param>
                 </action>
-                <action id="-24" name="Move to top" sid="5321992284734139" type="Sprite7" />
+                <action id="-24" name="Move to top" sid="5321992284734139" type="EndgameStars" />
                 <action id="-15" name="Set visible" sid="5907398891642222" type="PauseText">
                     <param id="0" name="Visibility">0</param>
                 </action>

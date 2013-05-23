@@ -6000,7 +6000,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite7" uid="852">
+                <instance type="EndgameStars" uid="852">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6019,8 +6019,8 @@
                         <width>373</width>
                         <height>168</height>
                         <depth>0</depth>
-                        <hotspotX>0.502040803</hotspotX>
-                        <hotspotY>0.50505048</hotspotY>
+                        <hotspotX>0.502252281</hotspotX>
+                        <hotspotY>0.506944418</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -6075,7 +6075,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite7" uid="855">
+                <instance type="EndgameStars" uid="855">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6094,8 +6094,8 @@
                         <width>373</width>
                         <height>168</height>
                         <depth>0</depth>
-                        <hotspotX>0.502040803</hotspotX>
-                        <hotspotY>0.50505048</hotspotY>
+                        <hotspotX>0.502252281</hotspotX>
+                        <hotspotY>0.506944418</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

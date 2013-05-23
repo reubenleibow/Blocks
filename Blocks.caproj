@@ -799,17 +799,61 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite7" sid="8902897347947704">
+        <object-type name="EndgameStars" sid="8902897347947704">
             <plugin id="Sprite" />
             <instance-variables>
                 <instance-variable name="StarForLevelPic" sid="806639390813523" type="number" />
             </instance-variables>
             <animation-folder expanded="1">
                 <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="2" sid="6961771473875505" speed="5">
-                    <frame duration="1" hotspotX="0.502041" hotspotY="0.50505" />
-                    <frame duration="1" hotspotX="0.502041" hotspotY="0.50505" />
-                    <frame duration="1" hotspotX="0.502041" hotspotY="0.50505" />
-                    <frame duration="1" hotspotX="0.502041" hotspotY="0.50505" />
+                    <frame duration="1" hotspotX="0.502252" hotspotY="0.506944">
+                        <collision-poly>
+                            <point x="0.112613" y="0.347222" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.887387" y="0.347222" />
+                            <point x="0.948198" y="0.5" />
+                            <point x="0.916667" y="0.743056" />
+                            <point x="0.5" y="0.791667" />
+                            <point x="0.0833333" y="0.743056" />
+                            <point x="0.0518018" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502252" hotspotY="0.506944">
+                        <collision-poly>
+                            <point x="0.112613" y="0.347222" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.887387" y="0.347222" />
+                            <point x="0.948198" y="0.5" />
+                            <point x="0.916667" y="0.743056" />
+                            <point x="0.5" y="0.791667" />
+                            <point x="0.0833333" y="0.743056" />
+                            <point x="0.0518018" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502252" hotspotY="0.506944">
+                        <collision-poly>
+                            <point x="0.112613" y="0.347222" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.887387" y="0.347222" />
+                            <point x="0.948198" y="0.5" />
+                            <point x="0.916667" y="0.743056" />
+                            <point x="0.5" y="0.805556" />
+                            <point x="0.0833333" y="0.743056" />
+                            <point x="0.0518018" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.502252" hotspotY="0.506944">
+                        <collision-poly>
+                            <point x="0.112613" y="0.347222" />
+                            <point x="0.5" y="0.0625" />
+                            <point x="0.887387" y="0.347222" />
+                            <point x="0.948198" y="0.5" />
+                            <point x="0.916667" y="0.743056" />
+                            <point x="0.5" y="0.805556" />
+                            <point x="0.0833333" y="0.743056" />
+                            <point x="0.0518018" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
