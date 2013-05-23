@@ -30,7 +30,7 @@
                 <instance type="SlidingMenu" uid="68">
                     <properties>
                         <left-margin>0</left-margin>
-                        <right-margin>56</right-margin>
+                        <right-margin>200</right-margin>
                         <top-margin>0</top-margin>
                         <bottom-margin>0</bottom-margin>
                         <edges>Tile</edges>
@@ -42,10 +42,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-95</x>
-                        <y>-5</y>
+                        <x>-107</x>
+                        <y>-170</y>
                         <z>0</z>
-                        <width>89</width>
+                        <width>87</width>
                         <height>548</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -478,6 +478,28 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.502732217</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="SMenu" uid="1325">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-38</x>
+                        <y>510</y>
+                        <z>0</z>
+                        <width>256</width>
+                        <height>256</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

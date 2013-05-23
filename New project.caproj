@@ -10,31 +10,31 @@
     <unique-id>1emck729oxl52</unique-id>
     <saved-with-version>13100</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
-        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
-        <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
-        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
-        <plugin author="Scirra" id="Text" version="1">Text</plugin>
-        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
-        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
-        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin author="Scirra.com" id="win8" version="1">Windows 8</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra.com" id="win8" version="1">Windows 8</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
-        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects>
         <effect author="Brad Larson" id="vignette">Vignette</effect>
+        <effect author="Scirra" id="glowhorizontal">Glow Horizontal</effect>
         <effect author="Scirra" id="grayscale">Grayscale</effect>
         <effect author="Scirra" id="glowvertical">Glow Vertical</effect>
-        <effect author="Scirra" id="glowhorizontal">Glow Horizontal</effect>
     </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -760,10 +760,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="TiledBackground2" sid="1229">
-            <plugin id="TiledBg" />
-            <texture />
-        </object-type>
         <object-type name="Sprite2" sid="1250">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
@@ -939,6 +935,47 @@
         <object-type name="TesterWill" sid="4540094180249039">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Sprite" sid="6980835571871464">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3826929395269699" speed="5">
+                    <frame duration="1" hotspotX="0.501945" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SMenu" sid="583115862065546">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1862328308422633" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="cover" sid="721836744297079">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4576466203564886" speed="5">
+                    <frame duration="1" hotspotX="0.499484" hotspotY="0.499089">
+                        <collision-poly>
+                            <point x="0.00412797" y="0.12204" />
+                            <point x="0.499484" y="0.00910747" />
+                            <point x="0.995872" y="0.120219" />
+                            <point x="0.99484" y="0.876138" />
+                            <point x="0.499484" y="0.996357" />
+                            <point x="0.00412797" y="0.876138" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SelectAWorldText" sid="3411860569717989">
+            <plugin id="Text" />
+            <behaviors>
+                <behavior-type name="Flash" sid="200562153376982">
+                    <behavior id="Flash" />
+                </behavior-type>
+            </behaviors>
+        </object-type>
     </object-folder>
     <families>
         <family name="Blocks" plugin-id="Sprite" sid="656">
@@ -970,6 +1007,11 @@
         <layout>1.xml</layout>
         <layout>2.xml</layout>
         <layout>3.xml</layout>
+        <layout>4.xml</layout>
+        <layout>5.xml</layout>
+        <layout>6.xml</layout>
+        <layout>7.xml</layout>
+        <layout>16.xml</layout>
         <layout>SlideMenu.xml</layout>
         <layout>UnusedLayout.xml</layout>
     </layout-folder>
