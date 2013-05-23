@@ -197,12 +197,12 @@
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action behavior="Physics" id="12" name="Set world gravity" sid="5579604359270203" type="LightBlocks">
-                    <param id="0" name="Gravity">2</param>
+                    <param id="0" name="Gravity">0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="7706091790654114" type="Sprite7">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-3" name="Set position" sid="2582425421200769" type="Sprite">
+                <action id="-3" name="Set position" sid="2582425421200769" type="SmallStars">
                     <param id="0" name="X">280</param>
                     <param id="1" name="Y">204</param>
                 </action>
@@ -240,13 +240,10 @@
                 <action id="-8" name="Set angle" sid="8097500228319908" type="PauseText">
                     <param id="0" name="Angle">353.164</param>
                 </action>
-                <action behavior="Physics" id="21" name="Set immovable" sid="5967729806556669" type="LeftEnd">
+                <action behavior="Physics" id="21" name="Set immovable" sid="687751872695224" type="Platform">
                     <param id="0" name="Setting">1</param>
                 </action>
-                <action id="-18" name="Rotate clockwise" sid="7756425670312992" type="RightEnd">
-                    <param id="0" name="Degrees">0</param>
-                </action>
-                <action behavior="Physics" id="21" name="Set immovable" sid="2416680937290809" type="PlatformWithNoEnds">
+                <action behavior="Physics" id="21" name="Set immovable" sid="8534613985856892" type="SlidingDoor">
                     <param id="0" name="Setting">1</param>
                 </action>
             </actions>

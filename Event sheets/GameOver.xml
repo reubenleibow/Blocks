@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>GameOver</name>
     <events>
+        <variable constant="1" name="UNLOCKED_LEVEL_KEY" sid="2963868024279644" static="0" type="text">UnlockedLevelKey</variable>
         <variable constant="1" name="TOTAL_GAME_TIME" sid="7133339750766053" static="0" type="number">50</variable>
         <variable constant="1" name="PORTAL_CLOSING_TIME" sid="4469883810396425" static="0" type="number">10</variable>
         <variable constant="1" name="SHOW_MENU_TIME" sid="1022769540302522" static="0" type="number">2</variable>
@@ -39,17 +40,6 @@
                         </action>
                         <action id="5" name="Set frame" sid="7764851889092804" type="Sprite7">
                             <param id="0" name="Frame number">CollectedBlocks/3</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="368">
-                    <conditions>
-                        <condition id="-3" name="On end of layout" sid="369" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="0" name="Set local value" sid="370" type="WebStorage">
-                            <param id="0" name="Key">&quot;LevelScore&quot; &amp; CurrentLevel</param>
-                            <param id="1" name="Value">max(CurrentLevelScore, int(WebStorage.LocalValue(&quot;LevelScore&quot; &amp; CurrentLevel)))</param>
                         </action>
                     </actions>
                 </event-block>
@@ -157,7 +147,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" sid="1971752468810086" title="Next level buttons when finnished stars">
+        <event-group description="" sid="1971752468810086" title="Next level buttons when finnished stars">
             <sub-events>
                 <event-block sid="1319">
                     <conditions>
@@ -448,6 +438,14 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="0" name="Set local value" sid="1249897987293395" type="WebStorage">
+                            <param id="0" name="Key">&quot;LevelScore&quot; &amp; CurrentLevel</param>
+                            <param id="1" name="Value">max(CurrentLevelScore, int(WebStorage.LocalValue(&quot;LevelScore&quot; &amp; CurrentLevel)))</param>
+                        </action>
+                        <action id="0" name="Set local value" sid="2993492736219069" type="WebStorage">
+                            <param id="0" name="Key">UNLOCKED_LEVEL_KEY</param>
+                            <param id="1" name="Value">max(UnLocketLevel, CurrentLevel + 1)</param>
+                        </action>
                         <action id="-15" name="Set visible" sid="2105132489355361" type="ShowStars">
                             <param id="0" name="Visibility">1</param>
                         </action>
@@ -455,134 +453,145 @@
                             <param id="0" name="Name">&quot;MakeGrayscale&quot;</param>
                             <param id="1" name="Parameter {n}">1</param>
                         </action>
-                        <action id="-9" name="Set value" sid="1734791024286693" type="System">
-                            <param id="0" name="Variable">UnLocketLevel</param>
-                            <param id="1" name="Value">max(UnLocketLevel, CurrentLevel + 1)</param>
-                        </action>
                         <action id="-12" name="Set group active" sid="284685992471293" type="System">
                             <param id="0" name="Group name">&quot;HideGameButtons&quot;</param>
                             <param id="1" name="State">1</param>
                         </action>
                     </actions>
-                </event-block>
-                <event-block sid="786">
-                    <conditions>
-                        <condition id="-6" name="Every X seconds" sid="787" type="System">
-                            <param id="0" name="Interval (seconds)">0.01</param>
-                        </condition>
-                    </conditions>
-                    <actions />
                     <sub-events>
-                        <event-block sid="780">
+                        <event-block sid="786">
                             <conditions>
-                                <condition id="-6" name="Compare height" sid="781" type="ShowStars">
-                                    <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="Height">300</param>
+                                <condition id="-6" name="Every X seconds" sid="787" type="System">
+                                    <param id="0" name="Interval (seconds)">0.01</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="780">
+                                    <conditions>
+                                        <condition id="-6" name="Compare height" sid="781" type="ShowStars">
+                                            <param id="0" name="Comparison">3</param>
+                                            <param id="1" name="Height">300</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-7" name="Set size" sid="785" type="ShowStars">
+                                            <param id="0" name="Width">ShowStars.Width</param>
+                                            <param id="1" name="Height">ShowStars.Height+30</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="782">
+                                    <conditions>
+                                        <condition id="-5" name="Compare width" sid="783" type="ShowStars">
+                                            <param id="0" name="Comparison">3</param>
+                                            <param id="1" name="Width">960</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-7" name="Set size" sid="784" type="ShowStars">
+                                            <param id="0" name="Width">ShowStars.Width+50</param>
+                                            <param id="1" name="Height">ShowStars.Height</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="796">
+                            <conditions>
+                                <condition id="-6" name="Compare height" sid="797" type="ShowStars">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Height">164</param>
+                                </condition>
+                                <condition id="-5" name="Compare width" sid="799" type="ShowStars">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Width">950</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-7" name="Set size" sid="785" type="ShowStars">
-                                    <param id="0" name="Width">ShowStars.Width</param>
-                                    <param id="1" name="Height">ShowStars.Height+30</param>
+                                <action id="-10" name="Set value" sid="7658333909374351" type="Puse">
+                                    <param id="0" name="Instance variable">Visible</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="2013308011921063" type="RestartLevel">
+                                    <param id="0" name="Instance variable">Visible</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="800" type="NextLevelSar">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="821" type="RestartSar">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="907" type="GoToMenuSar">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-13" name="Set time scale" sid="825" type="System">
+                                    <param id="0" name="Time scale">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="4363242508033845" type="Sprite7">
+                                    <param id="0" name="Visibility">1</param>
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="782">
+                        <event-block sid="915">
                             <conditions>
-                                <condition id="-5" name="Compare width" sid="783" type="ShowStars">
+                                <condition id="-6" name="Compare height" sid="2820039022005734" type="ShowStars">
                                     <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="Width">960</param>
+                                    <param id="1" name="Height">200</param>
+                                </condition>
+                                <condition id="-6" name="Compare height" sid="1245674506594742" type="ShowStars">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="Height">200</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-7" name="Set size" sid="784" type="ShowStars">
-                                    <param id="0" name="Width">ShowStars.Width+50</param>
-                                    <param id="1" name="Height">ShowStars.Height</param>
+                                <action id="-10" name="Set value" sid="5525460286325617" type="Puse">
+                                    <param id="0" name="Instance variable">Visible</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-10" name="Set value" sid="5038051491741883" type="RestartLevel">
+                                    <param id="0" name="Instance variable">Visible</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="393834587713339">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="3648811500004126" type="System">
+                                    <param id="0" name="Variable">CollectedBlocks</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">2</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="1333197125242942" type="System">
+                                    <param id="0" name="Variable">BlocksLeft</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="245820312806276" type="NextLevelSar">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="6073011269246144" type="Sprite7">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="6053900531268281">
+                            <conditions>
+                                <condition id="-15" name="Is group active" sid="1442292349176411" type="System">
+                                    <param id="0" name="Group name">&quot;ShowEndgameMenu&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-12" name="Set group active" sid="3951837865559302" type="System">
+                                    <param id="0" name="Group name">&quot;ShowEndgameMenu&quot;</param>
+                                    <param id="1" name="State">0</param>
                                 </action>
                             </actions>
                         </event-block>
                     </sub-events>
-                </event-block>
-                <event-block sid="796">
-                    <conditions>
-                        <condition id="-6" name="Compare height" sid="797" type="ShowStars">
-                            <param id="0" name="Comparison">5</param>
-                            <param id="1" name="Height">164</param>
-                        </condition>
-                        <condition id="-5" name="Compare width" sid="799" type="ShowStars">
-                            <param id="0" name="Comparison">5</param>
-                            <param id="1" name="Width">950</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-10" name="Set value" sid="7658333909374351" type="Puse">
-                            <param id="0" name="Instance variable">Visible</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-10" name="Set value" sid="2013308011921063" type="RestartLevel">
-                            <param id="0" name="Instance variable">Visible</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="800" type="NextLevelSar">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="821" type="RestartSar">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="907" type="GoToMenuSar">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-13" name="Set time scale" sid="825" type="System">
-                            <param id="0" name="Time scale">0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="4363242508033845" type="Sprite7">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="915">
-                    <conditions>
-                        <condition id="-6" name="Compare height" sid="2820039022005734" type="ShowStars">
-                            <param id="0" name="Comparison">3</param>
-                            <param id="1" name="Height">200</param>
-                        </condition>
-                        <condition id="-6" name="Compare height" sid="1245674506594742" type="ShowStars">
-                            <param id="0" name="Comparison">3</param>
-                            <param id="1" name="Height">200</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-10" name="Set value" sid="5525460286325617" type="Puse">
-                            <param id="0" name="Instance variable">Visible</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-10" name="Set value" sid="5038051491741883" type="RestartLevel">
-                            <param id="0" name="Instance variable">Visible</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="6053900531268281">
-                    <conditions>
-                        <condition id="-14" name="Compare variable" sid="564182902984059" type="System">
-                            <param id="0" name="Variable">CollectedBlocks</param>
-                            <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Value">2</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="7128085263070908" type="System">
-                            <param id="0" name="Variable">BlocksLeft</param>
-                            <param id="1" name="Comparison">3</param>
-                            <param id="2" name="Value">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-15" name="Set visible" sid="7301753802067636" type="NextLevelSar">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="4847424929172757" type="Sprite7">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                    </actions>
                 </event-block>
             </sub-events>
         </event-group>

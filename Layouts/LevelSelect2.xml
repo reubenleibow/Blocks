@@ -48,7 +48,7 @@
                         <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503759384</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -74,7 +74,7 @@
                         <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503759384</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -100,7 +100,7 @@
                         <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503759384</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -126,7 +126,7 @@
                         <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503759384</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -152,7 +152,7 @@
                         <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503759384</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -178,7 +178,7 @@
                         <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503759384</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -204,7 +204,7 @@
                         <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503759384</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -230,7 +230,7 @@
                         <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503759384</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -256,7 +256,7 @@
                         <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503759384</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -282,7 +282,7 @@
                         <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503759384</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -308,7 +308,7 @@
                         <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503759384</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -334,7 +334,7 @@
                         <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503759384</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -360,7 +360,7 @@
                         <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503759384</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -386,7 +386,7 @@
                         <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503759384</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -412,477 +412,12 @@
                         <height>96</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0.503759384</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stars" uid="637">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Bottom</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <NumberStars>0</NumberStars>
-                        <StarforLevel>16</StarforLevel>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>64</x>
-                        <y>96</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Stars" uid="638">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Bottom</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <NumberStars>0</NumberStars>
-                        <StarforLevel>17</StarforLevel>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>192</x>
-                        <y>96</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Stars" uid="639">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Bottom</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <NumberStars>0</NumberStars>
-                        <StarforLevel>18</StarforLevel>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>320</x>
-                        <y>96</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Stars" uid="640">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Bottom</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <NumberStars>0</NumberStars>
-                        <StarforLevel>19</StarforLevel>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>448</x>
-                        <y>96</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Stars" uid="641">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Bottom</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <NumberStars>0</NumberStars>
-                        <StarforLevel>20</StarforLevel>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>576</x>
-                        <y>96</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Stars" uid="642">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Bottom</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <NumberStars>0</NumberStars>
-                        <StarforLevel>21</StarforLevel>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>64</x>
-                        <y>224</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Stars" uid="643">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Bottom</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <NumberStars>0</NumberStars>
-                        <StarforLevel>22</StarforLevel>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>192</x>
-                        <y>224</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Stars" uid="644">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Bottom</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <NumberStars>0</NumberStars>
-                        <StarforLevel>23</StarforLevel>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>320</x>
-                        <y>224</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Stars" uid="645">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Bottom</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <NumberStars>0</NumberStars>
-                        <StarforLevel>24</StarforLevel>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>448</x>
-                        <y>224</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Stars" uid="646">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Bottom</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <NumberStars>0</NumberStars>
-                        <StarforLevel>25</StarforLevel>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>576</x>
-                        <y>224</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Stars" uid="647">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Bottom</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <NumberStars>0</NumberStars>
-                        <StarforLevel>26</StarforLevel>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>64</x>
-                        <y>352</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Stars" uid="648">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Bottom</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <NumberStars>0</NumberStars>
-                        <StarforLevel>27</StarforLevel>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>192</x>
-                        <y>352</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Stars" uid="649">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Bottom</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <NumberStars>0</NumberStars>
-                        <StarforLevel>28</StarforLevel>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>320</x>
-                        <y>352</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Stars" uid="650">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Bottom</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <NumberStars>0</NumberStars>
-                        <StarforLevel>29</StarforLevel>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>448</x>
-                        <y>352</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Stars" uid="651">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Bottom</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <NumberStars>0</NumberStars>
-                        <StarforLevel>30</StarforLevel>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>576</x>
-                        <y>352</y>
-                        <z>0</z>
-                        <width>96</width>
-                        <height>96</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Sprite" uid="652">
+                <instance type="SmallStars" uid="652">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -890,7 +425,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <StarForLevelPic>16</StarForLevelPic>
+                        <LevelNumber>16</LevelNumber>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -907,7 +442,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="653">
+                <instance type="SmallStars" uid="653">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -915,7 +450,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <StarForLevelPic>17</StarForLevelPic>
+                        <LevelNumber>17</LevelNumber>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -932,7 +467,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="654">
+                <instance type="SmallStars" uid="654">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -940,7 +475,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <StarForLevelPic>18</StarForLevelPic>
+                        <LevelNumber>18</LevelNumber>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -957,7 +492,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="655">
+                <instance type="SmallStars" uid="655">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -965,7 +500,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <StarForLevelPic>19</StarForLevelPic>
+                        <LevelNumber>19</LevelNumber>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -982,7 +517,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="656">
+                <instance type="SmallStars" uid="656">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -990,7 +525,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <StarForLevelPic>20</StarForLevelPic>
+                        <LevelNumber>20</LevelNumber>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1007,7 +542,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="657">
+                <instance type="SmallStars" uid="657">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1015,7 +550,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <StarForLevelPic>21</StarForLevelPic>
+                        <LevelNumber>21</LevelNumber>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1032,7 +567,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="658">
+                <instance type="SmallStars" uid="658">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1040,7 +575,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <StarForLevelPic>22</StarForLevelPic>
+                        <LevelNumber>22</LevelNumber>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1057,7 +592,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="659">
+                <instance type="SmallStars" uid="659">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1065,7 +600,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <StarForLevelPic>23</StarForLevelPic>
+                        <LevelNumber>23</LevelNumber>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1082,7 +617,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="660">
+                <instance type="SmallStars" uid="660">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1090,7 +625,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <StarForLevelPic>24</StarForLevelPic>
+                        <LevelNumber>24</LevelNumber>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1107,7 +642,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="661">
+                <instance type="SmallStars" uid="661">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1115,7 +650,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <StarForLevelPic>25</StarForLevelPic>
+                        <LevelNumber>25</LevelNumber>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1132,7 +667,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="662">
+                <instance type="SmallStars" uid="662">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1140,7 +675,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <StarForLevelPic>26</StarForLevelPic>
+                        <LevelNumber>26</LevelNumber>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1157,7 +692,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="663">
+                <instance type="SmallStars" uid="663">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1165,7 +700,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <StarForLevelPic>27</StarForLevelPic>
+                        <LevelNumber>27</LevelNumber>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1182,7 +717,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="664">
+                <instance type="SmallStars" uid="664">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1190,7 +725,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <StarForLevelPic>28</StarForLevelPic>
+                        <LevelNumber>28</LevelNumber>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1207,7 +742,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="665">
+                <instance type="SmallStars" uid="665">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1215,7 +750,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <StarForLevelPic>29</StarForLevelPic>
+                        <LevelNumber>29</LevelNumber>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -1232,7 +767,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite" uid="666">
+                <instance type="SmallStars" uid="666">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1240,7 +775,7 @@
                         <collisions>Enabled</collisions>
                     </properties>
                     <instance-variables>
-                        <StarForLevelPic>30</StarForLevelPic>
+                        <LevelNumber>30</LevelNumber>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>

@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Game</name>
     <events>
+        <variable constant="0" name="SideOpenOrClosed" sid="1605564248415493" static="0" type="number">0</variable>
         <include>GameOver</include>
         <include>SetupGame</include>
         <include>MenuActions</include>
@@ -426,5 +427,128 @@
                 </event-group>
             </sub-events>
         </event-group>
+        <event-block sid="6544408467934299">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3890016580774156" type="ObBlocks">
+                    <param id="0" name="Object">Swich</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="4792257197610941" type="System">
+                    <param id="0" name="Variable">SideOpenOrClosed</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7210156783317383">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3528761623211604" type="LightBlocks">
+                    <param id="0" name="Object">Swich</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="7054945600673447" type="System">
+                    <param id="0" name="Variable">SideOpenOrClosed</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5590878505251076">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="651405803708808" type="System">
+                    <param id="0" name="Variable">SideOpenOrClosed</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="7232953214537254" type="Function">
+                    <param id="0" name="Name">&quot;OpenDoor&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6499934591291201">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="5744814662564201" type="System">
+                    <param id="0" name="Variable">SideOpenOrClosed</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="9466420487024037" type="Function">
+                    <param id="0" name="Name">&quot;ClosedDoor&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5245362697643294">
+            <conditions>
+                <condition id="0" name="On function" sid="6122213274687674" type="Function">
+                    <param id="0" name="Name">&quot;OpenDoor&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="4589521899237583">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="7149845961985056" type="System">
+                            <param id="0" name="Interval (seconds)">0.01</param>
+                        </condition>
+                        <condition id="-6" name="Compare height" sid="1857589811149879" type="SlidingDoor">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="Height">100</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-6" name="Set height" sid="7574003980955041" type="SlidingDoor">
+                            <param id="0" name="Height">SlidingDoor.Height+1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="5131662555284395">
+            <conditions>
+                <condition id="0" name="On function" sid="8852821734267196" type="Function">
+                    <param id="0" name="Name">&quot;ClosedDoor&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="2723928311700862">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="3669660583230986" type="System">
+                            <param id="0" name="Interval (seconds)">0.01</param>
+                        </condition>
+                        <condition id="-6" name="Compare height" sid="7098337986705912" type="SlidingDoor">
+                            <param id="0" name="Comparison">4</param>
+                            <param id="1" name="Height">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-6" name="Set height" sid="7982748939923801" type="SlidingDoor">
+                            <param id="0" name="Height">SlidingDoor.Height-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="2868914316896302">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="8735185611150666" type="System">
+                    <param id="0" name="Variable">SideOpenOrClosed</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="3363336723284262" type="System">
+                    <param id="0" name="Variable">SideOpenOrClosed</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

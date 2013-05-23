@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>1</name>
-    <sid>5047080532540467</sid>
+    <name>3</name>
+    <sid>3292070166943815</sid>
     <event-sheet>Game</event-sheet>
     <size>
         <width>960</width>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Background" sid="3900712511347471">
+        <layer name="Background" sid="4881907796642285">
             <initially-visible>1</initially-visible>
             <background-color>0,0,0</background-color>
             <transparent>0</transparent>
@@ -27,7 +27,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TiledBackground" uid="0">
+                <instance type="TiledBackground" uid="550">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -47,7 +47,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ExplosiveArealong" uid="1">
+                <instance type="ExplosiveArealong" uid="551">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -73,7 +73,7 @@
                         <opacity>0.5</opacity>
                     </world>
                 </instance>
-                <instance type="ExplosiveArealong" uid="2">
+                <instance type="ExplosiveArealong" uid="552">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -99,7 +99,7 @@
                         <opacity>0.5</opacity>
                     </world>
                 </instance>
-                <instance type="Platform" uid="3">
+                <instance type="Platform" uid="553">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -136,7 +136,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Platform" uid="4">
+                <instance type="Platform" uid="554">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -173,7 +173,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Platform" uid="5">
+                <instance type="Platform" uid="555">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -210,7 +210,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Swich" uid="6">
+                <instance type="Swich" uid="556">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -232,7 +232,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="13">
+                <instance type="ObBlocks" uid="557">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -272,7 +272,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="14">
+                <instance type="ObBlocks" uid="558">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -312,7 +312,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="15">
+                <instance type="ObBlocks" uid="559">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -352,7 +352,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="16">
+                <instance type="ObBlocks" uid="560">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -392,7 +392,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="17">
+                <instance type="ObBlocks" uid="561">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -432,7 +432,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="18">
+                <instance type="ObBlocks" uid="562">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -472,7 +472,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="19">
+                <instance type="ObBlocks" uid="564">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -512,7 +512,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="20">
+                <instance type="ObBlocks" uid="565">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -552,7 +552,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="21">
+                <instance type="ObBlocks" uid="566">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -592,7 +592,87 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="22">
+                <instance type="ObBlocks" uid="570">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Health>10000</Health>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>0.1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>428.693328857</x>
+                        <y>97.506668091</y>
+                        <z>0</z>
+                        <width>30</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ObBlocks" uid="571">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Health>10000</Health>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>0.1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>431.693328857</x>
+                        <y>76.506668091</y>
+                        <z>0</z>
+                        <width>30</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ObBlocks" uid="572">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -632,7 +712,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="23">
+                <instance type="ObBlocks" uid="573">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -672,7 +752,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="24">
+                <instance type="ObBlocks" uid="575">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -712,7 +792,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="25">
+                <instance type="ObBlocks" uid="583">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -752,7 +832,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="26">
+                <instance type="ObBlocks" uid="585">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -792,7 +872,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="27">
+                <instance type="ObBlocks" uid="588">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -832,47 +912,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="28">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Health>10000</Health>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>No</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>0.1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                                <bullet>No</bullet>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>375.693328857</x>
-                        <y>103.506668091</y>
-                        <z>0</z>
-                        <width>30</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="ObBlocks" uid="29">
+                <instance type="ObBlocks" uid="591">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -912,7 +952,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="30">
+                <instance type="ObBlocks" uid="594">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -952,7 +992,47 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="31">
+                <instance type="ObBlocks" uid="598">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Health>10000</Health>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>0.1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>427.693328857</x>
+                        <y>85.506668091</y>
+                        <z>0</z>
+                        <width>30</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ObBlocks" uid="599">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -992,7 +1072,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="32">
+                <instance type="ObBlocks" uid="601">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1032,7 +1112,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="33">
+                <instance type="ObBlocks" uid="602">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1072,7 +1152,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="34">
+                <instance type="ObBlocks" uid="604">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1112,7 +1192,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="35">
+                <instance type="ObBlocks" uid="606">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1152,7 +1232,47 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="36">
+                <instance type="ObBlocks" uid="621">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Health>10000</Health>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>0.1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>430.693328857</x>
+                        <y>58.506668091</y>
+                        <z>0</z>
+                        <width>30</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ObBlocks" uid="667">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1192,7 +1312,47 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="37">
+                <instance type="ObBlocks" uid="669">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Health>10000</Health>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>0.1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>430.693328857</x>
+                        <y>29.506668091</y>
+                        <z>0</z>
+                        <width>30</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ObBlocks" uid="674">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1232,7 +1392,47 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="38">
+                <instance type="ObBlocks" uid="676">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Health>10000</Health>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>0.1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>428.693328857</x>
+                        <y>45.506668091</y>
+                        <z>0</z>
+                        <width>30</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ObBlocks" uid="677">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1284,7 +1484,7 @@
                 </effect-type>
             </effects>
         </layer>
-        <layer name="Game" sid="5468350776877447">
+        <layer name="Game" sid="4591011072644217">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -1298,7 +1498,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="LightBlocks" uid="39">
+                <instance type="LightBlocks" uid="679">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1335,7 +1535,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LightBlocks" uid="40">
+                <instance type="LightBlocks" uid="680">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1372,7 +1572,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LightBlocks" uid="41">
+                <instance type="LightBlocks" uid="681">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1409,7 +1609,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LightBlocks" uid="42">
+                <instance type="LightBlocks" uid="682">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1446,7 +1646,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LightBlocks" uid="43">
+                <instance type="LightBlocks" uid="683">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1483,7 +1683,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LightBlocks" uid="44">
+                <instance type="LightBlocks" uid="684">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1520,7 +1720,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LightBlocks" uid="45">
+                <instance type="LightBlocks" uid="685">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1557,7 +1757,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LightBlocks" uid="46">
+                <instance type="LightBlocks" uid="686">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1594,7 +1794,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Porthole" uid="47">
+                <instance type="Porthole" uid="687">
                     <properties>
                         <rate>50</rate>
                         <spray-cone>360</spray-cone>
@@ -1633,7 +1833,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BlockLeft" uid="48">
+                <instance type="BlockLeft" uid="688">
                     <properties>
                         <text>1</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -1660,7 +1860,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TimeToNextLevel" uid="49">
+                <instance type="TimeToNextLevel" uid="689">
                     <properties>
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -1690,7 +1890,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TimeText" uid="50">
+                <instance type="TimeText" uid="690">
                     <properties>
                         <text>Time:</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -1717,7 +1917,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="51">
+                <instance type="ObBlocks" uid="691">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1757,7 +1957,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ExplosiveShort" uid="52">
+                <instance type="ExplosiveShort" uid="692">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1797,7 +1997,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="53">
+                <instance type="Sprite5" uid="693">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1840,7 +2040,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Prongs" uid="54">
+                <instance type="Prongs" uid="694">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1877,7 +2077,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="DeathH" uid="55">
+                <instance type="DeathH" uid="695">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1928,7 +2128,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Deathv" uid="56">
+                <instance type="Deathv" uid="696">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1979,7 +2179,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="57">
+                <instance type="ObBlocks" uid="697">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2019,7 +2219,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="58">
+                <instance type="ObBlocks" uid="698">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2059,7 +2259,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="59">
+                <instance type="ObBlocks" uid="699">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2099,7 +2299,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="60">
+                <instance type="ObBlocks" uid="700">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2139,7 +2339,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ExplosiveAreaShort" uid="61">
+                <instance type="ExplosiveAreaShort" uid="701">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2165,7 +2365,7 @@
                         <opacity>0.5</opacity>
                     </world>
                 </instance>
-                <instance type="ExplosiveShort" uid="62">
+                <instance type="ExplosiveShort" uid="702">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2205,7 +2405,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ExplosiveShort" uid="63">
+                <instance type="ExplosiveShort" uid="703">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2245,7 +2445,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ExplosiveAreaShort" uid="64">
+                <instance type="ExplosiveAreaShort" uid="704">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2271,7 +2471,7 @@
                         <opacity>0.5</opacity>
                     </world>
                 </instance>
-                <instance type="ExplosiveAreaShort" uid="65">
+                <instance type="ExplosiveAreaShort" uid="705">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2297,7 +2497,7 @@
                         <opacity>0.5</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="78">
+                <instance type="ObBlocks" uid="706">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2337,7 +2537,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="81">
+                <instance type="ObBlocks" uid="707">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2377,7 +2577,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="85">
+                <instance type="ObBlocks" uid="708">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2417,7 +2617,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="86">
+                <instance type="ObBlocks" uid="709">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2457,7 +2657,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="87">
+                <instance type="ObBlocks" uid="710">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2497,7 +2697,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LightBlocks" uid="88">
+                <instance type="LightBlocks" uid="711">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2534,7 +2734,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks2" uid="89">
+                <instance type="ObBlocks2" uid="712">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2574,7 +2774,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks2" uid="90">
+                <instance type="ObBlocks2" uid="713">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2614,7 +2814,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks2" uid="91">
+                <instance type="ObBlocks2" uid="714">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2654,7 +2854,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks2" uid="92">
+                <instance type="ObBlocks2" uid="715">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2694,7 +2894,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks2" uid="93">
+                <instance type="ObBlocks2" uid="716">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2734,7 +2934,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks2" uid="94">
+                <instance type="ObBlocks2" uid="717">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2774,7 +2974,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="95">
+                <instance type="ObBlocks" uid="718">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2814,7 +3014,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="96">
+                <instance type="ObBlocks" uid="719">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2854,7 +3054,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="97">
+                <instance type="ObBlocks" uid="720">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2894,7 +3094,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="98">
+                <instance type="ObBlocks" uid="723">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2934,7 +3134,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="99">
+                <instance type="ObBlocks" uid="724">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2974,7 +3174,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="100">
+                <instance type="ObBlocks" uid="725">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3014,7 +3214,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="101">
+                <instance type="ObBlocks" uid="726">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3054,7 +3254,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="102">
+                <instance type="ObBlocks" uid="727">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3094,7 +3294,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="103">
+                <instance type="ObBlocks" uid="728">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3134,7 +3334,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="104">
+                <instance type="ObBlocks" uid="729">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3174,7 +3374,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="105">
+                <instance type="ObBlocks" uid="730">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3214,7 +3414,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="106">
+                <instance type="ObBlocks" uid="733">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3254,7 +3454,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="107">
+                <instance type="ObBlocks" uid="734">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3294,7 +3494,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="108">
+                <instance type="ObBlocks" uid="735">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3334,7 +3534,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="109">
+                <instance type="ObBlocks" uid="736">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3374,7 +3574,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="110">
+                <instance type="ObBlocks" uid="737">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3414,7 +3614,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="111">
+                <instance type="ObBlocks" uid="738">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3454,7 +3654,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="112">
+                <instance type="ObBlocks" uid="739">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3494,7 +3694,47 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="113">
+                <instance type="ObBlocks" uid="742">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Health>10000</Health>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>0.1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>431</x>
+                        <y>81</y>
+                        <z>0</z>
+                        <width>30</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ObBlocks" uid="743">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3534,7 +3774,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="114">
+                <instance type="ObBlocks" uid="744">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3574,7 +3814,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="115">
+                <instance type="ObBlocks" uid="745">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3614,7 +3854,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="116">
+                <instance type="ObBlocks" uid="748">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3654,7 +3894,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="117">
+                <instance type="ObBlocks" uid="749">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3694,47 +3934,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="118">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <Health>10000</Health>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="Physics">
-                            <properties>
-                                <immovable>No</immovable>
-                                <collision-mask>Use collision polygon</collision-mask>
-                                <prevent-rotation>No</prevent-rotation>
-                                <density>0.1</density>
-                                <friction>0.5</friction>
-                                <elasticity>0.2</elasticity>
-                                <linear-damping>0</linear-damping>
-                                <angular-damping>0.01</angular-damping>
-                                <bullet>No</bullet>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>394</x>
-                        <y>99</y>
-                        <z>0</z>
-                        <width>30</width>
-                        <height>30</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="ObBlocks" uid="119">
+                <instance type="ObBlocks" uid="752">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3774,7 +3974,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="120">
+                <instance type="ObBlocks" uid="755">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3814,7 +4014,47 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="121">
+                <instance type="ObBlocks" uid="758">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Health>10000</Health>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>0.1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>428</x>
+                        <y>96</y>
+                        <z>0</z>
+                        <width>30</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ObBlocks" uid="759">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3854,7 +4094,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="122">
+                <instance type="ObBlocks" uid="762">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3894,7 +4134,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="123">
+                <instance type="ObBlocks" uid="764">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3934,7 +4174,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="124">
+                <instance type="ObBlocks" uid="766">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3974,7 +4214,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="125">
+                <instance type="ObBlocks" uid="767">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4014,7 +4254,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="126">
+                <instance type="ObBlocks" uid="769">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4054,7 +4294,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="127">
+                <instance type="ObBlocks" uid="770">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4094,7 +4334,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="128">
+                <instance type="ObBlocks" uid="772">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4122,8 +4362,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>410</x>
-                        <y>99</y>
+                        <x>429</x>
+                        <y>97</y>
                         <z>0</z>
                         <width>30</width>
                         <height>30</height>
@@ -4134,7 +4374,47 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="129">
+                <instance type="ObBlocks" uid="775">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Health>10000</Health>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>0.1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>428</x>
+                        <y>70</y>
+                        <z>0</z>
+                        <width>30</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ObBlocks" uid="789">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4174,7 +4454,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="130">
+                <instance type="ObBlocks" uid="790">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4214,7 +4494,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="131">
+                <instance type="ObBlocks" uid="791">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4254,7 +4534,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="132">
+                <instance type="ObBlocks" uid="792">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4294,7 +4574,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="133">
+                <instance type="ObBlocks" uid="793">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4334,7 +4614,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="134">
+                <instance type="ObBlocks" uid="794">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4374,7 +4654,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="135">
+                <instance type="ObBlocks" uid="795">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4414,7 +4694,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="136">
+                <instance type="ObBlocks" uid="796">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4454,7 +4734,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="137">
+                <instance type="ObBlocks" uid="797">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4494,7 +4774,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="138">
+                <instance type="ObBlocks" uid="798">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4534,7 +4814,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="139">
+                <instance type="ObBlocks" uid="799">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4574,7 +4854,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="140">
+                <instance type="ObBlocks" uid="800">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4614,7 +4894,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="141">
+                <instance type="ObBlocks" uid="801">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4654,7 +4934,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="142">
+                <instance type="ObBlocks" uid="802">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4694,7 +4974,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="143">
+                <instance type="ObBlocks" uid="803">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4734,7 +5014,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="144">
+                <instance type="ObBlocks" uid="804">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4774,7 +5054,47 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="145">
+                <instance type="ObBlocks" uid="805">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <Health>10000</Health>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>No</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>0.1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>433</x>
+                        <y>42</y>
+                        <z>0</z>
+                        <width>30</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ObBlocks" uid="806">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4814,7 +5134,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="146">
+                <instance type="ObBlocks" uid="807">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4854,7 +5174,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="147">
+                <instance type="ObBlocks" uid="808">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4894,7 +5214,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="148">
+                <instance type="ObBlocks" uid="809">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4934,7 +5254,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="149">
+                <instance type="ObBlocks" uid="810">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4974,7 +5294,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="150">
+                <instance type="ObBlocks" uid="811">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5014,7 +5334,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="151">
+                <instance type="ObBlocks" uid="813">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5054,7 +5374,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="152">
+                <instance type="ObBlocks" uid="816">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5094,7 +5414,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="153">
+                <instance type="ObBlocks" uid="819">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5134,7 +5454,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="154">
+                <instance type="ObBlocks" uid="821">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5174,7 +5494,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks" uid="155">
+                <instance type="ObBlocks" uid="822">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5214,6 +5534,44 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="RockLeft" uid="824">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid" />
+                        <behavior-instance type="Physics">
+                            <properties>
+                                <immovable>Yes</immovable>
+                                <collision-mask>Use collision polygon</collision-mask>
+                                <prevent-rotation>No</prevent-rotation>
+                                <density>1</density>
+                                <friction>0.5</friction>
+                                <elasticity>0.2</elasticity>
+                                <linear-damping>0</linear-damping>
+                                <angular-damping>0.01</angular-damping>
+                                <bullet>No</bullet>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>170</x>
+                        <y>661</y>
+                        <z>0</z>
+                        <width>366</width>
+                        <height>183</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.502732217</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects>
                 <effect-type name="Grayscale">
@@ -5226,7 +5584,7 @@
                 </effect-type>
             </effects>
         </layer>
-        <layer name="Border" sid="4637104864372603">
+        <layer name="Border" sid="4837772232295012">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -5240,7 +5598,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="LongPlatforms" uid="157">
+                <instance type="LongPlatforms" uid="825">
                     <properties>
                         <left-margin>12</left-margin>
                         <right-margin>12</right-margin>
@@ -5282,7 +5640,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LongPlatforms" uid="158">
+                <instance type="LongPlatforms" uid="826">
                     <properties>
                         <left-margin>12</left-margin>
                         <right-margin>12</right-margin>
@@ -5324,7 +5682,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LongPlatforms" uid="159">
+                <instance type="LongPlatforms" uid="827">
                     <properties>
                         <left-margin>12</left-margin>
                         <right-margin>12</right-margin>
@@ -5366,7 +5724,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LongPlatforms" uid="160">
+                <instance type="LongPlatforms" uid="828">
                     <properties>
                         <left-margin>12</left-margin>
                         <right-margin>12</right-margin>
@@ -5408,7 +5766,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Explosivelong" uid="161">
+                <instance type="Explosivelong" uid="829">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5448,7 +5806,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Explosivelong" uid="162">
+                <instance type="Explosivelong" uid="830">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5488,7 +5846,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SlidingDoor" uid="163">
+                <instance type="SlidingDoor" uid="831">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5525,7 +5883,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SlidingDoor" uid="164">
+                <instance type="SlidingDoor" uid="832">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5574,7 +5932,7 @@
                 </effect-type>
             </effects>
         </layer>
-        <layer name="Menu" sid="989776214657267">
+        <layer name="Menu" sid="6546952503884499">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -5588,7 +5946,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="FPS1" uid="165">
+                <instance type="FPS1" uid="833">
                     <properties>
                         <text>FPS</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -5615,7 +5973,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BlocksColeccted" uid="166">
+                <instance type="BlocksColeccted" uid="834">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -5642,7 +6000,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite7" uid="167">
+                <instance type="Sprite7" uid="835">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5667,7 +6025,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Puse" uid="168">
+                <instance type="Puse" uid="836">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5692,7 +6050,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="RestartLevel" uid="169">
+                <instance type="RestartLevel" uid="837">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5717,7 +6075,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite7" uid="170">
+                <instance type="Sprite7" uid="838">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
