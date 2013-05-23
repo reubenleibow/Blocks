@@ -1,0 +1,1616 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Game</name>
+    <events>
+        <variable constant="0" name="CollectedBlocks" sid="1125" static="0" type="number">0</variable>
+        <variable constant="0" name="SelectLevel123" sid="929" static="0" type="number">0</variable>
+        <variable constant="0" name="menu" sid="641" static="0" type="number">0</variable>
+        <event-group description="" sid="721" title="System">
+            <sub-events>
+                <event-block sid="722">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="723" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="365" type="System">
+                            <param id="0" name="Variable">CurrentLevelScore</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="644" type="System">
+                            <param id="0" name="Variable">menu</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="724" type="NextLevelSar" />
+                        <action id="-9" name="Destroy" sid="725" type="ResumePause" />
+                        <action id="-9" name="Destroy" sid="727" type="Menu" />
+                        <action id="-9" name="Destroy" sid="768" type="RestartLevel" />
+                        <action id="-9" name="Destroy" sid="769" type="Puse" />
+                        <action id="-9" name="Destroy" sid="896" type="ShowStars" />
+                        <action id="-9" name="Destroy" sid="899" type="RestartSar" />
+                        <action id="-9" name="Destroy" sid="904" type="GoToMenuSar" />
+                        <action id="-9" name="Destroy" sid="1034" type="GoToMenuPause" />
+                        <action id="-9" name="Destroy" sid="1035" type="HelplPause" />
+                        <action id="-9" name="Destroy" sid="1036" type="ResumePause" />
+                        <action id="-9" name="Destroy" sid="1037" type="SoundPause" />
+                        <action id="-9" name="Destroy" sid="1038" type="RestarPause" />
+                        <action id="-9" name="Destroy" sid="1109" type="LevelOn" />
+                        <action id="-9" name="Destroy" sid="1110" type="L" />
+                        <action id="-9" name="Set value" sid="1152" type="System">
+                            <param id="0" name="Variable">CollectedBlocks</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-30" name="Set layer effect enabled" sid="4710425779388481" type="System">
+                            <param id="0" name="Layer">1</param>
+                            <param id="1" name="Mode">0</param>
+                            <param id="2" name="Effect">&quot;Grayscale&quot;</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="3246873355458212" type="TiledBackground">
+                            <param id="0" name="Width">960</param>
+                            <param id="1" name="Height">540</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="4275216796407877" type="System">
+                            <param id="0" name="Seconds">0.01</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="881" type="System">
+                            <param id="0" name="Object to create">Puse</param>
+                            <param id="1" name="Layer">2</param>
+                            <param id="2" name="X">137</param>
+                            <param id="3" name="Y">10</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="887" type="System">
+                            <param id="0" name="Object to create">RestartLevel</param>
+                            <param id="1" name="Layer">2</param>
+                            <param id="2" name="X">64</param>
+                            <param id="3" name="Y">10</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="855" type="System">
+                            <param id="0" name="Object to create">Menu</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">0</param>
+                            <param id="3" name="Y">0</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="891" type="System">
+                            <param id="0" name="Object to create">ShowStars</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">320</param>
+                            <param id="3" name="Y">280</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="892" type="System">
+                            <param id="0" name="Object to create">RestartSar</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">292</param>
+                            <param id="3" name="Y">300</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="893" type="System">
+                            <param id="0" name="Object to create">NextLevelSar</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">390</param>
+                            <param id="3" name="Y">302</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="905" type="System">
+                            <param id="0" name="Object to create">GoToMenuSar</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">242</param>
+                            <param id="3" name="Y">313</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="982" type="System">
+                            <param id="0" name="Object to create">ResumePause</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">100</param>
+                            <param id="3" name="Y">200</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="990" type="System">
+                            <param id="0" name="Object to create">SoundPause</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">100</param>
+                            <param id="3" name="Y">200</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="991" type="System">
+                            <param id="0" name="Object to create">RestarPause</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">100</param>
+                            <param id="3" name="Y">200</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="992" type="System">
+                            <param id="0" name="Object to create">HelplPause</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">100</param>
+                            <param id="3" name="Y">200</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="993" type="System">
+                            <param id="0" name="Object to create">GoToMenuPause</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">100</param>
+                            <param id="3" name="Y">200</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="1111" type="System">
+                            <param id="0" name="Object to create">LevelOn</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">100</param>
+                            <param id="3" name="Y">200</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="1112" type="System">
+                            <param id="0" name="Object to create">L</param>
+                            <param id="1" name="Layer">3</param>
+                            <param id="2" name="X">100</param>
+                            <param id="3" name="Y">200</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="997" type="Menu">
+                            <param id="0" name="Width">1</param>
+                            <param id="1" name="Height"> 540</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="1001" type="LightBlocks">
+                            <param id="0" name="Width">30</param>
+                            <param id="1" name="Height">30</param>
+                        </action>
+                        <action id="-6" name="Set height" sid="1002" type="DeathH">
+                            <param id="0" name="Height">32</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="1003" type="Deathv">
+                            <param id="0" name="Width">32</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="1150" type="GoToMenuSar">
+                            <param id="0" name="X">380</param>
+                            <param id="1" name="Y">370</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="1022" type="RestartSar">
+                            <param id="0" name="X">480</param>
+                            <param id="1" name="Y">370</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="1024" type="NextLevelSar">
+                            <param id="0" name="X">580</param>
+                            <param id="1" name="Y">370</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="1025" type="ShowStars">
+                            <param id="0" name="Width">34</param>
+                            <param id="1" name="Height">18</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="1029" type="RestarPause">
+                            <param id="0" name="X">99</param>
+                            <param id="1" name="Y">129</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="1030" type="ResumePause">
+                            <param id="0" name="X">146</param>
+                            <param id="1" name="Y">234</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="1031" type="GoToMenuPause">
+                            <param id="0" name="X">129</param>
+                            <param id="1" name="Y">343</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="1032" type="SoundPause">
+                            <param id="0" name="X">59</param>
+                            <param id="1" name="Y">438</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="1033" type="HelplPause">
+                            <param id="0" name="X">151</param>
+                            <param id="1" name="Y">438</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="1113" type="L">
+                            <param id="0" name="X">24</param>
+                            <param id="1" name="Y">25</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="1114" type="LevelOn">
+                            <param id="0" name="X">100</param>
+                            <param id="1" name="Y">25</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="1155" type="ShowStars">
+                            <param id="0" name="X">480</param>
+                            <param id="1" name="Y">280</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1066" type="NextLevelSar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1067" type="ResumePause">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1072" type="GoToMenuSar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1074" type="Puller">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1075" type="SoundPause">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1076" type="RestarPause">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1077" type="GoToMenuPause">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1078" type="HelplPause">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1156" type="ShowStars">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action behavior="Physics" id="12" name="Set world gravity" sid="2783732161522007" type="LightBlocks">
+                            <param id="0" name="Gravity">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1924827672678434" type="Menu">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="5439877134944956" type="ExplosiveAreaShort">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="7223056916516252" type="ExplosiveArealong">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="3703473187410556" type="Sprite7">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="4286376751698096" type="Sprite">
+                            <param id="0" name="X">280</param>
+                            <param id="1" name="Y">204</param>
+                        </action>
+                        <action id="-24" name="Move to top" sid="6886320790839557" type="Sprite7" />
+                        <action id="-24" name="Move to top" sid="170236638669535" type="Edge" />
+                        <action id="-3" name="Set position" sid="9983891267122239" type="Edge">
+                            <param id="0" name="X">222</param>
+                            <param id="1" name="Y"> 270</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="601" title="Time Level Blaaa Blaaa">
+            <sub-events>
+                <event-block sid="316">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="317" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="318" type="System">
+                            <param id="0" name="Variable">BlocksLeft</param>
+                            <param id="1" name="Value">LightBlocks.Count</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="395" type="Puller">
+                            <param id="0" name="X">Touch.X</param>
+                            <param id="1" name="Y">Touch.Y</param>
+                        </action>
+                        <action id="0" name="Set text" sid="347" type="BlockLeft">
+                            <param id="0" name="Text">BlocksLeft</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="398" type="ParticlesByTouch">
+                            <param id="0" name="X">Touch.X</param>
+                            <param id="1" name="Y">Touch.Y</param>
+                        </action>
+                        <action id="0" name="Set text" sid="437" type="TimeToNextLevel">
+                            <param id="0" name="Text">TimeToNextLevel.Time</param>
+                        </action>
+                        <action id="0" name="Set text" sid="708" type="FPS1">
+                            <param id="0" name="Text">fps</param>
+                        </action>
+                        <action id="0" name="Set text" sid="1119" type="LevelOn">
+                            <param id="0" name="Text">CurrentLevel</param>
+                        </action>
+                        <action id="0" name="Set text" sid="1127" type="BlocksColeccted">
+                            <param id="0" name="Text">CollectedBlocks</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="2001936861431471" type="Sprite3">
+                            <param id="0" name="Frame number">CollectedBlocks</param>
+                        </action>
+                        <action id="0" name="Set text" sid="7841200313603796" type="Text">
+                            <param id="0" name="Text">RestartLevel.Visible</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="7764851889092804" type="Sprite7">
+                            <param id="0" name="Frame number">CollectedBlocks/3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="368">
+                    <conditions>
+                        <condition id="-3" name="On end of layout" sid="369" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set local value" sid="370" type="WebStorage">
+                            <param id="0" name="Key">&quot;LevelScore&quot; &amp; CurrentLevel</param>
+                            <param id="1" name="Value">max(CurrentLevelScore, int(WebStorage.LocalValue(&quot;LevelScore&quot; &amp; CurrentLevel)))</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="363">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="364" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="432" type="TimeToNextLevel">
+                            <param id="0" name="Instance variable">Time</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="448" type="TimeToNextLevel">
+                            <param id="0" name="Instance variable">Started</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action behavior="Physics" id="21" name="Set immovable" sid="487" type="Prongs">
+                            <param id="0" name="Setting">1</param>
+                        </action>
+                        <action behavior="Physics" id="21" name="Set immovable" sid="488" type="Deathv">
+                            <param id="0" name="Setting">1</param>
+                        </action>
+                        <action behavior="Physics" id="21" name="Set immovable" sid="489" type="Deathv">
+                            <param id="0" name="Setting">1</param>
+                        </action>
+                        <action behavior="Physics" id="21" name="Set immovable" sid="490" type="Sprite5">
+                            <param id="0" name="Setting">1</param>
+                        </action>
+                        <action behavior="Physics" id="16" name="Set density" sid="492" type="ObBlocks">
+                            <param id="0" name="Density">0.1</param>
+                        </action>
+                        <action behavior="Sine" id="3" name="Set movement" sid="493" type="Deathv">
+                            <param id="0" name="Movement">1</param>
+                        </action>
+                        <action behavior="Sine" id="3" name="Set movement" sid="494" type="DeathH">
+                            <param id="0" name="Movement">0</param>
+                        </action>
+                        <action behavior="Physics" id="16" name="Set density" sid="591" type="LightBlocks">
+                            <param id="0" name="Density">0.5</param>
+                        </action>
+                        <action behavior="Physics" id="21" name="Set immovable" sid="690" type="Prongs">
+                            <param id="0" name="Setting">1</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="716" type="Menu">
+                            <param id="0" name="Opacity">50</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="399">
+            <conditions>
+                <condition id="2" inverted="1" name="Is in touch" sid="400" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="403" type="ParticlesByTouch">
+                    <param id="0" name="X">1000</param>
+                    <param id="1" name="Y">1000</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="775" title="Menu, Pause,Restart,Help,Sound,Main menu">
+            <sub-events>
+                <event-block sid="1079">
+                    <conditions>
+                        <condition id="-5" name="Compare width" sid="1081" type="Menu">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Width">200</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="4866202703578606" type="Menu" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="1082" type="GoToMenuPause">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1083" type="HelplPause">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1085" type="RestarPause">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1086" type="SoundPause">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1087" type="ResumePause">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1117" type="L">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1118" type="LevelOn">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-13" name="Set time scale" sid="1084" type="System">
+                            <param id="0" name="Time scale">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="2717435511917046" type="Edge">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1088">
+                    <conditions>
+                        <condition id="-5" name="Compare width" sid="1089" type="Menu">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Width">199</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="1096" type="GoToMenuPause">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1097" type="HelplPause">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1098" type="RestarPause">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1099" type="SoundPause">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1100" type="ResumePause">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1115" type="L">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1116" type="LevelOn">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="9520119863382757" type="Edge">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1102">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1104" type="System">
+                            <param id="0" name="Variable">menu</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-6" name="Every X seconds" sid="1103" type="System">
+                            <param id="0" name="Interval (seconds)">0.01</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="1106" type="Menu">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="Width">200</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="1105" type="Menu">
+                            <param id="0" name="Width">Menu.Width+28</param>
+                            <param id="1" name="Height">Menu.Height</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1120">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="1121" type="Touch">
+                            <param id="0" name="Object">RestarPause</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="1122" type="RestarPause" />
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="3055857473949665" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="1124" type="System" />
+                    </actions>
+                </event-block>
+                <event-block sid="960">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="961" type="Touch">
+                            <param id="0" name="Object">GoToMenuPause</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="1039" type="GoToMenuPause" />
+                        <condition id="-14" name="Compare variable" sid="963" type="System">
+                            <param id="0" name="Variable">SelectLevel123</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="964" type="System">
+                            <param id="0" name="Layout">LevelSelect</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="965">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="966" type="Touch">
+                            <param id="0" name="Object">GoToMenuPause</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="967" type="GoToMenuPause" />
+                        <condition id="-14" name="Compare variable" sid="968" type="System">
+                            <param id="0" name="Variable">SelectLevel123</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="969" type="System">
+                            <param id="0" name="Layout">LevelSelect2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="770">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="771" type="Touch">
+                            <param id="0" name="Object">RestartLevel</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="922" type="RestartLevel" />
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Restart layout" sid="772" type="System" />
+                    </actions>
+                </event-block>
+                <event-block sid="611">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="612" type="Touch">
+                            <param id="0" name="Object">Puse</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="921" type="Puse" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="635" type="ResumePause">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1040" type="GoToMenuPause">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="636" type="Menu">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="642" type="System">
+                            <param id="0" name="Variable">menu</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1041" type="HelplPause">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1042" type="RestarPause">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1043" type="SoundPause">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="954">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="955" type="Menu">
+                                    <param id="0" name="Object">GoToMenuSar</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="956" type="GoToMenuSar">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="625">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="626" type="Touch">
+                            <param id="0" name="Object">ResumePause</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="920" type="ResumePause" />
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="1158" type="System">
+                            <param id="0" name="Time scale">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="631" type="ResumePause">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="632" type="Menu">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="633" type="NextLevelSar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1044" type="GoToMenuPause">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1045" type="HelplPause">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1046" type="RestarPause">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1047" type="SoundPause">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="643" type="System">
+                            <param id="0" name="Variable">menu</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="832">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="833" type="Touch">
+                            <param id="0" name="Object">RestartSar</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="919" type="RestartSar" />
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="834" type="System">
+                            <param id="0" name="Time scale">1</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="848" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="774" title="Blocks">
+            <sub-events>
+                <event-group description="" sid="9166873011868142" title="Rolling Rock">
+                    <sub-events>
+                        <event-block sid="8700575806871419">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="2404418046981535" type="DeathBall">
+                                    <param id="0" name="Object">LightBlocks</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="2001289762562195" type="LightBlocks" />
+                                <action id="0" name="Spawn another object" sid="2429099922134408" type="LightBlocks">
+                                    <param id="0" name="Object">DeathOfBlock</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5892907407593222">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="8696175303569288" type="DeathBall">
+                                    <param id="0" name="Object">ObBlocks</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="5059946987766785" type="ObBlocks" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-block sid="576">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="577" type="Blocks">
+                            <param id="0" name="Object">Porthole</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="1128" type="System">
+                            <param id="0" name="Variable">CollectedBlocks</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="579" type="System">
+                            <param id="0" name="Variable">CurrentLevelScore</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="581" type="TimeToNextLevel">
+                            <param id="0" name="Instance variable">Started</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="669" type="Blocks" />
+                    </actions>
+                </event-block>
+                <event-block sid="582">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="583" type="Blocks">
+                            <param id="0" name="Object">Porthole</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="584" type="TimeToNextLevel">
+                            <param id="0" name="Instance variable">Started</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="585" type="TimeToNextLevel">
+                            <param id="0" name="Instance variable">Time</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="776" title="Purple Blocks">
+                    <sub-events>
+                        <event-block sid="483">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="484" type="ObBlocks">
+                                    <param id="0" name="Object">Particles</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Physics" id="2" name="Apply force at angle" sid="485" type="ObBlocks">
+                                    <param id="0" name="Force">1</param>
+                                    <param id="1" name="Angle">270</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="600" title="LightBlock">
+                    <sub-events>
+                        <event-block sid="58">
+                            <conditions>
+                                <condition id="2" name="Is in touch" sid="59" type="Touch" />
+                                <condition id="1" name="Is overlapping another object" sid="396" type="Puller">
+                                    <param id="0" name="Object">LightBlocks</param>
+                                </condition>
+                                <condition id="-14" name="Compare variable" sid="645" type="System">
+                                    <param id="0" name="Variable">menu</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Physics" id="1" name="Apply force towards position" sid="60" type="LightBlocks">
+                                    <param id="0" name="Force">1</param>
+                                    <param id="1" name="X">Touch.X</param>
+                                    <param id="2" name="Y">Touch.y</param>
+                                    <param id="3" name="Image point">0</param>
+                                </action>
+                                <action behavior="Physics" id="2" name="Apply force at angle" sid="598" type="LightBlocks">
+                                    <param id="0" name="Force">1</param>
+                                    <param id="1" name="Angle">random(360)</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="567">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="568" type="LightBlocks">
+                                    <param id="0" name="Object">Prongs</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="569" type="LightBlocks" />
+                                <action id="0" name="Spawn another object" sid="684" type="LightBlocks">
+                                    <param id="0" name="Object">DeathOfBlock</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="570">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="571" type="LightBlocks">
+                                    <param id="0" name="Object">DeathH</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="680" type="LightBlocks" />
+                                <action id="0" name="Spawn another object" sid="685" type="LightBlocks">
+                                    <param id="0" name="Object">DeathOfBlock</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="573">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="574" type="LightBlocks">
+                                    <param id="0" name="Object">Deathv</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="681" type="LightBlocks" />
+                                <action id="0" name="Spawn another object" sid="686" type="LightBlocks">
+                                    <param id="0" name="Object">DeathOfBlock</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="687">
+                            <conditions>
+                                <condition id="1" name="Is overlapping another object" sid="688" type="LightBlocks">
+                                    <param id="0" name="Object">Particles</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Physics" id="2" name="Apply force at angle" sid="689" type="LightBlocks">
+                                    <param id="0" name="Force">1</param>
+                                    <param id="1" name="Angle">270</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="773" title="Finished Level">
+            <sub-events>
+                <event-block sid="1129">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1130" type="System">
+                            <param id="0" name="Variable">CollectedBlocks</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block any="1" sid="359">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="360" type="System">
+                                    <param id="0" name="Variable">BlocksLeft</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="435" type="TimeToNextLevel">
+                                    <param id="0" name="Instance variable">Time</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-15" name="Set visible" sid="824" type="ShowStars">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-30" name="Set layer effect enabled" sid="820" type="System">
+                                    <param id="0" name="Layer">1</param>
+                                    <param id="1" name="Mode">1</param>
+                                    <param id="2" name="Effect">&quot;Grayscale&quot;</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="831" type="System">
+                                    <param id="0" name="Variable">UnLocketLevel</param>
+                                    <param id="1" name="Value">max(UnLocketLevel, CurrentLevel + 1)</param>
+                                </action>
+                                <action id="-30" name="Set layer effect enabled" sid="6879133175184626" type="System">
+                                    <param id="0" name="Layer">0</param>
+                                    <param id="1" name="Mode">1</param>
+                                    <param id="2" name="Effect">&quot;Grayscale&quot;</param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="786">
+                                    <conditions>
+                                        <condition id="-6" name="Every X seconds" sid="787" type="System">
+                                            <param id="0" name="Interval (seconds)">0.01</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions />
+                                    <sub-events>
+                                        <event-block sid="780">
+                                            <conditions>
+                                                <condition id="-6" name="Compare height" sid="781" type="ShowStars">
+                                                    <param id="0" name="Comparison">3</param>
+                                                    <param id="1" name="Height">300</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-7" name="Set size" sid="785" type="ShowStars">
+                                                    <param id="0" name="Width">ShowStars.Width</param>
+                                                    <param id="1" name="Height">ShowStars.Height+30</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="782">
+                                            <conditions>
+                                                <condition id="-5" name="Compare width" sid="783" type="ShowStars">
+                                                    <param id="0" name="Comparison">3</param>
+                                                    <param id="1" name="Width">960</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-7" name="Set size" sid="784" type="ShowStars">
+                                                    <param id="0" name="Width">ShowStars.Width+30</param>
+                                                    <param id="1" name="Height">ShowStars.Height</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                    </sub-events>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="1134">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1135" type="System">
+                            <param id="0" name="Variable">CollectedBlocks</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block any="1" sid="1136">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="1137" type="System">
+                                    <param id="0" name="Variable">BlocksLeft</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="1138" type="TimeToNextLevel">
+                                    <param id="0" name="Instance variable">Time</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Wait" sid="1368143734470338" type="System">
+                                    <param id="0" name="Seconds">2</param>
+                                </action>
+                                <action id="-26" name="Restart layout" sid="1139" type="System" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="808">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="809" type="System">
+                            <param id="0" name="Variable">BlocksLeft</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-30" name="Set layer effect enabled" sid="810" type="System">
+                            <param id="0" name="Layer">0</param>
+                            <param id="1" name="Mode">0</param>
+                            <param id="2" name="Effect">&quot;Grayscale&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="796">
+                    <conditions>
+                        <condition id="-6" name="Compare height" sid="797" type="ShowStars">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Height">164</param>
+                        </condition>
+                        <condition id="-5" name="Compare width" sid="799" type="ShowStars">
+                            <param id="0" name="Comparison">5</param>
+                            <param id="1" name="Width">950</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="7658333909374351" type="Puse">
+                            <param id="0" name="Instance variable">Visible</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="2013308011921063" type="RestartLevel">
+                            <param id="0" name="Instance variable">Visible</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="800" type="NextLevelSar">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="821" type="RestartSar">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="907" type="GoToMenuSar">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-13" name="Set time scale" sid="825" type="System">
+                            <param id="0" name="Time scale">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="4363242508033845" type="Sprite7">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="801">
+                    <conditions>
+                        <condition id="-5" name="Compare width" sid="803" type="ShowStars">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Width">940</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="804" type="NextLevelSar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="822" type="RestartSar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="908" type="GoToMenuSar">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="911">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="912" type="System">
+                            <param id="0" name="Variable">menu</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                        <condition id="-6" name="Compare height" sid="7433895940104442" type="ShowStars">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Height">200</param>
+                        </condition>
+                        <condition id="-6" name="Compare height" sid="1892622864017241" type="ShowStars">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Height">200</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="1101" type="Menu">
+                            <param id="0" name="Width">1</param>
+                            <param id="1" name="Height">540</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="4466410413775451" type="Puse">
+                            <param id="0" name="Instance variable">Visible</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="8407690171804103" type="RestartLevel">
+                            <param id="0" name="Instance variable">Visible</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="915">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="916" type="System">
+                            <param id="0" name="Variable">menu</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="-6" name="Compare height" sid="2820039022005734" type="ShowStars">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Height">200</param>
+                        </condition>
+                        <condition id="-6" name="Compare height" sid="1245674506594742" type="ShowStars">
+                            <param id="0" name="Comparison">3</param>
+                            <param id="1" name="Height">200</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="5525460286325617" type="Puse">
+                            <param id="0" name="Instance variable">Visible</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="5038051491741883" type="RestartLevel">
+                            <param id="0" name="Instance variable">Visible</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="924">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="925" type="Touch">
+                            <param id="0" name="Object">GoToMenuSar</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="926" type="GoToMenuSar" />
+                        <condition id="-14" name="Compare variable" sid="930" type="System">
+                            <param id="0" name="Variable">SelectLevel123</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="928" type="System">
+                            <param id="0" name="Layout">LevelSelect</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="931">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="932" type="Touch">
+                            <param id="0" name="Object">GoToMenuSar</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="933" type="GoToMenuSar" />
+                        <condition id="-14" name="Compare variable" sid="934" type="System">
+                            <param id="0" name="Variable">SelectLevel123</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="935" type="System">
+                            <param id="0" name="Layout">LevelSelect2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="936">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="937" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="938" type="System">
+                            <param id="0" name="Variable">SelectLevel123</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="940">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="941" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">3</param>
+                            <param id="2" name="Value">30</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="943" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="942" type="System">
+                            <param id="0" name="Variable">SelectLevel123</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="449">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="450" type="System">
+                            <param id="0" name="Interval (seconds)">1.0</param>
+                        </condition>
+                        <condition id="-7" name="Compare instance variable" sid="455" type="TimeToNextLevel">
+                            <param id="0" name="Instance variable">Started</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Subtract from" sid="454" type="TimeToNextLevel">
+                            <param id="0" name="Instance variable">Time</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="6676762071019792" title="Next level buttons when finnished stars">
+            <sub-events>
+                <event-block sid="1319">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="1320" type="Touch">
+                            <param id="0" name="Object">NextLevelSar</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="1321" type="NextLevelSar" />
+                        <condition id="-14" name="Compare variable" sid="1322" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="7802864174312834" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1323" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Value">CurrentLevel+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1324" type="System">
+                            <param id="0" name="Variable">BlocksLeft</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="1325" type="System">
+                            <param id="0" name="Layout">LevelSelect</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1296">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="1297" type="Touch">
+                            <param id="0" name="Object">NextLevelSar</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1302" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">15</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="1298" type="NextLevelSar" />
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="3382040228556286" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1299" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Value">CurrentLevel+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1300" type="System">
+                            <param id="0" name="Variable">BlocksLeft</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-25" name="Go to layout (by name)" sid="1301" type="System">
+                            <param id="0" name="Layout">str(CurrentLevel)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1303">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="1304" type="Touch">
+                            <param id="0" name="Object">NextLevelSar</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1317" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1306" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">30</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="1305" type="NextLevelSar" />
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="2501189557963235" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1307" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Value">CurrentLevel+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1308" type="System">
+                            <param id="0" name="Variable">BlocksLeft</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-25" name="Go to layout (by name)" sid="1309" type="System">
+                            <param id="0" name="Layout">str(CurrentLevel)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1310">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="1311" type="Touch">
+                            <param id="0" name="Object">NextLevelSar</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1318" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">31</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="1313" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">45</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="1312" type="NextLevelSar" />
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="1672318272450184" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1314" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Value">CurrentLevel+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1315" type="System">
+                            <param id="0" name="Variable">BlocksLeft</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-25" name="Go to layout (by name)" sid="1316" type="System">
+                            <param id="0" name="Layout">str(CurrentLevel)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1326">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="1327" type="Touch">
+                            <param id="0" name="Object">NextLevelSar</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="1328" type="NextLevelSar" />
+                        <condition id="-14" name="Compare variable" sid="1329" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">30</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="836502744445857" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1330" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Value">CurrentLevel+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1331" type="System">
+                            <param id="0" name="Variable">BlocksLeft</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="1332" type="System">
+                            <param id="0" name="Layout">LevelSelect2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1333">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="1334" type="Touch">
+                            <param id="0" name="Object">NextLevelSar</param>
+                        </condition>
+                        <condition id="-9" name="Is visible" sid="1335" type="NextLevelSar" />
+                        <condition id="-14" name="Compare variable" sid="1336" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">45</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="6276895098704402" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1337" type="System">
+                            <param id="0" name="Variable">CurrentLevel</param>
+                            <param id="1" name="Value">CurrentLevel+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="1338" type="System">
+                            <param id="0" name="Variable">BlocksLeft</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="1339" type="System">
+                            <param id="0" name="Layout">LeveSelect3</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="4005078874426396" title="Explosive blocks-short+long">
+            <sub-events>
+                <event-block sid="2795358702722802">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="8626000338316158" type="ExplosiveAreaShort">
+                            <param id="0" name="Instance variable">ob</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">ExplosiveShort.bo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="6950905304527276" type="ExplosiveAreaShort">
+                            <param id="0" name="X">ExplosiveShort.X</param>
+                            <param id="1" name="Y">ExplosiveShort.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9118890337839499">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="4135007012678763" type="ExplosiveArealong">
+                            <param id="0" name="Instance variable">oob</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">Explosivelong.boo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="1840265470011334" type="ExplosiveArealong">
+                            <param id="0" name="X">Explosivelong.X</param>
+                            <param id="1" name="Y">Explosivelong.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="777" title="Explosive Blocks">
+                    <sub-events>
+                        <event-block sid="9238142878209811">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="7366226075819338" type="Touch">
+                                    <param id="0" name="Object">ExplosiveShort</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="9786518302354112">
+                                    <conditions>
+                                        <condition id="1" name="Is overlapping another object" sid="4256133131348372" type="ObBlocks">
+                                            <param id="0" name="Object">ExplosiveAreaShort</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Physics" id="1" name="Apply force towards position" sid="1799673956743897" type="ObBlocks">
+                                            <param id="0" name="Force">-5</param>
+                                            <param id="1" name="X">ExplosiveAreaShort.x</param>
+                                            <param id="2" name="Y">ExplosiveAreaShort.y</param>
+                                            <param id="3" name="Image point">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="7819064137901704">
+                                    <conditions>
+                                        <condition id="1" name="Is overlapping another object" sid="9321057483177171" type="ObBlocks2">
+                                            <param id="0" name="Object">ExplosiveAreaShort</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Physics" id="1" name="Apply force towards position" sid="2866856768834238" type="ObBlocks2">
+                                            <param id="0" name="Force">-5</param>
+                                            <param id="1" name="X">ExplosiveAreaShort.x</param>
+                                            <param id="2" name="Y">ExplosiveAreaShort.y</param>
+                                            <param id="3" name="Image point">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="9455204840702664">
+                                    <conditions>
+                                        <condition id="1" name="Is overlapping another object" sid="7337029069744328" type="LightBlocks">
+                                            <param id="0" name="Object">ExplosiveAreaShort</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Physics" id="1" name="Apply force towards position" sid="8433926004106166" type="LightBlocks">
+                                            <param id="0" name="Force">-20</param>
+                                            <param id="1" name="X">ExplosiveAreaShort.x</param>
+                                            <param id="2" name="Y">ExplosiveAreaShort.y</param>
+                                            <param id="3" name="Image point">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="6656311662586133">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="9351315729880456" type="Touch">
+                                    <param id="0" name="Object">ExplosiveShort</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="6411914107446104" type="ExplosiveShort" />
+                            </actions>
+                            <sub-events>
+                                <event-block sid="6343551235476191">
+                                    <conditions>
+                                        <condition id="-15" name="Pick nearest/furthest" sid="8927167510680585" type="ExplosiveAreaShort">
+                                            <param id="0" name="Which">0</param>
+                                            <param id="1" name="X">ExplosiveShort.X</param>
+                                            <param id="2" name="Y">ExplosiveShort.Y</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Destroy" sid="6440557466661486" type="ExplosiveAreaShort" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="5442443412892248" title="Long explosive">
+                    <sub-events>
+                        <event-block sid="992467173003719">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="9325401227207488" type="Touch">
+                                    <param id="0" name="Object">Explosivelong</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="1066271076153538">
+                                    <conditions>
+                                        <condition id="1" name="Is overlapping another object" sid="9049225672687559" type="ObBlocks">
+                                            <param id="0" name="Object">ExplosiveArealong</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Physics" id="1" name="Apply force towards position" sid="8275088254915407" type="ObBlocks">
+                                            <param id="0" name="Force">-5</param>
+                                            <param id="1" name="X">ExplosiveArealong.x</param>
+                                            <param id="2" name="Y">ExplosiveArealong.y</param>
+                                            <param id="3" name="Image point">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="9376770922547342">
+                                    <conditions>
+                                        <condition id="1" name="Is overlapping another object" sid="4700234049213524" type="ObBlocks2">
+                                            <param id="0" name="Object">ExplosiveArealong</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Physics" id="1" name="Apply force towards position" sid="3278134007679689" type="ObBlocks2">
+                                            <param id="0" name="Force">-5</param>
+                                            <param id="1" name="X">ExplosiveArealong.x</param>
+                                            <param id="2" name="Y">ExplosiveArealong.y</param>
+                                            <param id="3" name="Image point">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="1475145481317992">
+                                    <conditions>
+                                        <condition id="1" name="Is overlapping another object" sid="3900658264486826" type="LightBlocks">
+                                            <param id="0" name="Object">ExplosiveArealong</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="Physics" id="1" name="Apply force towards position" sid="9145841372738589" type="LightBlocks">
+                                            <param id="0" name="Force">-20</param>
+                                            <param id="1" name="X">ExplosiveArealong.x</param>
+                                            <param id="2" name="Y">ExplosiveArealong.y</param>
+                                            <param id="3" name="Image point">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="4109869261698314">
+                            <conditions>
+                                <condition id="3" name="On touched object" sid="7769670045214018" type="Touch">
+                                    <param id="0" name="Object">Explosivelong</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="3853819430349233">
+                                    <conditions>
+                                        <condition id="-15" name="Pick nearest/furthest" sid="8841972947141988" type="ExplosiveArealong">
+                                            <param id="0" name="Which">0</param>
+                                            <param id="1" name="X">Explosivelong.X</param>
+                                            <param id="2" name="Y">Explosivelong.Y</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Destroy" sid="8025809481184461" type="ExplosiveArealong" />
+                                        <action id="-9" name="Destroy" sid="6208389292150045" type="Explosivelong" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-block sid="3041501793726426">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="7833231096704047" type="Keyboard">
+                    <param id="0" name="Key">83 (S)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-36" name="Save" sid="4968423716432419" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1574145197874814">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="296754365497648" type="Keyboard">
+                    <param id="0" name="Key">76 (L)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-37" name="Load" sid="1492623128610811" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8897125129608883">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="1073932522081895" type="RestartLevel">
+                    <param id="0" name="Instance variable">Visible</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="1242280757838491" type="RestartLevel">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3842880226470642">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="5839638482610083" type="RestartLevel">
+                    <param id="0" name="Instance variable">Visible</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="2404817816947187" type="RestartLevel">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3058897440991">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="5475386066823974" type="Puse">
+                    <param id="0" name="Instance variable">Visible</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="4820614931785952" type="Puse">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9528915858538733">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="183983906673359" type="Puse">
+                    <param id="0" name="Instance variable">Visible</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="8689555283968951" type="Puse">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
