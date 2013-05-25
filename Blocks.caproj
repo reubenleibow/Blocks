@@ -8,33 +8,33 @@
     <author-website>asdf</author-website>
     <app-id>asdfasdf</app-id>
     <unique-id>1emck729oxl52</unique-id>
-    <saved-with-version>13100</saved-with-version>
+    <saved-with-version>13200</saved-with-version>
     <used-plugins>
         <plugin author="Scirra.com" id="win8" version="1">Windows 8</plugin>
-        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
-        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
-        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
-        <plugin author="Scirra" id="Function" version="1">Function</plugin>
-        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
-        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
-        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
-        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects>
-        <effect author="Brad Larson" id="vignette">Vignette</effect>
         <effect author="Scirra" id="grayscale">Grayscale</effect>
         <effect author="Scirra" id="glowhorizontal">Glow Horizontal</effect>
         <effect author="Scirra" id="glowvertical">Glow Vertical</effect>
+        <effect author="Brad Larson" id="vignette">Vignette</effect>
     </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -1051,28 +1051,38 @@
         </family>
     </families>
     <layout-folder expanded="1">
-        <layout>LevelSelect.xml</layout>
-        <layout>LevelSelect2.xml</layout>
-        <layout>LevelSelect3.xml</layout>
-        <layout>1.xml</layout>
-        <layout>2.xml</layout>
-        <layout>3.xml</layout>
-        <layout>4.xml</layout>
-        <layout>5.xml</layout>
-        <layout>6.xml</layout>
-        <layout>7.xml</layout>
+        <layout-folder expanded="0" name="World1Levels">
+            <layout>1.xml</layout>
+            <layout>2.xml</layout>
+            <layout>3.xml</layout>
+            <layout>4.xml</layout>
+            <layout>5.xml</layout>
+            <layout>6.xml</layout>
+            <layout>7.xml</layout>
+        </layout-folder>
+        <layout-folder expanded="0" name="LevelSelectFolder">
+            <layout>LevelSelect.xml</layout>
+            <layout>LevelSelect2.xml</layout>
+            <layout>LevelSelect3.xml</layout>
+        </layout-folder>
         <layout>16.xml</layout>
         <layout>SlideMenu.xml</layout>
+        <layout>Logo.xml</layout>
+        <layout>StartScreen.xml</layout>
         <layout>UnusedLayout.xml</layout>
     </layout-folder>
-    <event-folder expanded="1">
-        <event-sheet>LevelSelectL.xml</event-sheet>
-        <event-sheet>Game.xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
-        <event-sheet>SetupGame.xml</event-sheet>
-        <event-sheet>MenuActions.xml</event-sheet>
-        <event-sheet>GameOver.xml</event-sheet>
+    <event-folder expanded="0">
+        <event-folder expanded="0" name="GameData">
+            <event-sheet>Game.xml</event-sheet>
+            <event-sheet>GameOver.xml</event-sheet>
+            <event-sheet>MenuActions.xml</event-sheet>
+        </event-folder>
+        <event-sheet>SelectLevelMenu.xml</event-sheet>
+        <event-sheet>WorldSelectWorld.xml</event-sheet>
         <event-sheet>Skip.xml</event-sheet>
+        <event-sheet>Logo.xml</event-sheet>
+        <event-sheet>StartScreen.xml</event-sheet>
+        <event-sheet>SetupGame.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="WebStorage" uid="7" />

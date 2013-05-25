@@ -2,7 +2,7 @@
 <c2layout>
     <name>SlideMenu</name>
     <sid>1159</sid>
-    <event-sheet>Event sheet 1</event-sheet>
+    <event-sheet>WorldSelectWorld</event-sheet>
     <size>
         <width>960</width>
         <height>540</height>

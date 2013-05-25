@@ -2,7 +2,7 @@
 <c2layout>
     <name>LevelSelect3</name>
     <sid>1236</sid>
-    <event-sheet>LevelSelectL</event-sheet>
+    <event-sheet>SelectLevelMenu</event-sheet>
     <size>
         <width>640</width>
         <height>512</height>

@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>WorldSelectWorld</name>
+    <events>
+        <variable constant="0" name="SelectedLevel" sid="1176" static="0" type="number">1</variable>
+        <event-block sid="1230">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="1231" type="System" />
+            </conditions>
+            <actions>
+                <action id="-13" name="Set time scale" sid="1287" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+                <action id="-25" name="Move to bottom" sid="1232" type="Level1Pic" />
+                <action id="-25" name="Move to bottom" sid="1233" type="Level2Pic" />
+                <action id="-25" name="Move to bottom" sid="1234" type="Level3Pic" />
+                <action id="-9" name="Set value" sid="1235" type="System">
+                    <param id="0" name="Variable">SelectedLevel</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1283" type="CheckSlide">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1239">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1240" type="Touch">
+                    <param id="0" name="Object">Level1Pic</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="1266" type="Level1Pic">
+                    <param id="0" name="Object">CheckSlide</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1247" type="System">
+                    <param id="0" name="Layout">LevelSelect</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1241">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1242" type="Touch">
+                    <param id="0" name="Object">Level2Pic</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="1267" type="Level2Pic">
+                    <param id="0" name="Object">CheckSlide</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="2060945622042275" type="System">
+                    <param id="0" name="Variable">CurrentLevel</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">15</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1249" type="System">
+                    <param id="0" name="Layout">LevelSelect2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1243">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1244" type="Touch">
+                    <param id="0" name="Object">Level3Pic</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="1268" type="Level3Pic">
+                    <param id="0" name="Object">CheckSlide</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="4953810698973382" type="System">
+                    <param id="0" name="Variable">CurrentLevel</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">30</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1248" type="System">
+                    <param id="0" name="Layout">LevelSelect3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1198">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="1200" type="System">
+                    <param id="0" name="Interval (seconds)">0.01</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1191">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1192" type="System">
+                            <param id="0" name="Variable">SelectedLevel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="1214">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="1215" type="Level1Pic">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">490</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="1216" type="Level1Pic">
+                                    <param id="0" name="X">Level1Pic.X+10</param>
+                                    <param id="1" name="Y">Level1Pic.Y</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1201">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="1202" type="Level1Pic">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="X co-ordinate">480</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="1203" type="Level1Pic">
+                                    <param id="0" name="X">Level1Pic.X-10</param>
+                                    <param id="1" name="Y">Level1Pic.Y</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="1193">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1194" type="System">
+                            <param id="0" name="Variable">SelectedLevel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="1219">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="1220" type="Level2Pic">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">490</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="1227" type="Level1Pic">
+                                    <param id="0" name="X">Level1Pic.X+10</param>
+                                    <param id="1" name="Y">Level1Pic.Y</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1204">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="1205" type="Level2Pic">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="X co-ordinate">475</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="1206" type="Level1Pic">
+                                    <param id="0" name="X">Level1Pic.X-10</param>
+                                    <param id="1" name="Y">Level1Pic.Y</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="1195">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="1196" type="System">
+                            <param id="0" name="Variable">SelectedLevel</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="1224">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="1225" type="Level3Pic">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">490</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="1228" type="Level1Pic">
+                                    <param id="0" name="X">Level1Pic.X+10</param>
+                                    <param id="1" name="Y">Level1Pic.Y</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1207">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="1208" type="Level3Pic">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="X co-ordinate">475</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="1209" type="Level1Pic">
+                                    <param id="0" name="X">Level1Pic.X-10</param>
+                                    <param id="1" name="Y">Level1Pic.Y</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="1173">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="1174" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="1175" type="Level2Pic">
+                    <param id="0" name="X">Level1Pic.X+250</param>
+                    <param id="1" name="Y">Level1Pic.Y</param>
+                </action>
+                <action id="-3" name="Set position" sid="1189" type="Level3Pic">
+                    <param id="0" name="X">Level2Pic.X+250</param>
+                    <param id="1" name="Y">Level2Pic.Y</param>
+                </action>
+                <action id="0" name="Set text" sid="1190" type="SlideTester">
+                    <param id="0" name="Text">SelectedLevel</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1177">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1178" type="Touch">
+                    <param id="0" name="Object">NextWorldLeft</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="1185" type="System">
+                    <param id="0" name="Variable">SelectedLevel</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="1181" type="System">
+                    <param id="0" name="Variable">SelectedLevel</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1179">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1180" type="Touch">
+                    <param id="0" name="Object">NextWorldRight</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="1184" type="System">
+                    <param id="0" name="Variable">SelectedLevel</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="1182" type="System">
+                    <param id="0" name="Variable">SelectedLevel</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9995829436714195">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="7569795032127681" type="Keyboard">
+                    <param id="0" name="Key">83 (S)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-36" name="Save" sid="4755889340945119" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3415921587143992">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="1084643876384277" type="Keyboard">
+                    <param id="0" name="Key">76 (L)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-37" name="Load" sid="5271102025234811" type="System">
+                    <param id="0" name="Slot">&quot;mysave&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9762696261658594">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="484075117345141" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Flash" id="0" name="Flash" sid="2554952465207012" type="SelectAWorldText">
+                    <param id="0" name="&apos;On&apos; time">0.1</param>
+                    <param id="1" name="&apos;Off&apos; time">0.1</param>
+                    <param id="2" name="Duration">0.1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
