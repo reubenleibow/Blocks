@@ -81,7 +81,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite3" uid="150">
+                <instance type="ToFillWithEnergyBar" uid="150">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -91,8 +91,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>887.8125</x>
-                        <y>319</y>
+                        <x>896</x>
+                        <y>323</y>
                         <z>0</z>
                         <width>15</width>
                         <height>256</height>
@@ -985,8 +985,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>888</x>
-                        <y>439</y>
+                        <x>896</x>
+                        <y>448</y>
                         <z>0</z>
                         <width>10</width>
                         <height>10</height>
@@ -999,7 +999,7 @@
                 </instance>
                 <instance type="LocalTester" uid="176">
                     <properties>
-                        <text>Text</text>
+                        <text>100%</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial,-21,700,0</font>
                         <color>87,255,255</color>
