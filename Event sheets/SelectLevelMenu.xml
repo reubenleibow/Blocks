@@ -3,7 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>SelectLevelMenu</name>
     <events>
-        <variable constant="0" name="TotalStarsForMap1" sid="3839236233313316" static="0" type="number">0</variable>
+        <variable constant="1" name="TOAL_STARS_FOR_MAP_1" sid="362230318243801" static="0" type="number">45</variable>
+        <variable constant="0" name="StarsForMap1" sid="3839236233313316" static="0" type="number">0</variable>
         <variable constant="0" name="UnLocketLevel" sid="309" static="0" type="number">1</variable>
         <variable constant="0" name="CurrentLevelScore" sid="233" static="0" type="number">0</variable>
         <variable constant="0" name="CurrentLevel" sid="187" static="0" type="number">0</variable>
@@ -19,25 +20,18 @@
                 <action id="0" name="Set text" sid="241" type="CurrentLevelLable">
                     <param id="0" name="Text">int(&quot;0&quot;&amp;CurrentLevel)</param>
                 </action>
-                <action disabled="1" id="0" name="Set text" sid="6691306707857103" type="LocalTester">
-                    <param id="0" name="Text">WebStorage.LocalValue(&quot;Stars1&quot;)</param>
-                </action>
                 <action id="0" name="Set text" sid="110169841642396" type="LocalTester">
-                    <param id="0" name="Text">TotalStarsForMap1</param>
+                    <param id="0" name="Text">int(StarsForMap1/TOAL_STARS_FOR_MAP_1*100)  &amp; &quot;%&quot;</param>
                 </action>
-                <action id="-6" name="Set height" sid="8815425946936197" type="Sprite8">
-                    <param id="0" name="Height">TotalStarsForMap1*5</param>
+                <action id="-6" name="Set height" sid="8815425946936197" type="EnergyBar">
+                    <param id="0" name="Height">StarsForMap1*5</param>
                 </action>
-                <action id="0" name="Set text" sid="7032163124264837" type="TesterWill">
-                    <param id="0" name="Text">TotalStarsForMap1*5</param>
+                <action id="0" name="Set text" sid="7032163124264837" type="EnergyPercentage">
+                    <param id="0" name="Text">StarsForMap1*5</param>
                 </action>
                 <action id="-9" name="Set value" sid="1246913931596732" type="System">
-                    <param id="0" name="Variable">TotalStarsForMap1</param>
+                    <param id="0" name="Variable">StarsForMap1</param>
                     <param id="1" name="Value">0</param>
-                </action>
-                <action id="-3" name="Set position" sid="8860552592040717" type="Sprite8">
-                    <param id="0" name="X">781</param>
-                    <param id="1" name="Y">402</param>
                 </action>
             </actions>
             <sub-events>
@@ -65,7 +59,7 @@
                                     <param id="0" name="Frame number">StarsForButton</param>
                                 </action>
                                 <action id="-10" name="Add to" sid="258303946616221" type="System">
-                                    <param id="0" name="Variable">TotalStarsForMap1</param>
+                                    <param id="0" name="Variable">StarsForMap1</param>
                                     <param id="1" name="Value">StarsForButton</param>
                                 </action>
                             </actions>
@@ -82,17 +76,6 @@
                 <action id="-9" name="Set value" sid="6436055211718214" type="System">
                     <param id="0" name="Variable">UnLocketLevel</param>
                     <param id="1" name="Value">WebStorage.LocalValue(UNLOCKED_LEVEL_KEY)</param>
-                </action>
-                <action id="-9" name="Destroy" sid="1257" type="Sprite2" />
-                <action id="-3" name="Create object" sid="1258" type="System">
-                    <param id="0" name="Object to create">Sprite2</param>
-                    <param id="1" name="Layer">0</param>
-                    <param id="2" name="X">0</param>
-                    <param id="3" name="Y">0</param>
-                </action>
-                <action id="-3" name="Set position" sid="1259" type="Sprite2">
-                    <param id="0" name="X">128</param>
-                    <param id="1" name="Y"> 448</param>
                 </action>
                 <action id="-13" name="Set time scale" sid="445366135808249" type="System">
                     <param id="0" name="Time scale">1.0</param>
@@ -133,7 +116,7 @@
         <event-block sid="1260">
             <conditions>
                 <condition id="3" name="On touched object" sid="1261" type="Touch">
-                    <param id="0" name="Object">Sprite2</param>
+                    <param id="0" name="Object">BackToWorld</param>
                 </condition>
             </conditions>
             <actions>
@@ -188,5 +171,35 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="1054173757441145">
+            <conditions>
+                <condition id="2" name="Is playing" sid="3851832375450658" type="LevelButton">
+                    <param id="0" name="Animation">&quot;Open&quot;</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="211780697887835" type="Numbers">
+                    <param id="0" name="Object">LevelButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="6938627720763456" type="Numbers">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9746284192422271">
+            <conditions>
+                <condition id="2" name="Is playing" sid="960849754374196" type="LevelButton">
+                    <param id="0" name="Animation">&quot;Locked&quot;</param>
+                </condition>
+                <condition id="1" name="Is overlapping another object" sid="2045138898361345" type="Numbers">
+                    <param id="0" name="Object">LevelButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="3568952658769586" type="Numbers">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

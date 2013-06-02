@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Help</name>
+    <events>
+        <variable constant="0" name="PicNumber" sid="9904013935105877" static="0" type="number">1</variable>
+        <variable constant="0" name="CheckWorld" sid="9874845892868039" static="0" type="number">0</variable>
+        <event-block sid="6407621388753579">
+            <conditions>
+                <condition id="3" name="On touched object" sid="511884600279692" type="Touch">
+                    <param id="0" name="Object">NextPicH</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="4649409668017727" type="System">
+                    <param id="0" name="Variable">PicNumber</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="1451821658262418" type="System">
+                    <param id="0" name="Variable">PicNumber</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4104034096377062">
+            <conditions>
+                <condition id="3" name="On touched object" sid="9499730211379731" type="Touch">
+                    <param id="0" name="Object">PreviousPicH</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="5845382527510776" type="System">
+                    <param id="0" name="Variable">PicNumber</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="2879751752923878" type="System">
+                    <param id="0" name="Variable">PicNumber</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="252196557807324">
+            <conditions>
+                <condition id="3" name="On touched object" sid="1110916020570594" type="Touch">
+                    <param id="0" name="Object">ResumeH</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-37" name="Load" sid="2441936857864425" type="System">
+                    <param id="0" name="Slot">&quot;LevelOn&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3208172152766495">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="5585095431149379" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="8628012804233452" type="NumberText">
+                    <param id="0" name="Text">PicNumber</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1786518494444987">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="9598631264304393" type="System">
+                    <param id="0" name="Variable">PicNumber</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="2207634812185276" type="HelpPictures">
+                    <param id="0" name="Animation">&quot;Touch&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4657997245887192">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="9817759768838781" type="System">
+                    <param id="0" name="Variable">PicNumber</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6811142681913957" type="HelpPictures">
+                    <param id="0" name="Animation">&quot;Explosive&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="997922192613784">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="1710724775999644" type="System">
+                    <param id="0" name="Variable">PicNumber</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">3</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="3183310199987774" type="HelpPictures">
+                    <param id="0" name="Animation">&quot;SlidingDoor&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3763718718134308">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="5471734891831438" type="System">
+                    <param id="0" name="Variable">PicNumber</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">4</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="5557828729892524" type="HelpPictures">
+                    <param id="0" name="Animation">&quot;MovingDeath&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2773831464783343">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="4039936221017719" type="System">
+                    <param id="0" name="Variable">PicNumber</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="2918386392656428" type="HelpPictures">
+                    <param id="0" name="Animation">&quot;Prongs&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="581973367220299">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="9953800811030004" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="1741091789236354" type="System">
+                    <param id="0" name="Object to create">Sprite7</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">0</param>
+                    <param id="3" name="Y">0</param>
+                </action>
+                <action id="-25" name="Move to bottom" sid="5781765058941835" type="Sprite7" />
+            </actions>
+        </event-block>
+        <event-block sid="8197392601972682">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="6950959648580972" type="System" />
+            </conditions>
+            <actions>
+                <action id="-13" name="Set time scale" sid="3643438521029128" type="System">
+                    <param id="0" name="Time scale">1.0</param>
+                </action>
+                <action id="-3" name="Create object" sid="5435806949066177" type="System">
+                    <param id="0" name="Object to create">HelpPictures</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">483</param>
+                    <param id="3" name="Y">217</param>
+                </action>
+                <action id="-7" name="Set size" sid="1308098761359098" type="HelpPictures">
+                    <param id="0" name="Width">400</param>
+                    <param id="1" name="Height">256</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

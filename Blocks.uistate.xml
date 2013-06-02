@@ -10,13 +10,13 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1">1</layout>
-        <layout>Logo</layout>
-        <layout>StartScreen</layout>
+        <layout>Help</layout>
+        <layout>1</layout>
         <layout>UnusedLayout</layout>
-        <event-sheet>WorldSelectWorld</event-sheet>
-        <event-sheet>SelectLevelMenu</event-sheet>
-        <event-sheet>StartScreen</event-sheet>
+        <layout>StartScreen</layout>
+        <layout>SlideMenu</layout>
+        <layout active="1">LevelSelect</layout>
+        <layout>Layout 1</layout>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -28,5 +28,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <family expanded="0" name="Blocks" />
         <family expanded="0" name="SlidingMenuButtons" />
         <family expanded="1" name="SlidingMenuText" />
+        <family expanded="1" name="Numbers" />
     </families-expanded>
 </c2uistate>

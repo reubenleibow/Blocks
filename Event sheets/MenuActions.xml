@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>MenuActions</name>
     <events>
-        <variable constant="1" name="MENU_WIDTH" sid="535316460153231" static="0" type="number">300</variable>
+        <variable constant="1" name="MENU_WIDTH" sid="535316460153231" static="0" type="number">350</variable>
         <variable constant="1" name="MENU_STEP_SIZE" sid="5610398998929509" static="0" type="number">8</variable>
         <event-block sid="1120">
             <conditions>
@@ -58,9 +58,9 @@
         <event-block sid="770">
             <conditions>
                 <condition id="3" name="On touched object" sid="771" type="Touch">
-                    <param id="0" name="Object">RestartLevel</param>
+                    <param id="0" name="Object">RestartLevelStatic</param>
                 </condition>
-                <condition id="-9" name="Is visible" sid="922" type="RestartLevel" />
+                <condition id="-9" name="Is visible" sid="922" type="RestartLevelStatic" />
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="772" type="System" />
@@ -69,14 +69,24 @@
         <event-block sid="611">
             <conditions>
                 <condition id="3" name="On touched object" sid="612" type="Touch">
-                    <param id="0" name="Object">Puse</param>
+                    <param id="0" name="Object">PuseStatic</param>
                 </condition>
-                <condition id="-9" name="Is visible" sid="921" type="Puse" />
+                <condition id="-9" name="Is visible" sid="921" type="PuseStatic" />
             </conditions>
             <actions>
                 <action id="-12" name="Set group active" sid="4206596434110357" type="System">
                     <param id="0" name="Group name">&quot;ShowSlidingMenu&quot;</param>
                     <param id="1" name="State">1</param>
+                </action>
+                <action disabled="1" id="-30" name="Set layer effect enabled" sid="5707359270666257" type="System">
+                    <param id="0" name="Layer">0</param>
+                    <param id="1" name="Mode">1</param>
+                    <param id="2" name="Effect">&quot;BlurHorizontal&quot;</param>
+                </action>
+                <action disabled="1" id="-30" name="Set layer effect enabled" sid="6457248007669899" type="System">
+                    <param id="0" name="Layer">0</param>
+                    <param id="1" name="Mode">1</param>
+                    <param id="2" name="Effect">&quot;BlurVertical&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -97,9 +107,9 @@
         <event-block sid="832">
             <conditions>
                 <condition id="3" name="On touched object" sid="833" type="Touch">
-                    <param id="0" name="Object">RestartSar</param>
+                    <param id="0" name="Object">RestartEnd</param>
                 </condition>
-                <condition id="-9" name="Is visible" sid="919" type="RestartSar" />
+                <condition id="-9" name="Is visible" sid="919" type="RestartEnd" />
             </conditions>
             <actions>
                 <action id="-13" name="Set time scale" sid="834" type="System">
@@ -240,10 +250,10 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="4521010019063795" type="RestartLevel">
+                        <action id="-15" name="Set visible" sid="4521010019063795" type="RestartLevelStatic">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="7490809560522255" type="Puse">
+                        <action id="-15" name="Set visible" sid="7490809560522255" type="PuseStatic">
                             <param id="0" name="Visibility">1</param>
                         </action>
                         <action id="-12" name="Set group active" sid="5094740503578527" type="System">
@@ -263,10 +273,10 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-15" name="Set visible" sid="4521010019063795" type="RestartLevel">
+                        <action id="-15" name="Set visible" sid="4521010019063795" type="RestartLevelStatic">
                             <param id="0" name="Visibility">0</param>
                         </action>
-                        <action id="-15" name="Set visible" sid="7490809560522255" type="Puse">
+                        <action id="-15" name="Set visible" sid="7490809560522255" type="PuseStatic">
                             <param id="0" name="Visibility">0</param>
                         </action>
                         <action id="-12" name="Set group active" sid="5094740503578527" type="System">
@@ -346,6 +356,29 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="6462549907684682">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6179459952859899" type="Touch">
+                    <param id="0" name="Object">SoundPause</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="9327897933567806">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2315865855466742" type="Touch">
+                    <param id="0" name="Object">HelplPause</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-36" name="Save" sid="661590696768469" type="System">
+                    <param id="0" name="Slot">&quot;LevelOn&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="9648896359454175" type="System">
+                    <param id="0" name="Layout">Help</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

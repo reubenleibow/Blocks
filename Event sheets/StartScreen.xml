@@ -2,5 +2,99 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>StartScreen</name>
-    <events />
+    <events>
+        <event-block sid="2419995599613298">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="2111667402563182" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="1878687026186199" type="Puller">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action behavior="Physics" id="16" name="Set density" sid="5020595906678844" type="LightBlocks">
+                    <param id="0" name="Density">0.5</param>
+                </action>
+                <action id="-24" name="Move to top" sid="1810172871127482" type="GotToSelectWorld" />
+                <action behavior="Physics" id="16" name="Set density" sid="8094908198199915" type="ObBlocks">
+                    <param id="0" name="Density">0.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9488879572169918">
+            <conditions>
+                <condition id="2" name="Is in touch" sid="1742283432241308" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="8633568842158099" type="ParticlesByTouch">
+                    <param id="0" name="X">Touch.X</param>
+                    <param id="1" name="Y">Touch.Y</param>
+                </action>
+                <action id="-3" name="Set position" sid="9719042013484627" type="Puller">
+                    <param id="0" name="X">Touch.X</param>
+                    <param id="1" name="Y">Touch.Y</param>
+                </action>
+                <action id="0" name="Set spraying" sid="3832513507395463" type="ParticlesByTouch">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9741844432929899">
+            <conditions>
+                <condition id="2" inverted="1" name="Is in touch" sid="5518608321666132" type="Touch" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set spraying" sid="65768754564972" type="ParticlesByTouch">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4732554573686017">
+            <conditions>
+                <condition id="2" name="Is in touch" sid="2569253466529966" type="Touch" />
+                <condition id="1" name="Is overlapping another object" sid="8821440905527661" type="Puller">
+                    <param id="0" name="Object">LightBlocks</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="1" name="Apply force towards position" sid="3978658233536734" type="LightBlocks">
+                    <param id="0" name="Force">1</param>
+                    <param id="1" name="X">Touch.X</param>
+                    <param id="2" name="Y">Touch.y</param>
+                    <param id="3" name="Image point">0</param>
+                </action>
+                <action behavior="Physics" id="2" name="Apply force at angle" sid="9015008753378685" type="LightBlocks">
+                    <param id="0" name="Force">1</param>
+                    <param id="1" name="Angle">random(360)</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3082667357647657">
+            <conditions>
+                <condition id="3" name="On touched object" sid="9342100652076261" type="Touch">
+                    <param id="0" name="Object">Help</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-36" name="Save" sid="6936202950685309" type="System">
+                    <param id="0" name="Slot">&quot;LevelOn&quot;</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="7318413606024787" type="System">
+                    <param id="0" name="Layout">Help</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7673395087309235">
+            <conditions>
+                <condition id="3" name="On touched object" sid="9623185035965135" type="Touch">
+                    <param id="0" name="Object">GotToSelectWorld</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="772826136906964" type="System">
+                    <param id="0" name="Layout">SlideMenu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

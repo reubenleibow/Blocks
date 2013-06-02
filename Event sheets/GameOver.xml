@@ -35,7 +35,7 @@
                         <action id="0" name="Set text" sid="1127" type="BlocksColeccted">
                             <param id="0" name="Text">CollectedBlocks</param>
                         </action>
-                        <action id="5" name="Set frame" sid="2001936861431471" type="Sprite3">
+                        <action id="5" name="Set frame" sid="2001936861431471" type="BlockCounter">
                             <param id="0" name="Frame number">CollectedBlocks</param>
                         </action>
                         <action id="5" name="Set frame" sid="7764851889092804" type="EndgameStars">
@@ -77,9 +77,9 @@
                 <event-block sid="924">
                     <conditions>
                         <condition id="3" name="On touched object" sid="925" type="Touch">
-                            <param id="0" name="Object">GoToMenuSar</param>
+                            <param id="0" name="Object">GoToMenuEnd</param>
                         </condition>
-                        <condition id="-9" name="Is visible" sid="926" type="GoToMenuSar" />
+                        <condition id="-9" name="Is visible" sid="926" type="GoToMenuEnd" />
                         <condition id="-14" name="Compare variable" sid="930" type="System">
                             <param id="0" name="Variable">SelectLevel123</param>
                             <param id="1" name="Comparison">0</param>
@@ -95,9 +95,9 @@
                 <event-block sid="931">
                     <conditions>
                         <condition id="3" name="On touched object" sid="932" type="Touch">
-                            <param id="0" name="Object">GoToMenuSar</param>
+                            <param id="0" name="Object">GoToMenuEnd</param>
                         </condition>
-                        <condition id="-9" name="Is visible" sid="933" type="GoToMenuSar" />
+                        <condition id="-9" name="Is visible" sid="933" type="GoToMenuEnd" />
                         <condition id="-14" name="Compare variable" sid="934" type="System">
                             <param id="0" name="Variable">SelectLevel123</param>
                             <param id="1" name="Comparison">0</param>
@@ -147,14 +147,14 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="1971752468810086" title="Next level buttons when finnished stars">
+        <event-group collapsed="1" description="" sid="1971752468810086" title="Next level buttons when finnished stars">
             <sub-events>
                 <event-block sid="1319">
                     <conditions>
                         <condition id="3" name="On touched object" sid="1320" type="Touch">
-                            <param id="0" name="Object">NextLevelSar</param>
+                            <param id="0" name="Object">NextLevelEnd</param>
                         </condition>
-                        <condition id="-9" name="Is visible" sid="1321" type="NextLevelSar" />
+                        <condition id="-9" name="Is visible" sid="1321" type="NextLevelEnd" />
                         <condition id="-14" name="Compare variable" sid="1322" type="System">
                             <param id="0" name="Variable">CurrentLevel</param>
                             <param id="1" name="Comparison">0</param>
@@ -181,14 +181,14 @@
                 <event-block sid="1296">
                     <conditions>
                         <condition id="3" name="On touched object" sid="1297" type="Touch">
-                            <param id="0" name="Object">NextLevelSar</param>
+                            <param id="0" name="Object">NextLevelEnd</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="1302" type="System">
                             <param id="0" name="Variable">CurrentLevel</param>
                             <param id="1" name="Comparison">2</param>
                             <param id="2" name="Value">15</param>
                         </condition>
-                        <condition id="-9" name="Is visible" sid="1298" type="NextLevelSar" />
+                        <condition id="-9" name="Is visible" sid="1298" type="NextLevelEnd" />
                     </conditions>
                     <actions>
                         <action id="-13" name="Set time scale" sid="3382040228556286" type="System">
@@ -210,7 +210,7 @@
                 <event-block sid="1303">
                     <conditions>
                         <condition id="3" name="On touched object" sid="1304" type="Touch">
-                            <param id="0" name="Object">NextLevelSar</param>
+                            <param id="0" name="Object">NextLevelEnd</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="1317" type="System">
                             <param id="0" name="Variable">CurrentLevel</param>
@@ -222,7 +222,7 @@
                             <param id="1" name="Comparison">2</param>
                             <param id="2" name="Value">30</param>
                         </condition>
-                        <condition id="-9" name="Is visible" sid="1305" type="NextLevelSar" />
+                        <condition id="-9" name="Is visible" sid="1305" type="NextLevelEnd" />
                     </conditions>
                     <actions>
                         <action id="-13" name="Set time scale" sid="2501189557963235" type="System">
@@ -244,7 +244,7 @@
                 <event-block sid="1310">
                     <conditions>
                         <condition id="3" name="On touched object" sid="1311" type="Touch">
-                            <param id="0" name="Object">NextLevelSar</param>
+                            <param id="0" name="Object">NextLevelEnd</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="1318" type="System">
                             <param id="0" name="Variable">CurrentLevel</param>
@@ -256,7 +256,7 @@
                             <param id="1" name="Comparison">2</param>
                             <param id="2" name="Value">45</param>
                         </condition>
-                        <condition id="-9" name="Is visible" sid="1312" type="NextLevelSar" />
+                        <condition id="-9" name="Is visible" sid="1312" type="NextLevelEnd" />
                     </conditions>
                     <actions>
                         <action id="-13" name="Set time scale" sid="1672318272450184" type="System">
@@ -278,9 +278,9 @@
                 <event-block sid="1326">
                     <conditions>
                         <condition id="3" name="On touched object" sid="1327" type="Touch">
-                            <param id="0" name="Object">NextLevelSar</param>
+                            <param id="0" name="Object">NextLevelEnd</param>
                         </condition>
-                        <condition id="-9" name="Is visible" sid="1328" type="NextLevelSar" />
+                        <condition id="-9" name="Is visible" sid="1328" type="NextLevelEnd" />
                         <condition id="-14" name="Compare variable" sid="1329" type="System">
                             <param id="0" name="Variable">CurrentLevel</param>
                             <param id="1" name="Comparison">0</param>
@@ -307,9 +307,9 @@
                 <event-block sid="1333">
                     <conditions>
                         <condition id="3" name="On touched object" sid="1334" type="Touch">
-                            <param id="0" name="Object">NextLevelSar</param>
+                            <param id="0" name="Object">NextLevelEnd</param>
                         </condition>
-                        <condition id="-9" name="Is visible" sid="1335" type="NextLevelSar" />
+                        <condition id="-9" name="Is visible" sid="1335" type="NextLevelEnd" />
                         <condition id="-14" name="Compare variable" sid="1336" type="System">
                             <param id="0" name="Variable">CurrentLevel</param>
                             <param id="1" name="Comparison">0</param>
@@ -396,13 +396,13 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-15" name="Set visible" sid="804" type="NextLevelSar">
+                <action id="-15" name="Set visible" sid="804" type="NextLevelEnd">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="822" type="RestartSar">
+                <action id="-15" name="Set visible" sid="822" type="RestartEnd">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="908" type="GoToMenuSar">
+                <action id="-15" name="Set visible" sid="908" type="GoToMenuEnd">
                     <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
@@ -419,11 +419,11 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-10" name="Set value" sid="4466410413775451" type="Puse">
+                <action id="-10" name="Set value" sid="4466410413775451" type="PuseStatic">
                     <param id="0" name="Instance variable">Visible</param>
                     <param id="1" name="Value">1</param>
                 </action>
-                <action id="-10" name="Set value" sid="8407690171804103" type="RestartLevel">
+                <action id="-10" name="Set value" sid="8407690171804103" type="RestartLevelStatic">
                     <param id="0" name="Instance variable">Visible</param>
                     <param id="1" name="Value">1</param>
                 </action>
@@ -509,30 +509,43 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-10" name="Set value" sid="7658333909374351" type="Puse">
+                                <action id="-10" name="Set value" sid="7658333909374351" type="PuseStatic">
                                     <param id="0" name="Instance variable">Visible</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
-                                <action id="-10" name="Set value" sid="2013308011921063" type="RestartLevel">
+                                <action id="-10" name="Set value" sid="2013308011921063" type="RestartLevelStatic">
                                     <param id="0" name="Instance variable">Visible</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
-                                <action id="-15" name="Set visible" sid="800" type="NextLevelSar">
+                                <action id="-15" name="Set visible" sid="821" type="RestartEnd">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
-                                <action id="-15" name="Set visible" sid="821" type="RestartSar">
-                                    <param id="0" name="Visibility">1</param>
-                                </action>
-                                <action id="-15" name="Set visible" sid="907" type="GoToMenuSar">
+                                <action id="-15" name="Set visible" sid="907" type="GoToMenuEnd">
                                     <param id="0" name="Visibility">1</param>
                                 </action>
                                 <action id="-13" name="Set time scale" sid="825" type="System">
                                     <param id="0" name="Time scale">0</param>
                                 </action>
-                                <action id="-15" name="Set visible" sid="4363242508033845" type="EndgameStars">
-                                    <param id="0" name="Visibility">1</param>
-                                </action>
                             </actions>
+                            <sub-events>
+                                <event-block sid="393834587713339">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="3648811500004126" type="System">
+                                            <param id="0" name="Variable">CollectedBlocks</param>
+                                            <param id="1" name="Comparison">5</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-15" name="Set visible" sid="800" type="NextLevelEnd">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                        <action id="-15" name="Set visible" sid="4363242508033845" type="EndgameStars">
+                                            <param id="0" name="Visibility">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                         <event-block sid="915">
                             <conditions>
@@ -546,35 +559,13 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-10" name="Set value" sid="5525460286325617" type="Puse">
+                                <action id="-10" name="Set value" sid="5525460286325617" type="PuseStatic">
                                     <param id="0" name="Instance variable">Visible</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
-                                <action id="-10" name="Set value" sid="5038051491741883" type="RestartLevel">
+                                <action id="-10" name="Set value" sid="5038051491741883" type="RestartLevelStatic">
                                     <param id="0" name="Instance variable">Visible</param>
                                     <param id="1" name="Value">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="393834587713339">
-                            <conditions>
-                                <condition id="-14" name="Compare variable" sid="3648811500004126" type="System">
-                                    <param id="0" name="Variable">CollectedBlocks</param>
-                                    <param id="1" name="Comparison">2</param>
-                                    <param id="2" name="Value">2</param>
-                                </condition>
-                                <condition id="-14" name="Compare variable" sid="1333197125242942" type="System">
-                                    <param id="0" name="Variable">BlocksLeft</param>
-                                    <param id="1" name="Comparison">3</param>
-                                    <param id="2" name="Value">0</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-15" name="Set visible" sid="245820312806276" type="NextLevelSar">
-                                    <param id="0" name="Visibility">0</param>
-                                </action>
-                                <action id="-15" name="Set visible" sid="6073011269246144" type="EndgameStars">
-                                    <param id="0" name="Visibility">0</param>
                                 </action>
                             </actions>
                         </event-block>

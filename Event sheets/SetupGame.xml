@@ -14,7 +14,7 @@
                 <action id="-15" name="Set visible" sid="4599516809518558" type="ExplosiveArealong">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-16" name="Wait" sid="2838281056564393" type="System">
+                <action disabled="1" id="-16" name="Wait" sid="2838281056564393" type="System">
                     <param id="0" name="Seconds">0.01</param>
                 </action>
                 <action id="-3" name="Create object" sid="8291369516937298" type="System">
@@ -30,52 +30,52 @@
                     <param id="3" name="Y">280</param>
                 </action>
                 <action id="-3" name="Create object" sid="1745474388404571" type="System">
-                    <param id="0" name="Object to create">RestartSar</param>
+                    <param id="0" name="Object to create">RestartEnd</param>
                     <param id="1" name="Layer">3</param>
                     <param id="2" name="X">292</param>
                     <param id="3" name="Y">300</param>
                 </action>
                 <action id="-3" name="Create object" sid="2060653818325117" type="System">
-                    <param id="0" name="Object to create">NextLevelSar</param>
+                    <param id="0" name="Object to create">NextLevelEnd</param>
                     <param id="1" name="Layer">3</param>
                     <param id="2" name="X">390</param>
                     <param id="3" name="Y">302</param>
                 </action>
                 <action id="-3" name="Create object" sid="3445076324028114" type="System">
-                    <param id="0" name="Object to create">GoToMenuSar</param>
+                    <param id="0" name="Object to create">GoToMenuEnd</param>
                     <param id="1" name="Layer">3</param>
                     <param id="2" name="X">242</param>
                     <param id="3" name="Y">313</param>
-                </action>
-                <action id="-3" name="Create object" sid="1002790390777701" type="System">
-                    <param id="0" name="Object to create">ResumePause</param>
-                    <param id="1" name="Layer">3</param>
-                    <param id="2" name="X">100</param>
-                    <param id="3" name="Y">200</param>
-                </action>
-                <action id="-3" name="Create object" sid="9547454526450543" type="System">
-                    <param id="0" name="Object to create">SoundPause</param>
-                    <param id="1" name="Layer">3</param>
-                    <param id="2" name="X">100</param>
-                    <param id="3" name="Y">200</param>
                 </action>
                 <action id="-3" name="Create object" sid="3751475014682562" type="System">
                     <param id="0" name="Object to create">RestarPause</param>
                     <param id="1" name="Layer">3</param>
                     <param id="2" name="X">110</param>
-                    <param id="3" name="Y">197</param>
+                    <param id="3" name="Y">177</param>
                 </action>
-                <action id="-3" name="Create object" sid="8875986223085837" type="System">
-                    <param id="0" name="Object to create">HelplPause</param>
+                <action id="-3" name="Create object" sid="1002790390777701" type="System">
+                    <param id="0" name="Object to create">ResumePause</param>
                     <param id="1" name="Layer">3</param>
                     <param id="2" name="X">100</param>
-                    <param id="3" name="Y">200</param>
+                    <param id="3" name="Y">180</param>
                 </action>
                 <action id="-3" name="Create object" sid="5309487444340117" type="System">
                     <param id="0" name="Object to create">GoToMenuPause</param>
                     <param id="1" name="Layer">3</param>
                     <param id="2" name="X">100</param>
-                    <param id="3" name="Y">200</param>
+                    <param id="3" name="Y">180</param>
+                </action>
+                <action id="-3" name="Create object" sid="8875986223085837" type="System">
+                    <param id="0" name="Object to create">HelplPause</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">100</param>
+                    <param id="3" name="Y">180</param>
+                </action>
+                <action id="-3" name="Create object" sid="9547454526450543" type="System">
+                    <param id="0" name="Object to create">SoundPause</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">100</param>
+                    <param id="3" name="Y">180</param>
                 </action>
                 <action id="-3" name="Create object" sid="5189328909624931" type="System">
                     <param id="0" name="Object to create">LevelOn</param>
@@ -117,15 +117,15 @@
                 <action id="-5" name="Set width" sid="6324446844701517" type="Deathv">
                     <param id="0" name="Width">32</param>
                 </action>
-                <action id="-3" name="Set position" sid="9514107603184772" type="GoToMenuSar">
+                <action id="-3" name="Set position" sid="9514107603184772" type="GoToMenuEnd">
                     <param id="0" name="X">380</param>
                     <param id="1" name="Y">370</param>
                 </action>
-                <action id="-3" name="Set position" sid="8664672805943607" type="RestartSar">
+                <action id="-3" name="Set position" sid="8664672805943607" type="RestartEnd">
                     <param id="0" name="X">480</param>
                     <param id="1" name="Y">370</param>
                 </action>
-                <action id="-3" name="Set position" sid="6589961524803995" type="NextLevelSar">
+                <action id="-3" name="Set position" sid="6589961524803995" type="NextLevelEnd">
                     <param id="0" name="X">580</param>
                     <param id="1" name="Y">370</param>
                 </action>
@@ -161,13 +161,13 @@
                     <param id="0" name="X">480</param>
                     <param id="1" name="Y">280</param>
                 </action>
-                <action id="-15" name="Set visible" sid="3199062739840077" type="NextLevelSar">
+                <action id="-15" name="Set visible" sid="3199062739840077" type="NextLevelEnd">
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="8485979325736746" type="ResumePause">
                     <param id="0" name="Visibility">0</param>
                 </action>
-                <action id="-15" name="Set visible" sid="4432832599362657" type="GoToMenuSar">
+                <action id="-15" name="Set visible" sid="4432832599362657" type="GoToMenuEnd">
                     <param id="0" name="Visibility">0</param>
                 </action>
                 <action id="-15" name="Set visible" sid="5088702920291458" type="Puller">
@@ -256,6 +256,26 @@
                 </action>
                 <action id="-5" name="Set width" sid="3628508327450163" type="SlidingMenu">
                     <param id="0" name="Width">32</param>
+                </action>
+                <action id="-2" name="Set Y" sid="2894163974157366" type="SlidingMenu">
+                    <param id="0" name="Y">0</param>
+                </action>
+                <action id="-3" name="Create object" sid="8714380093717012" type="System">
+                    <param id="0" name="Object to create">EndgameStars</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">480</param>
+                    <param id="3" name="Y">210</param>
+                </action>
+                <action id="-15" name="Set visible" sid="688853649505819" type="EndgameStars">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-7" name="Set size" sid="7899437979534338" type="EndgameStars">
+                    <param id="0" name="Width">444</param>
+                    <param id="1" name="Height">144</param>
+                </action>
+                <action id="-9" name="Set value" sid="3862246950168719" type="System">
+                    <param id="0" name="Variable">SideOpenOrClosed</param>
+                    <param id="1" name="Value">0</param>
                 </action>
             </actions>
         </event-block>

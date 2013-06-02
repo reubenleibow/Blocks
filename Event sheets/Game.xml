@@ -265,7 +265,13 @@
                                     <param id="0" name="Object">ExplosiveAreaShort</param>
                                 </condition>
                             </conditions>
-                            <actions />
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="7685356084486623" type="ExplosiveShort">
+                                    <param id="0" name="Object">Particles2</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
                             <sub-events>
                                 <event-block sid="9786518302354112">
                                     <conditions>
@@ -351,7 +357,13 @@
                                     <param id="0" name="Object">ExplosiveArealong</param>
                                 </condition>
                             </conditions>
-                            <actions />
+                            <actions>
+                                <action id="0" name="Spawn another object" sid="6649780298545738" type="Explosivelong">
+                                    <param id="0" name="Object">Particles2</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="Image point">0</param>
+                                </action>
+                            </actions>
                             <sub-events>
                                 <event-block sid="1066271076153538">
                                     <conditions>
@@ -457,7 +469,7 @@
             <conditions>
                 <condition id="-14" name="Compare variable" sid="651405803708808" type="System">
                     <param id="0" name="Variable">SideOpenOrClosed</param>
-                    <param id="1" name="Comparison">0</param>
+                    <param id="1" name="Comparison">3</param>
                     <param id="2" name="Value">0</param>
                 </condition>
             </conditions>
@@ -472,7 +484,7 @@
             <conditions>
                 <condition id="-14" name="Compare variable" sid="5744814662564201" type="System">
                     <param id="0" name="Variable">SideOpenOrClosed</param>
-                    <param id="1" name="Comparison">0</param>
+                    <param id="1" name="Comparison">5</param>
                     <param id="2" name="Value">1</param>
                 </condition>
             </conditions>
@@ -498,12 +510,16 @@
                         </condition>
                         <condition id="-6" name="Compare height" sid="1857589811149879" type="SlidingDoor">
                             <param id="0" name="Comparison">2</param>
-                            <param id="1" name="Height">100</param>
+                            <param id="1" name="Height">120</param>
                         </condition>
                     </conditions>
                     <actions>
                         <action id="-6" name="Set height" sid="7574003980955041" type="SlidingDoor">
                             <param id="0" name="Height">SlidingDoor.Height+1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="1987944554136678" type="Swich">
+                            <param id="0" name="Animation">&quot;Open&quot;</param>
+                            <param id="1" name="From">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -531,6 +547,10 @@
                         <action id="-6" name="Set height" sid="7982748939923801" type="SlidingDoor">
                             <param id="0" name="Height">SlidingDoor.Height-1</param>
                         </action>
+                        <action id="4" name="Set animation" sid="1356881191998518" type="Swich">
+                            <param id="0" name="Animation">&quot;Closed&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -545,6 +565,72 @@
             </conditions>
             <actions>
                 <action id="-9" name="Set value" sid="3363336723284262" type="System">
+                    <param id="0" name="Variable">SideOpenOrClosed</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3398825257318375">
+            <conditions>
+                <condition id="-6" name="Compare height" sid="9891085299471977" type="SlidingDoor">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Height">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="1839308802129377" type="SlidingDoor">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1600530927478288">
+            <conditions>
+                <condition id="-6" name="Compare height" sid="9751434056100062" type="SlidingDoor">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Height">10</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="5508593651709442" type="SlidingDoor">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1551015112882455">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="1503477309554933" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="5831687659032716" type="Text4">
+                    <param id="0" name="Text">SideOpenOrClosed</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8316192870735818">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="2507551709547118" type="System">
+                    <param id="0" name="Variable">SideOpenOrClosed</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="6124827977095065" type="System">
+                    <param id="0" name="Variable">SideOpenOrClosed</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9777937189802341">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="620964907729026" type="System">
+                    <param id="0" name="Variable">SideOpenOrClosed</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="3435749197890361" type="System">
                     <param id="0" name="Variable">SideOpenOrClosed</param>
                     <param id="1" name="Value">0</param>
                 </action>

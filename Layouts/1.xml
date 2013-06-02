@@ -35,11 +35,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-29</x>
-                        <y>-12</y>
+                        <x>0</x>
+                        <y>-9</y>
                         <z>0</z>
-                        <width>1024</width>
-                        <height>606</height>
+                        <width>960</width>
+                        <height>552</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -99,7 +99,7 @@
                         <opacity>0.5</opacity>
                     </world>
                 </instance>
-                <instance type="Swich" uid="6">
+                <instance type="Swich" uid="318">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -109,15 +109,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>118</x>
-                        <y>-65</y>
+                        <x>182</x>
+                        <y>-103</y>
                         <z>0</z>
-                        <width>54</width>
-                        <height>22</height>
+                        <width>54.000003815</width>
+                        <height>15.454545021</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.50505048</hotspotY>
-                        <angle>0</angle>
+                        <hotspotY>0.533333361</hotspotY>
+                        <angle>1.101443529</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -127,7 +127,7 @@
                     <effect id="grayscale" />
                     <effect-instance type="Grayscale">
                         <parameters>
-                            <intensity>1</intensity>
+                            <intensity>0.75</intensity>
                         </parameters>
                     </effect-instance>
                 </effect-type>
@@ -598,7 +598,7 @@
                         <type>Continuous spray</type>
                         <initial-particle-properties></initial-particle-properties>
                         <speed>100</speed>
-                        <size>16</size>
+                        <size>18</size>
                         <opacity>100</opacity>
                         <grow-rate>0</grow-rate>
                         <x-randomiser>0</x-randomiser>
@@ -782,15 +782,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>902</x>
-                        <y>701</y>
+                        <x>939</x>
+                        <y>659</y>
                         <z>0</z>
                         <width>110</width>
                         <height>36</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>1.366281748</angle>
+                        <angle>1.310978889</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -876,11 +876,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>622</x>
-                        <y>771</y>
+                        <x>551</x>
+                        <y>730</y>
                         <z>0</z>
-                        <width>84</width>
-                        <height>49</height>
+                        <width>80</width>
+                        <height>50</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -927,11 +927,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1052</x>
-                        <y>410</y>
+                        <x>680</x>
+                        <y>748</y>
                         <z>0</z>
-                        <width>41</width>
-                        <height>30</height>
+                        <width>50</width>
+                        <height>80</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -1325,8 +1325,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>85</x>
-                        <y>350</y>
+                        <x>317</x>
+                        <y>-75</y>
                         <z>0</z>
                         <width>30</width>
                         <height>30</height>
@@ -1682,8 +1682,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>522</x>
-                        <y>-20</y>
+                        <x>511</x>
+                        <y>-67</y>
                         <z>0</z>
                         <width>90</width>
                         <height>30</height>
@@ -2654,13 +2654,35 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Swich" uid="6">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-183</x>
+                        <y>-131</y>
+                        <z>0</z>
+                        <width>50</width>
+                        <height>100</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.533333361</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects>
                 <effect-type name="Grayscale">
                     <effect id="grayscale" />
                     <effect-instance type="Grayscale">
                         <parameters>
-                            <intensity>1</intensity>
+                            <intensity>0.75</intensity>
                         </parameters>
                     </effect-instance>
                 </effect-type>
@@ -2754,10 +2776,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>-10.050750732</x>
-                        <y>-13</y>
+                        <y>-17</y>
                         <z>0</z>
                         <width>1006</width>
-                        <height>13</height>
+                        <height>17</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -2876,15 +2898,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>470</x>
-                        <y>641</y>
+                        <x>1029</x>
+                        <y>686</y>
                         <z>0</z>
                         <width>212.962966919</width>
                         <height>39.130435944</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
+                        <angle>-0.235575035</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -3156,7 +3178,7 @@
                     <effect id="grayscale" />
                     <effect-instance type="Grayscale">
                         <parameters>
-                            <intensity>1</intensity>
+                            <intensity>0.75</intensity>
                         </parameters>
                     </effect-instance>
                 </effect-type>
@@ -3230,7 +3252,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Puse" uid="168">
+                <instance type="PuseStatic" uid="168">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3244,18 +3266,18 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>937</x>
-                        <y>509</y>
+                        <y>499</y>
                         <z>0</z>
-                        <width>38.82352829</width>
-                        <height>43.67647171</height>
+                        <width>70</width>
+                        <height>70</height>
                         <depth>0</depth>
-                        <hotspotX>0.652777791</hotspotX>
-                        <hotspotY>0.345679015</hotspotY>
+                        <hotspotX>0.657142878</hotspotX>
+                        <hotspotY>0.342857152</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="RestartLevel" uid="169">
+                <instance type="RestartLevelStatic" uid="169">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3269,38 +3291,13 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>876</x>
-                        <y>511</y>
+                        <y>498</y>
                         <z>0</z>
-                        <width>39.90196228</width>
-                        <height>42.59803772</height>
+                        <width>70</width>
+                        <height>70</height>
                         <depth>0</depth>
-                        <hotspotX>0.635135114</hotspotX>
-                        <hotspotY>0.341772139</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="EndgameStars" uid="170">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <StarForLevelPic>0</StarForLevelPic>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>338</x>
-                        <y>-144</y>
-                        <z>0</z>
-                        <width>444</width>
-                        <height>144</height>
-                        <depth>0</depth>
-                        <hotspotX>0.502252281</hotspotX>
-                        <hotspotY>0.506944418</hotspotY>
+                        <hotspotX>0.628571451</hotspotX>
+                        <hotspotY>0.342857152</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -3310,15 +3307,5 @@
         </layer>
     </layers>
     <nonworld-instances />
-    <effects>
-        <effect-type name="Vignette">
-            <effect id="vignette" />
-            <effect-instance type="Vignette">
-                <parameters>
-                    <end-radius>0.75</end-radius>
-                    <start-radius>0.3</start-radius>
-                </parameters>
-            </effect-instance>
-        </effect-type>
-    </effects>
+    <effects />
 </c2layout>
