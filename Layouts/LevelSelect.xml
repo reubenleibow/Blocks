@@ -27,7 +27,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Sprite3ggsdfg" uid="6">
+                <instance type="World1Backgrounds" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -38,13 +38,13 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>480</x>
-                        <y>256</y>
+                        <y>288</y>
                         <z>0</z>
-                        <width>1024</width>
-                        <height>600</height>
+                        <width>998</width>
+                        <height>574</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.513026059</hotspotX>
+                        <hotspotY>0.522648096</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -72,7 +72,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>736</x>
-                        <y>237</y>
+                        <y>266</y>
                         <z>0</z>
                         <width>452</width>
                         <height>442</height>

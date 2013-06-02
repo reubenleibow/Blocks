@@ -24,6 +24,7 @@
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
@@ -57,8 +58,8 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use iOS retina display">Yes</prop>
     </configuration-settings>
-    <object-folder expanded="1">
-        <object-folder expanded="1" name="Blocks">
+    <object-folder expanded="0">
+        <object-folder expanded="0" name="Blocks">
             <object-type name="LightBlocks" sid="50">
                 <plugin id="Sprite" />
                 <behaviors>
@@ -1369,7 +1370,7 @@
                 </animation-folder>
             </object-type>
         </object-folder>
-        <object-folder expanded="1" name="Stuff">
+        <object-folder expanded="0" name="Stuff">
             <object-type name="Level1Pic" sid="1165">
                 <plugin id="Sprite" />
                 <animation-folder expanded="1">
@@ -1775,6 +1776,14 @@
                 <plugin id="TiledBg" />
                 <texture />
             </object-type>
+            <object-type name="World1Backgrounds" sid="4695353538008471">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8063998219222374" speed="5">
+                        <frame duration="1" hotspotX="0.513026" hotspotY="0.522648" />
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="WebStorage" sid="0">
             <plugin id="WebStorage" />
@@ -1797,11 +1806,35 @@
         <object-type name="Function" sid="2541748542353471">
             <plugin id="Function" />
         </object-type>
-        <object-type name="Sprite3ggsdfg" sid="4695353538008471">
+        <object-type name="Sprite3" sid="7743788412002079">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8063998219222374" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4914974335120127" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GoToWorld1" sid="4836274598735887">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="8597881060272349">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5041919543085775" speed="5">
+                    <frame duration="1" hotspotX="0.503704" hotspotY="0.503704">
+                        <collision-poly>
+                            <point x="0.237037" y="0.237037" />
+                            <point x="0.496296" y="0.133333" />
+                            <point x="0.755556" y="0.244444" />
+                            <point x="0.859259" y="0.496296" />
+                            <point x="0.755556" y="0.755556" />
+                            <point x="0.496296" y="0.859259" />
+                            <point x="0.244444" y="0.755556" />
+                            <point x="0.133333" y="0.496296" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -1848,9 +1881,10 @@
             </members>
         </family>
     </families>
-    <layout-folder expanded="0">
+    <layout-folder expanded="1">
         <layout-folder expanded="1" name="World1Levels">
             <layout>1.xml</layout>
+            <layout>WelcomeWorld1.xml</layout>
         </layout-folder>
         <layout-folder expanded="1" name="LevelSelectFolder">
             <layout>LevelSelect.xml</layout>
@@ -1866,7 +1900,7 @@
         <layout>UnusedLayout.xml</layout>
         <layout>Layout 1.xml</layout>
     </layout-folder>
-    <event-folder expanded="0">
+    <event-folder expanded="1">
         <event-folder expanded="1" name="GameData">
             <event-sheet>Game.xml</event-sheet>
             <event-sheet>GameOver.xml</event-sheet>
@@ -1879,6 +1913,7 @@
         <event-sheet>Logo.xml</event-sheet>
         <event-sheet>StartScreen.xml</event-sheet>
         <event-sheet>SetupGame.xml</event-sheet>
+        <event-sheet>WelcomeWorld.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="WebStorage" uid="7" />
