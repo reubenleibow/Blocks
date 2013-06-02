@@ -27,22 +27,24 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="SpaceGameBackground" uid="172">
+                <instance type="Sprite3ggsdfg" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-5</x>
-                        <y>-41</y>
+                        <x>480</x>
+                        <y>256</y>
                         <z>0</z>
-                        <width>971</width>
-                        <height>586</height>
+                        <width>1024</width>
+                        <height>600</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

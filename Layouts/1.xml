@@ -27,26 +27,6 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="SpaceGameBackground" uid="0">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>0</x>
-                        <y>-9</y>
-                        <z>0</z>
-                        <width>960</width>
-                        <height>552</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="ExplosiveArealong" uid="1">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -97,6 +77,28 @@
                         <hotspotY>0.600000024</hotspotY>
                         <angle>1.49167943</angle>
                         <opacity>0.5</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite3ggsdfg" uid="0">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>474</x>
+                        <y>293</y>
+                        <z>0</z>
+                        <width>1024</width>
+                        <height>600</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>

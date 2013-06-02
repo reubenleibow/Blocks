@@ -1771,10 +1771,6 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="SpaceGameBackground" sid="409">
-                <plugin id="TiledBg" />
-                <texture />
-            </object-type>
             <object-type name="StartScreenMenu" sid="9811625693415977">
                 <plugin id="TiledBg" />
                 <texture />
@@ -1800,6 +1796,14 @@
         </object-type>
         <object-type name="Function" sid="2541748542353471">
             <plugin id="Function" />
+        </object-type>
+        <object-type name="Sprite3ggsdfg" sid="4695353538008471">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8063998219222374" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families>

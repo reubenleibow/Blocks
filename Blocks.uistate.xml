@@ -11,11 +11,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout>Help</layout>
-        <layout active="1">1</layout>
+        <layout>1</layout>
         <layout>UnusedLayout</layout>
         <layout>StartScreen</layout>
         <layout>SlideMenu</layout>
-        <layout>LevelSelect</layout>
+        <layout active="1">LevelSelect</layout>
         <layout>Layout 1</layout>
         <layout>Logo</layout>
     </open-tabs>
