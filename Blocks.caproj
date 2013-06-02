@@ -58,7 +58,7 @@
         <prop name="Use iOS retina display">Yes</prop>
     </configuration-settings>
     <object-folder expanded="1">
-        <object-folder expanded="0" name="Blocks">
+        <object-folder expanded="1" name="Blocks">
             <object-type name="LightBlocks" sid="50">
                 <plugin id="Sprite" />
                 <behaviors>
@@ -1408,59 +1408,6 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="HelpLazerPic" sid="6832612266186339">
-                <plugin id="Sprite" />
-                <animation-folder expanded="1">
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="654049328240771" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.0307692" y="0.04" />
-                                <point x="0.969231" y="0.04" />
-                                <point x="0.969231" y="0.96" />
-                                <point x="0.0307692" y="0.96" />
-                            </collision-poly>
-                        </frame>
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="HelpPictures" sid="5440234846768844">
-                <plugin id="Sprite" />
-                <animation-folder expanded="1">
-                    <animation framecount="5" loop="0" name="Touch" pingpong="0" repeatcount="1" repeatto="0" sid="6301729858269616" speed="1">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                    <animation framecount="4" loop="0" name="Explosive" pingpong="0" repeatcount="1" repeatto="0" sid="6671436556274169" speed="1">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                    <animation framecount="4" loop="0" name="SlidingDoor" pingpong="0" repeatcount="1" repeatto="0" sid="5571537564184866" speed="1">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                    <animation framecount="5" loop="0" name="MovingDeath" pingpong="0" repeatcount="1" repeatto="0" sid="7078014839737462" speed="2">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                    <animation framecount="5" loop="0" name="Prongs" pingpong="0" repeatcount="1" repeatto="0" sid="2015155692938066" speed="1">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
             <object-type name="Level2Pic" sid="1171">
                 <plugin id="Sprite" />
                 <effects>
@@ -1729,32 +1676,11 @@
                 <plugin id="NinePatch" />
                 <texture />
             </object-type>
-            <object-type name="HelpScreenBackground" sid="8224908738126232">
-                <plugin id="Sprite" />
-                <effects>
-                    <effect-type name="Grayscale">
-                        <effect id="grayscale" />
-                    </effect-type>
-                </effects>
-                <animation-folder expanded="1">
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186457845455884" speed="5">
-                        <frame duration="1" hotspotX="0" hotspotY="0" />
-                    </animation>
-                </animation-folder>
-            </object-type>
-            <object-type name="SpaceGameBackground" sid="409">
-                <plugin id="TiledBg" />
-                <texture />
-            </object-type>
             <object-type name="TiledBackground4" sid="9291226270366116">
                 <plugin id="TiledBg" />
                 <texture />
             </object-type>
             <object-type name="TiledBackground6" sid="128387216700415">
-                <plugin id="TiledBg" />
-                <texture />
-            </object-type>
-            <object-type name="StartScreenMenu" sid="9811625693415977">
                 <plugin id="TiledBg" />
                 <texture />
             </object-type>
@@ -1776,6 +1702,82 @@
                         </frame>
                     </animation>
                 </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder expanded="1" name="Bacgrounds">
+            <object-type name="HelpPictures" sid="5440234846768844">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="5" loop="0" name="Touch" pingpong="0" repeatcount="1" repeatto="0" sid="6301729858269616" speed="1">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="4" loop="0" name="Explosive" pingpong="0" repeatcount="1" repeatto="0" sid="6671436556274169" speed="1">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="4" loop="0" name="SlidingDoor" pingpong="0" repeatcount="1" repeatto="0" sid="5571537564184866" speed="1">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="5" loop="0" name="MovingDeath" pingpong="0" repeatcount="1" repeatto="0" sid="7078014839737462" speed="2">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="5" loop="0" name="Prongs" pingpong="0" repeatcount="1" repeatto="0" sid="2015155692938066" speed="1">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HelpLazerPic" sid="6832612266186339">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="654049328240771" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.0307692" y="0.04" />
+                                <point x="0.969231" y="0.04" />
+                                <point x="0.969231" y="0.96" />
+                                <point x="0.0307692" y="0.96" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HelpScreenBackground" sid="8224908738126232">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="Grayscale">
+                        <effect id="grayscale" />
+                    </effect-type>
+                </effects>
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="186457845455884" speed="5">
+                        <frame duration="1" hotspotX="0" hotspotY="0" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="SpaceGameBackground" sid="409">
+                <plugin id="TiledBg" />
+                <texture />
+            </object-type>
+            <object-type name="StartScreenMenu" sid="9811625693415977">
+                <plugin id="TiledBg" />
+                <texture />
             </object-type>
         </object-folder>
         <object-type name="WebStorage" sid="0">
