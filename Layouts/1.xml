@@ -99,28 +99,6 @@
                         <opacity>0.5</opacity>
                     </world>
                 </instance>
-                <instance type="Swich" uid="318">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>182</x>
-                        <y>-103</y>
-                        <z>0</z>
-                        <width>54.000003815</width>
-                        <height>15.454545021</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.533333361</hotspotY>
-                        <angle>1.101443529</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
             </instances>
             <effects>
                 <effect-type name="Grayscale">
@@ -2654,7 +2632,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Swich" uid="6">
+                <instance type="Swich" uid="318">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2664,15 +2642,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-183</x>
-                        <y>-131</y>
+                        <x>182</x>
+                        <y>-103</y>
                         <z>0</z>
-                        <width>50</width>
-                        <height>100</height>
+                        <width>54.000003815</width>
+                        <height>15.454545021</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.533333361</hotspotY>
-                        <angle>0</angle>
+                        <angle>1.101443529</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
