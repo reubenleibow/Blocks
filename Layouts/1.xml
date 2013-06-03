@@ -625,10 +625,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>337</x>
-                        <y>508</y>
+                        <x>274</x>
+                        <y>592</y>
                         <z>0</z>
-                        <width>200</width>
+                        <width>43</width>
                         <height>30</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -641,8 +641,8 @@
                     <properties>
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>255,255,255</color>
+                        <font>Comic Sans MS,-24,700,0</font>
+                        <color>87,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -652,14 +652,26 @@
                     <behavior-instances>
                         <behavior-instance type="Flash" />
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="GlowHorizontal">
+                            <parameters>
+                                <intensity>0.75</intensity>
+                            </parameters>
+                        </effect-instance>
+                        <effect-instance type="GlowVertical">
+                            <parameters>
+                                <intensity>0.75</intensity>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>84</x>
-                        <y>507</y>
+                        <x>107</x>
+                        <y>501</y>
                         <z>0</z>
                         <width>90</width>
-                        <height>32</height>
+                        <height>46</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -671,22 +683,34 @@
                     <properties>
                         <text>Time:</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>255,255,255</color>
+                        <font>Comic Sans MS,-24,700,0</font>
+                        <color>87,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
                         <line-height>0</line-height>
                     </properties>
+                    <effect-instances>
+                        <effect-instance type="GlowHorizontal">
+                            <parameters>
+                                <intensity>0.75</intensity>
+                            </parameters>
+                        </effect-instance>
+                        <effect-instance type="GlowVertical">
+                            <parameters>
+                                <intensity>0.75</intensity>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>33</x>
-                        <y>507</y>
+                        <x>32</x>
+                        <y>499</y>
                         <z>0</z>
                         <width>102</width>
-                        <height>32</height>
+                        <height>46</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -3193,10 +3217,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>163</x>
-                        <y>509</y>
+                        <x>613</x>
+                        <y>599</y>
                         <z>0</z>
-                        <width>198</width>
+                        <width>69</width>
                         <height>32</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -3207,24 +3231,36 @@
                 </instance>
                 <instance type="BlocksColeccted" uid="166">
                     <properties>
-                        <text>Text</text>
+                        <text>0</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>255,255,255</color>
+                        <font>Comic Sans MS,-24,700,0</font>
+                        <color>87,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
                         <wrapping>Word</wrapping>
                         <line-height>0</line-height>
                     </properties>
+                    <effect-instances>
+                        <effect-instance type="GlowHorizontal">
+                            <parameters>
+                                <intensity>0.75</intensity>
+                            </parameters>
+                        </effect-instance>
+                        <effect-instance type="GlowVertical">
+                            <parameters>
+                                <intensity>0.75</intensity>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>412</x>
-                        <y>517</y>
+                        <x>423</x>
+                        <y>505</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>30</height>
+                        <width>118</width>
+                        <height>35</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -3246,7 +3282,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>937</x>
-                        <y>499</y>
+                        <y>501</y>
                         <z>0</z>
                         <width>70</width>
                         <height>70</height>
@@ -3271,13 +3307,52 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>876</x>
-                        <y>498</y>
+                        <y>501</y>
                         <z>0</z>
                         <width>70</width>
                         <height>70</height>
                         <depth>0</depth>
                         <hotspotX>0.628571451</hotspotX>
                         <hotspotY>0.342857152</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Text5" uid="156">
+                    <properties>
+                        <text>Cubes Collected :</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Comic Sans MS,-24,700,0</font>
+                        <color>87,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <effect-instances>
+                        <effect-instance type="GlowHorizontal">
+                            <parameters>
+                                <intensity>0.75</intensity>
+                            </parameters>
+                        </effect-instance>
+                        <effect-instance type="GlowVertical">
+                            <parameters>
+                                <intensity>0.75</intensity>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>227</x>
+                        <y>504</y>
+                        <z>0</z>
+                        <width>198</width>
+                        <height>35</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

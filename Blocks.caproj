@@ -362,6 +362,14 @@
             </object-type>
             <object-type name="BlocksColeccted" sid="1126">
                 <plugin id="Text" />
+                <effects>
+                    <effect-type name="GlowHorizontal">
+                        <effect id="glowhorizontal" />
+                    </effect-type>
+                    <effect-type name="GlowVertical">
+                        <effect id="glowvertical" />
+                    </effect-type>
+                </effects>
             </object-type>
             <object-type name="CurrentLevelLable" sid="196">
                 <plugin id="Text" />
@@ -375,15 +383,39 @@
             </object-type>
             <object-type name="L" sid="1108">
                 <plugin id="Text" />
+                <effects>
+                    <effect-type name="GlowHorizontal">
+                        <effect id="glowhorizontal" />
+                    </effect-type>
+                    <effect-type name="GlowVertical">
+                        <effect id="glowvertical" />
+                    </effect-type>
+                </effects>
             </object-type>
             <object-type name="LevelOn" sid="1107">
                 <plugin id="Text" />
+                <effects>
+                    <effect-type name="GlowHorizontal">
+                        <effect id="glowhorizontal" />
+                    </effect-type>
+                    <effect-type name="GlowVertical">
+                        <effect id="glowvertical" />
+                    </effect-type>
+                </effects>
             </object-type>
             <object-type name="SlideTester" sid="1186">
                 <plugin id="Text" />
             </object-type>
             <object-type name="TimeText" sid="457">
                 <plugin id="Text" />
+                <effects>
+                    <effect-type name="GlowHorizontal">
+                        <effect id="glowhorizontal" />
+                    </effect-type>
+                    <effect-type name="GlowVertical">
+                        <effect id="glowvertical" />
+                    </effect-type>
+                </effects>
             </object-type>
             <object-type name="UnLockedLevelLabel" sid="310">
                 <plugin id="Text" />
@@ -395,6 +427,14 @@
                         <behavior id="Flash" />
                     </behavior-type>
                 </behaviors>
+                <effects>
+                    <effect-type name="GlowHorizontal">
+                        <effect id="glowhorizontal" />
+                    </effect-type>
+                    <effect-type name="GlowVertical">
+                        <effect id="glowvertical" />
+                    </effect-type>
+                </effects>
             </object-type>
             <object-type name="Text2" sid="225">
                 <plugin id="Text" />
@@ -575,11 +615,6 @@
             </object-type>
             <object-type name="RestarPause" sid="972">
                 <plugin id="Sprite" />
-                <effects>
-                    <effect-type name="Brightness">
-                        <effect id="brightness" />
-                    </effect-type>
-                </effects>
                 <animation-folder expanded="1">
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="973" speed="5">
                         <frame duration="1" hotspotX="0.511111" hotspotY="0.518519">
@@ -1837,6 +1872,17 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Text5" sid="8902268274730662">
+            <plugin id="Text" />
+            <effects>
+                <effect-type name="GlowHorizontal">
+                    <effect id="glowhorizontal" />
+                </effect-type>
+                <effect-type name="GlowVertical">
+                    <effect id="glowvertical" />
+                </effect-type>
+            </effects>
         </object-type>
     </object-folder>
     <families>

@@ -135,19 +135,19 @@
                 </action>
                 <action id="-3" name="Set position" sid="7286071747024129" type="ResumePause">
                     <param id="0" name="X">173</param>
-                    <param id="1" name="Y">280</param>
+                    <param id="1" name="Y">260</param>
                 </action>
                 <action id="-3" name="Set position" sid="9631672392473559" type="GoToMenuPause">
                     <param id="0" name="X">110</param>
-                    <param id="1" name="Y">370</param>
+                    <param id="1" name="Y">350</param>
                 </action>
                 <action id="-3" name="Set position" sid="8592795270027638" type="SoundPause">
                     <param id="0" name="X">157</param>
-                    <param id="1" name="Y">480</param>
+                    <param id="1" name="Y">450</param>
                 </action>
                 <action id="-3" name="Set position" sid="23870095493999" type="HelplPause">
                     <param id="0" name="X">60</param>
-                    <param id="1" name="Y">480</param>
+                    <param id="1" name="Y">450</param>
                 </action>
                 <action id="-3" name="Set position" sid="8654423783534453" type="L">
                     <param id="0" name="X">24</param>
