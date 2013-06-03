@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>MenuActions</name>
     <events>
-        <variable constant="1" name="MENU_WIDTH" sid="535316460153231" static="0" type="number">350</variable>
+        <variable constant="1" name="MENU_WIDTH" sid="535316460153231" static="0" type="number">310</variable>
         <variable constant="1" name="MENU_STEP_SIZE" sid="5610398998929509" static="0" type="number">8</variable>
         <event-block sid="1120">
             <conditions>
@@ -77,16 +77,6 @@
                 <action id="-12" name="Set group active" sid="4206596434110357" type="System">
                     <param id="0" name="Group name">&quot;ShowSlidingMenu&quot;</param>
                     <param id="1" name="State">1</param>
-                </action>
-                <action disabled="1" id="-30" name="Set layer effect enabled" sid="5707359270666257" type="System">
-                    <param id="0" name="Layer">0</param>
-                    <param id="1" name="Mode">1</param>
-                    <param id="2" name="Effect">&quot;BlurHorizontal&quot;</param>
-                </action>
-                <action disabled="1" id="-30" name="Set layer effect enabled" sid="6457248007669899" type="System">
-                    <param id="0" name="Layer">0</param>
-                    <param id="1" name="Mode">1</param>
-                    <param id="2" name="Effect">&quot;BlurVertical&quot;</param>
                 </action>
             </actions>
         </event-block>

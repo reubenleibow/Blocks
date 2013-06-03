@@ -441,6 +441,14 @@
             </object-type>
             <object-type name="PauseText" sid="3997486713809168">
                 <plugin id="Text" />
+                <effects>
+                    <effect-type name="GlowHorizontal">
+                        <effect id="glowhorizontal" />
+                    </effect-type>
+                    <effect-type name="GlowVertical">
+                        <effect id="glowvertical" />
+                    </effect-type>
+                </effects>
             </object-type>
             <object-type name="EnergyCubeText" sid="6958755044935594">
                 <plugin id="Text" />
@@ -1931,6 +1939,7 @@
         <layout-folder expanded="1" name="World1Levels">
             <layout>1.xml</layout>
             <layout>WelcomeWorld1.xml</layout>
+            <layout>Wold1EndMovie.xml</layout>
         </layout-folder>
         <layout-folder expanded="1" name="LevelSelectFolder">
             <layout>LevelSelect.xml</layout>
@@ -1960,6 +1969,7 @@
         <event-sheet>StartScreen.xml</event-sheet>
         <event-sheet>SetupGame.xml</event-sheet>
         <event-sheet>WelcomeWorld.xml</event-sheet>
+        <event-sheet>World1EndMovie.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="WebStorage" uid="7" />

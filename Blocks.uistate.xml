@@ -11,7 +11,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout>Help</layout>
-        <layout active="1">1</layout>
+        <layout>1</layout>
         <layout>UnusedLayout</layout>
         <layout>StartScreen</layout>
         <layout>SlideMenu</layout>
@@ -19,12 +19,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout>Layout 1</layout>
         <layout>Logo</layout>
         <layout>WelcomeWorld1</layout>
+        <layout active="1">Wold1EndMovie</layout>
         <event-sheet>WelcomeWorld</event-sheet>
         <event-sheet>SelectLevelMenu</event-sheet>
         <event-sheet>WorldSelectWorld</event-sheet>
         <event-sheet>MenuActions</event-sheet>
         <event-sheet>StartScreen</event-sheet>
         <event-sheet>SetupGame</event-sheet>
+        <event-sheet>World1EndMovie</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

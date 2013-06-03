@@ -134,7 +134,7 @@
                     <param id="1" name="Height">18</param>
                 </action>
                 <action id="-3" name="Set position" sid="7286071747024129" type="ResumePause">
-                    <param id="0" name="X">173</param>
+                    <param id="0" name="X">163</param>
                     <param id="1" name="Y">260</param>
                 </action>
                 <action id="-3" name="Set position" sid="9631672392473559" type="GoToMenuPause">

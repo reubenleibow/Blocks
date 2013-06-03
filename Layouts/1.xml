@@ -655,12 +655,12 @@
                     <effect-instances>
                         <effect-instance type="GlowHorizontal">
                             <parameters>
-                                <intensity>0.75</intensity>
+                                <intensity>0.5</intensity>
                             </parameters>
                         </effect-instance>
                         <effect-instance type="GlowVertical">
                             <parameters>
-                                <intensity>0.75</intensity>
+                                <intensity>0.5</intensity>
                             </parameters>
                         </effect-instance>
                     </effect-instances>
@@ -694,12 +694,12 @@
                     <effect-instances>
                         <effect-instance type="GlowHorizontal">
                             <parameters>
-                                <intensity>0.75</intensity>
+                                <intensity>0.5</intensity>
                             </parameters>
                         </effect-instance>
                         <effect-instance type="GlowVertical">
                             <parameters>
-                                <intensity>0.75</intensity>
+                                <intensity>0.5</intensity>
                             </parameters>
                         </effect-instance>
                     </effect-instances>
@@ -880,8 +880,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>551</x>
-                        <y>730</y>
+                        <x>127</x>
+                        <y>319</y>
                         <z>0</z>
                         <width>80</width>
                         <height>50</height>
@@ -3244,12 +3244,12 @@
                     <effect-instances>
                         <effect-instance type="GlowHorizontal">
                             <parameters>
-                                <intensity>0.75</intensity>
+                                <intensity>0.5</intensity>
                             </parameters>
                         </effect-instance>
                         <effect-instance type="GlowVertical">
                             <parameters>
-                                <intensity>0.75</intensity>
+                                <intensity>0.5</intensity>
                             </parameters>
                         </effect-instance>
                     </effect-instances>
@@ -3257,7 +3257,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>423</x>
-                        <y>505</y>
+                        <y>501</y>
                         <z>0</z>
                         <width>118</width>
                         <height>35</height>
@@ -3333,12 +3333,12 @@
                     <effect-instances>
                         <effect-instance type="GlowHorizontal">
                             <parameters>
-                                <intensity>0.75</intensity>
+                                <intensity>0.5</intensity>
                             </parameters>
                         </effect-instance>
                         <effect-instance type="GlowVertical">
                             <parameters>
-                                <intensity>0.75</intensity>
+                                <intensity>0.5</intensity>
                             </parameters>
                         </effect-instance>
                     </effect-instances>
@@ -3346,7 +3346,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>227</x>
-                        <y>504</y>
+                        <y>500</y>
                         <z>0</z>
                         <width>198</width>
                         <height>35</height>
