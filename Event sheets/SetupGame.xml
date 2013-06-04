@@ -251,7 +251,7 @@
                 <action behavior="Physics" id="12" name="Set world gravity" sid="9898437268245323" type="ObBlocks">
                     <param id="0" name="Gravity">0</param>
                 </action>
-                <action behavior="Physics" id="12" name="Set world gravity" sid="6187399084450949" type="ObBlocks2">
+                <action behavior="Physics" id="12" name="Set world gravity" sid="6187399084450949" type="ObBlocksLong">
                     <param id="0" name="Gravity">0</param>
                 </action>
                 <action id="-5" name="Set width" sid="3628508327450163" type="SlidingMenu">

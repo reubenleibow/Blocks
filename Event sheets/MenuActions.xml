@@ -360,6 +360,7 @@
                 <condition id="3" name="On touched object" sid="2315865855466742" type="Touch">
                     <param id="0" name="Object">HelplPause</param>
                 </condition>
+                <condition id="-9" name="Is visible" sid="2144727987091729" type="HelplPause" />
             </conditions>
             <actions>
                 <action id="-36" name="Save" sid="661590696768469" type="System">

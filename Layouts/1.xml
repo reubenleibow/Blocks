@@ -1458,7 +1458,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks2" uid="89">
+                <instance type="ObBlocksLong" uid="89">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1498,7 +1498,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks2" uid="90">
+                <instance type="ObBlocksLong" uid="90">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1538,7 +1538,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks2" uid="91">
+                <instance type="ObBlocksLong" uid="91">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1578,7 +1578,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks2" uid="92">
+                <instance type="ObBlocksLong" uid="92">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1618,7 +1618,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks2" uid="93">
+                <instance type="ObBlocksLong" uid="93">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1658,7 +1658,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ObBlocks2" uid="94">
+                <instance type="ObBlocksLong" uid="94">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

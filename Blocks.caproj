@@ -58,7 +58,7 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use iOS retina display">Yes</prop>
     </configuration-settings>
-    <object-folder expanded="0">
+    <object-folder expanded="1">
         <object-folder expanded="0" name="Blocks">
             <object-type name="LightBlocks" sid="50">
                 <plugin id="Sprite" />
@@ -159,7 +159,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="ObBlocks2" sid="4098740056741139">
+            <object-type name="ObBlocksLong" sid="4098740056741139">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable name="Health" sid="8477966355141042" type="number" />
@@ -1938,6 +1938,10 @@
     <layout-folder expanded="1">
         <layout-folder expanded="1" name="World1Levels">
             <layout>1.xml</layout>
+            <layout>2.xml</layout>
+            <layout>3.xml</layout>
+            <layout>4.xml</layout>
+            <layout>5.xml</layout>
             <layout>WelcomeWorld1.xml</layout>
             <layout>Wold1EndMovie.xml</layout>
         </layout-folder>

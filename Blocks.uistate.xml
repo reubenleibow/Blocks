@@ -19,7 +19,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout>Layout 1</layout>
         <layout>Logo</layout>
         <layout>WelcomeWorld1</layout>
-        <layout active="1">Wold1EndMovie</layout>
+        <layout>Wold1EndMovie</layout>
+        <layout>2</layout>
+        <layout>3</layout>
+        <layout>4</layout>
+        <layout active="1">5</layout>
         <event-sheet>WelcomeWorld</event-sheet>
         <event-sheet>SelectLevelMenu</event-sheet>
         <event-sheet>WorldSelectWorld</event-sheet>
@@ -27,6 +31,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet>StartScreen</event-sheet>
         <event-sheet>SetupGame</event-sheet>
         <event-sheet>World1EndMovie</event-sheet>
+        <event-sheet>Game</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

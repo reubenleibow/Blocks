@@ -290,12 +290,12 @@
                                 </event-block>
                                 <event-block sid="7819064137901704">
                                     <conditions>
-                                        <condition id="1" name="Is overlapping another object" sid="9321057483177171" type="ObBlocks2">
+                                        <condition id="1" name="Is overlapping another object" sid="9321057483177171" type="ObBlocksLong">
                                             <param id="0" name="Object">ExplosiveAreaShort</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action behavior="Physics" id="1" name="Apply force towards position" sid="2866856768834238" type="ObBlocks2">
+                                        <action behavior="Physics" id="1" name="Apply force towards position" sid="2866856768834238" type="ObBlocksLong">
                                             <param id="0" name="Force">-5</param>
                                             <param id="1" name="X">ExplosiveAreaShort.x</param>
                                             <param id="2" name="Y">ExplosiveAreaShort.y</param>
@@ -382,12 +382,12 @@
                                 </event-block>
                                 <event-block sid="9376770922547342">
                                     <conditions>
-                                        <condition id="1" name="Is overlapping another object" sid="4700234049213524" type="ObBlocks2">
+                                        <condition id="1" name="Is overlapping another object" sid="4700234049213524" type="ObBlocksLong">
                                             <param id="0" name="Object">ExplosiveArealong</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action behavior="Physics" id="1" name="Apply force towards position" sid="3278134007679689" type="ObBlocks2">
+                                        <action behavior="Physics" id="1" name="Apply force towards position" sid="3278134007679689" type="ObBlocksLong">
                                             <param id="0" name="Force">-5</param>
                                             <param id="1" name="X">ExplosiveArealong.x</param>
                                             <param id="2" name="Y">ExplosiveArealong.y</param>
