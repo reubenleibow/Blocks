@@ -856,7 +856,7 @@
                 </animation-folder>
             </object-type>
         </object-folder>
-        <object-folder expanded="0" name="Platforms">
+        <object-folder expanded="1" name="Platforms">
             <object-type name="LongPlatforms" sid="4551994769096237">
                 <plugin id="NinePatch" />
                 <behaviors>
@@ -1747,8 +1747,42 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Level4Pic" sid="8529427051296034">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="Grayscale">
+                        <effect id="grayscale" />
+                    </effect-type>
+                </effects>
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4079622470563768" speed="5">
+                        <frame duration="1" hotspotX="0.522267" hotspotY="0.5">
+                            <image-point name="World1" x="0.202429" y="0.488166" />
+                            <image-point name="World2" x="0.522267" y="0.5" />
+                            <image-point name="World3" x="0.562753" y="0.698225" />
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Level5Pic" sid="5064145155018519">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="Grayscale">
+                        <effect id="grayscale" />
+                    </effect-type>
+                </effects>
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3700726554451862" speed="5">
+                        <frame duration="1" hotspotX="0.522267" hotspotY="0.5">
+                            <image-point name="World1" x="0.202429" y="0.488166" />
+                            <image-point name="World2" x="0.522267" y="0.5" />
+                            <image-point name="World3" x="0.562753" y="0.698225" />
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
-        <object-folder expanded="1" name="Bacgrounds">
+        <object-folder expanded="0" name="Bacgrounds">
             <object-type name="HelpPictures" sid="5440234846768844">
                 <plugin id="Sprite" />
                 <animation-folder expanded="1">
@@ -1967,7 +2001,7 @@
             <event-sheet>Help.xml</event-sheet>
         </event-folder>
         <event-sheet>SelectLevelMenu.xml</event-sheet>
-        <event-sheet>WorldSelectWorld.xml</event-sheet>
+        <event-sheet>SelectWorld.xml</event-sheet>
         <event-sheet>Skip.xml</event-sheet>
         <event-sheet>Logo.xml</event-sheet>
         <event-sheet>StartScreen.xml</event-sheet>
