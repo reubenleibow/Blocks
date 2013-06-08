@@ -2,7 +2,7 @@
 <c2layout>
     <name>SlideMenu</name>
     <sid>1159</sid>
-    <event-sheet>SelectWorld</event-sheet>
+    <event-sheet>SlidingMenu</event-sheet>
     <size>
         <width>960</width>
         <height>540</height>
@@ -85,7 +85,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Level1Pic" uid="1335">
+                <instance type="Level1PicMoon" uid="1335">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -252,7 +252,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Level4Pic" uid="602">
+                <instance type="Level4PicBonus" uid="602">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

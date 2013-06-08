@@ -999,7 +999,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LocalTester" uid="176">
+                <instance type="EnergyPercent" uid="176">
                     <properties>
                         <text>0%</text>
                         <initial-visibility>Visible</initial-visibility>

@@ -8,20 +8,20 @@
     <author-website>asdf</author-website>
     <app-id>asdfasdf</app-id>
     <unique-id>1emck729oxl52</unique-id>
-    <saved-with-version>13200</saved-with-version>
+    <saved-with-version>13300</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
-        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
-        <plugin author="Scirra.com" id="win8" version="1">Windows 8</plugin>
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
-        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin author="Scirra" id="Text" version="1">Text</plugin>
-        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
-        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
+        <plugin author="Scirra.com" id="win8" version="1">Windows 8</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
@@ -32,12 +32,12 @@
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects>
+        <effect author="Scirra" id="blurhorizontal">Blur Horizontal</effect>
+        <effect author="Scirra" id="blurvertical">Blur Vertical</effect>
+        <effect author="Scirra" id="brightness">Brightness</effect>
         <effect author="Scirra" id="glowvertical">Glow Vertical</effect>
         <effect author="Scirra" id="grayscale">Grayscale</effect>
         <effect author="Scirra" id="glowhorizontal">Glow Horizontal</effect>
-        <effect author="Scirra" id="blurhorizontal">Blur Horizontal</effect>
-        <effect author="Scirra" id="brightness">Brightness</effect>
-        <effect author="Scirra" id="blurvertical">Blur Vertical</effect>
     </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -467,7 +467,7 @@
                     </behavior-type>
                 </behaviors>
             </object-type>
-            <object-type name="LocalTester" sid="2491823234686023">
+            <object-type name="EnergyPercent" sid="2491823234686023">
                 <plugin id="Text" />
                 <effects>
                     <effect-type name="BlurHorizontal">
@@ -1414,7 +1414,7 @@
             </object-type>
         </object-folder>
         <object-folder expanded="0" name="Stuff">
-            <object-type name="Level1Pic" sid="1165">
+            <object-type name="Level1PicMoon" sid="1165">
                 <plugin id="Sprite" />
                 <animation-folder expanded="1">
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1166" speed="5">
@@ -1747,7 +1747,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="Level4Pic" sid="8529427051296034">
+            <object-type name="Level4PicBonus" sid="8529427051296034">
                 <plugin id="Sprite" />
                 <effects>
                     <effect-type name="Grayscale">
@@ -1756,11 +1756,10 @@
                 </effects>
                 <animation-folder expanded="1">
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4079622470563768" speed="5">
-                        <frame duration="1" hotspotX="0.522267" hotspotY="0.5">
-                            <image-point name="World1" x="0.202429" y="0.488166" />
-                            <image-point name="World2" x="0.522267" y="0.5" />
-                            <image-point name="World3" x="0.562753" y="0.698225" />
-                        </frame>
+                        <frame duration="1" hotspotX="0.522267" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Unlocked" pingpong="0" repeatcount="1" repeatto="0" sid="3372719879839564" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -1970,7 +1969,7 @@
         </family>
     </families>
     <layout-folder expanded="1">
-        <layout-folder expanded="1" name="World1Levels">
+        <layout-folder expanded="0" name="World1Levels">
             <layout>1.xml</layout>
             <layout>2.xml</layout>
             <layout>3.xml</layout>
@@ -1987,13 +1986,16 @@
         <layout-folder expanded="0" name="Help">
             <layout>Help.xml</layout>
         </layout-folder>
+        <layout-folder expanded="1" name="Bonus">
+            <layout>Bonus.xml</layout>
+        </layout-folder>
         <layout>SlideMenu.xml</layout>
         <layout>Logo.xml</layout>
         <layout>StartScreen.xml</layout>
         <layout>UnusedLayout.xml</layout>
         <layout>Layout 1.xml</layout>
     </layout-folder>
-    <event-folder expanded="1">
+    <event-folder expanded="0">
         <event-folder expanded="1" name="GameData">
             <event-sheet>Game.xml</event-sheet>
             <event-sheet>GameOver.xml</event-sheet>
@@ -2001,7 +2003,7 @@
             <event-sheet>Help.xml</event-sheet>
         </event-folder>
         <event-sheet>SelectLevelMenu.xml</event-sheet>
-        <event-sheet>SelectWorld.xml</event-sheet>
+        <event-sheet>SlidingMenu.xml</event-sheet>
         <event-sheet>Skip.xml</event-sheet>
         <event-sheet>Logo.xml</event-sheet>
         <event-sheet>StartScreen.xml</event-sheet>

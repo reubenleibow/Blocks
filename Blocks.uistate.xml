@@ -24,9 +24,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout>3</layout>
         <layout>4</layout>
         <layout>5</layout>
+        <layout>Bonus</layout>
         <event-sheet>WelcomeWorld</event-sheet>
-        <event-sheet>SelectLevelMenu</event-sheet>
-        <event-sheet active="1">SelectWorld</event-sheet>
+        <event-sheet active="1">SelectLevelMenu</event-sheet>
+        <event-sheet>SlidingMenu</event-sheet>
         <event-sheet>MenuActions</event-sheet>
         <event-sheet>StartScreen</event-sheet>
         <event-sheet>SetupGame</event-sheet>
