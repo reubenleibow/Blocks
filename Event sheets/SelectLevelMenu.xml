@@ -3,6 +3,25 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>SelectLevelMenu</name>
     <events>
+        <event-group collapsed="1" description="" sid="1383902910811247" title="Refresh">
+            <sub-events>
+                <event-block sid="237">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="238" type="Keyboard">
+                            <param id="0" name="Key">81 (Q)</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Clear local storage" sid="239" type="WebStorage" />
+                        <action id="-26" name="Restart layout" sid="240" type="System" />
+                        <action id="0" name="Set local value" sid="7293364789081652" type="WebStorage">
+                            <param id="0" name="Key">UNLOCKED_LEVEL_KEY</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
         <variable constant="1" name="TOAL_STARS_FOR_MAP_1" sid="362230318243801" static="0" type="number">45</variable>
         <variable constant="0" name="StarsForMap1" sid="3839236233313316" static="0" type="number">0</variable>
         <variable constant="0" name="UnLocketLevel" sid="309" static="0" type="number">1</variable>
@@ -20,7 +39,7 @@
                 <action id="0" name="Set text" sid="241" type="CurrentLevelLable">
                     <param id="0" name="Text">int(&quot;0&quot;&amp;CurrentLevel)</param>
                 </action>
-                <action id="0" name="Set text" sid="110169841642396" type="EnergyPercent">
+                <action id="0" name="Set text" sid="110169841642396" type="EnergyPercentSM">
                     <param id="0" name="Text">int(StarsForMap1/TOAL_STARS_FOR_MAP_1*100)  &amp; &quot;%&quot;</param>
                 </action>
                 <action id="-6" name="Set height" sid="8815425946936197" type="EnergyBar">
@@ -29,9 +48,6 @@
                 <action id="-9" name="Set value" sid="1246913931596732" type="System">
                     <param id="0" name="Variable">StarsForMap1</param>
                     <param id="1" name="Value">0</param>
-                </action>
-                <action disabled="1" id="0" name="Set text" sid="4391310660943918" type="EnergyPercent">
-                    <param id="0" name="Text">WebStorage.LocalValue(&quot;energy&quot;)</param>
                 </action>
             </actions>
             <sub-events>
@@ -86,41 +102,10 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="142">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="143" type="Keyboard">
-                    <param id="0" name="Key">32 (Space)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Set local value" sid="235" type="WebStorage">
-                    <param id="0" name="Key">&quot;LevelScore&quot; &amp; CurrentLevel</param>
-                    <param id="1" name="Value">max(CurrentLevelScore, int(WebStorage.LocalValue(&quot;LevelScore&quot; &amp; CurrentLevel)))</param>
-                </action>
-                <action id="-2" name="Go to layout" sid="144" type="System">
-                    <param id="0" name="Layout">LevelSelect</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="237">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="238" type="Keyboard">
-                    <param id="0" name="Key">81 (Q)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="4" name="Clear local storage" sid="239" type="WebStorage" />
-                <action id="-26" name="Restart layout" sid="240" type="System" />
-                <action id="0" name="Set local value" sid="7293364789081652" type="WebStorage">
-                    <param id="0" name="Key">UNLOCKED_LEVEL_KEY</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="1260">
             <conditions>
                 <condition id="3" name="On touched object" sid="1261" type="Touch">
-                    <param id="0" name="Object">BackToWorld</param>
+                    <param id="0" name="Object">BackToWorldSM</param>
                 </condition>
             </conditions>
             <actions>
@@ -129,14 +114,14 @@
                 </action>
             </actions>
         </event-block>
-        <event-group description="" sid="213" title="Level Scores">
+        <event-group description="" sid="213" title="Go To Level">
             <sub-events>
                 <event-block sid="128">
                     <conditions>
                         <condition id="3" name="On touched object" sid="129" type="Touch">
-                            <param id="0" name="Object">LevelButton</param>
+                            <param id="0" name="Object">LevelButtonSM</param>
                         </condition>
-                        <condition id="-7" name="Compare instance variable" sid="358" type="LevelButton">
+                        <condition id="-7" name="Compare instance variable" sid="358" type="LevelButtonSM">
                             <param id="0" name="Instance variable">Level</param>
                             <param id="1" name="Comparison">3</param>
                             <param id="2" name="Value">UnLocketLevel</param>
@@ -145,7 +130,7 @@
                     <actions>
                         <action id="-9" name="Set value" sid="236" type="System">
                             <param id="0" name="Variable">CurrentLevel</param>
-                            <param id="1" name="Value">LevelButton.Level</param>
+                            <param id="1" name="Value">LevelButtonSM.Level</param>
                         </action>
                         <action id="-9" name="Set value" sid="320" type="System">
                             <param id="0" name="Variable">BlocksLeft</param>
@@ -156,6 +141,18 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="3567021854674907">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="3716023240435868" type="Touch">
+                            <param id="0" name="Object">LevelButtonBonus2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="4970880400187921" type="System">
+                            <param id="0" name="Layout">BonusLevel</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-group description="" sid="266" title="Is Level Unlocked">
@@ -163,12 +160,12 @@
                 <event-block sid="289">
                     <conditions>
                         <condition id="-11" name="For Each" sid="351" type="System">
-                            <param id="0" name="Object">LevelButton</param>
+                            <param id="0" name="Object">LevelButtonSM</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="4" name="Set animation" sid="3252543176738682" type="LevelButton">
-                            <param id="0" name="Animation">int(LevelButton.Level) &lt;= UnLocketLevel ? &quot;Open&quot; : &quot;Locked&quot;</param>
+                        <action id="4" name="Set animation" sid="3252543176738682" type="LevelButtonSM">
+                            <param id="0" name="Animation">int(LevelButtonSM.Level) &lt;= UnLocketLevel ? &quot;Open&quot; : &quot;Locked&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
                     </actions>
@@ -177,11 +174,11 @@
         </event-group>
         <event-block sid="1054173757441145">
             <conditions>
-                <condition id="2" name="Is playing" sid="3851832375450658" type="LevelButton">
+                <condition id="2" name="Is playing" sid="3851832375450658" type="LevelButtonSM">
                     <param id="0" name="Animation">&quot;Open&quot;</param>
                 </condition>
                 <condition id="1" name="Is overlapping another object" sid="211780697887835" type="Numbers">
-                    <param id="0" name="Object">LevelButton</param>
+                    <param id="0" name="Object">LevelButtonSM</param>
                 </condition>
             </conditions>
             <actions>
@@ -192,11 +189,11 @@
         </event-block>
         <event-block sid="9746284192422271">
             <conditions>
-                <condition id="2" name="Is playing" sid="960849754374196" type="LevelButton">
+                <condition id="2" name="Is playing" sid="960849754374196" type="LevelButtonSM">
                     <param id="0" name="Animation">&quot;Locked&quot;</param>
                 </condition>
                 <condition id="1" name="Is overlapping another object" sid="2045138898361345" type="Numbers">
-                    <param id="0" name="Object">LevelButton</param>
+                    <param id="0" name="Object">LevelButtonSM</param>
                 </condition>
             </conditions>
             <actions>

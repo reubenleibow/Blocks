@@ -83,7 +83,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ToFillWithEnergyBar" uid="150">
+                <instance type="ToFillWithEnergyBarSM" uid="150">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -105,7 +105,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelButton" uid="177">
+                <instance type="LevelButtonSM" uid="177">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -131,7 +131,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelButton" uid="197">
+                <instance type="LevelButtonSM" uid="197">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -157,7 +157,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelButton" uid="198">
+                <instance type="LevelButtonSM" uid="198">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -183,7 +183,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelButton" uid="199">
+                <instance type="LevelButtonSM" uid="199">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -209,7 +209,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelButton" uid="200">
+                <instance type="LevelButtonSM" uid="200">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -235,7 +235,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelButton" uid="201">
+                <instance type="LevelButtonSM" uid="201">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -261,7 +261,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelButton" uid="202">
+                <instance type="LevelButtonSM" uid="202">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -287,7 +287,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelButton" uid="203">
+                <instance type="LevelButtonSM" uid="203">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -313,7 +313,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelButton" uid="204">
+                <instance type="LevelButtonSM" uid="204">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -339,7 +339,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelButton" uid="205">
+                <instance type="LevelButtonSM" uid="205">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -423,7 +423,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelButton" uid="230">
+                <instance type="LevelButtonSM" uid="230">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -726,7 +726,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelButton" uid="289">
+                <instance type="LevelButtonSM" uid="289">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -777,7 +777,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelButton" uid="292">
+                <instance type="LevelButtonSM" uid="292">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -828,7 +828,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelButton" uid="295">
+                <instance type="LevelButtonSM" uid="295">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -879,7 +879,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelButton" uid="298">
+                <instance type="LevelButtonSM" uid="298">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -930,7 +930,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BackToWorld" uid="1391">
+                <instance type="BackToWorldSM" uid="1391">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -999,7 +999,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="EnergyPercent" uid="176">
+                <instance type="EnergyPercentSM" uid="176">
                     <properties>
                         <text>0%</text>
                         <initial-visibility>Visible</initial-visibility>

@@ -10,31 +10,31 @@
     <unique-id>1emck729oxl52</unique-id>
     <saved-with-version>13300</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra" id="Function" version="1">Function</plugin>
-        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
-        <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
-        <plugin author="Scirra" id="Text" version="1">Text</plugin>
-        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra.com" id="win8" version="1">Windows 8</plugin>
+        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
-        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
-        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
-        <plugin author="Scirra.com" id="win8" version="1">Windows 8</plugin>
+        <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
-        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
-        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects>
-        <effect author="Scirra" id="blurhorizontal">Blur Horizontal</effect>
-        <effect author="Scirra" id="blurvertical">Blur Vertical</effect>
         <effect author="Scirra" id="brightness">Brightness</effect>
+        <effect author="Scirra" id="blurvertical">Blur Vertical</effect>
+        <effect author="Scirra" id="blurhorizontal">Blur Horizontal</effect>
         <effect author="Scirra" id="glowvertical">Glow Vertical</effect>
         <effect author="Scirra" id="grayscale">Grayscale</effect>
         <effect author="Scirra" id="glowhorizontal">Glow Horizontal</effect>
@@ -347,7 +347,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="ToFillWithEnergyBar" sid="728142284283793">
+            <object-type name="ToFillWithEnergyBarSM" sid="728142284283793">
                 <plugin id="Sprite" />
                 <animation-folder expanded="1">
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5532607434957123" speed="5">
@@ -467,7 +467,7 @@
                     </behavior-type>
                 </behaviors>
             </object-type>
-            <object-type name="EnergyPercent" sid="2491823234686023">
+            <object-type name="EnergyPercentSM" sid="2491823234686023">
                 <plugin id="Text" />
                 <effects>
                     <effect-type name="BlurHorizontal">
@@ -722,7 +722,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="BackToWorld" sid="1250">
+            <object-type name="BackToWorldSM" sid="1250">
                 <plugin id="Sprite" />
                 <animation-folder expanded="1">
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1251" speed="5">
@@ -1285,7 +1285,7 @@
             <object-type name="Sprite9" sid="3399090340324175">
                 <plugin id="Sprite" />
                 <animation-folder expanded="1">
-                    <animation framecount="11" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="727961709226014" speed="5">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="727961709226014" speed="5">
                         <frame duration="1" hotspotX="0.507042" hotspotY="0.22807">
                             <collision-poly>
                                 <point x="0.183099" y="0.22807" />
@@ -1296,117 +1296,6 @@
                                 <point x="0.492958" y="0.701754" />
                                 <point x="0.15493" y="0.807018" />
                                 <point x="0.211268" y="0.491228" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.507692" hotspotY="0.509091">
-                            <collision-poly>
-                                <point x="0.2" y="0.236364" />
-                                <point x="0.8" y="0.236364" />
-                                <point x="0.784615" y="0.490909" />
-                                <point x="0.846154" y="0.818182" />
-                                <point x="0.169231" y="0.8" />
-                                <point x="0.230769" y="0.490909" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.191176" y="0.232143" />
-                                <point x="0.823529" y="0.214286" />
-                                <point x="0.794118" y="0.5" />
-                                <point x="0.852941" y="0.821429" />
-                                <point x="0.147059" y="0.821429" />
-                                <point x="0.205882" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.507246" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.188406" y="0.224138" />
-                                <point x="0.811594" y="0.224138" />
-                                <point x="0.826087" y="0.5" />
-                                <point x="0.811594" y="0.775862" />
-                                <point x="0.173913" y="0.793103" />
-                                <point x="0.217391" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.507042" hotspotY="0.509091">
-                            <collision-poly>
-                                <point x="0.183099" y="0.236364" />
-                                <point x="0.492958" y="0.509091" />
-                                <point x="0.802817" y="0.254545" />
-                                <point x="0.802817" y="0.745455" />
-                                <point x="0.492958" y="0.636364" />
-                                <point x="0.15493" y="0.8" />
-                                <point x="0.211268" y="0.490909" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.507042" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.183099" y="0.224138" />
-                                <point x="0.492958" y="0.448276" />
-                                <point x="0.84507" y="0.189655" />
-                                <point x="0.859155" y="0.5" />
-                                <point x="0.802817" y="0.758621" />
-                                <point x="0.492958" y="0.741379" />
-                                <point x="0.169014" y="0.793103" />
-                                <point x="0.211268" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.227273" y="0.172414" />
-                                <point x="0.5" y="0.172414" />
-                                <point x="0.75" y="0.189655" />
-                                <point x="0.795455" y="0.5" />
-                                <point x="0.681818" y="0.758621" />
-                                <point x="0.5" y="0.827586" />
-                                <point x="0.272727" y="0.793103" />
-                                <point x="0.204545" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.511111" hotspotY="0.508772">
-                            <collision-poly>
-                                <point x="0.355556" y="0.280702" />
-                                <point x="0.488889" y="0.175439" />
-                                <point x="0.555556" y="0.350877" />
-                                <point x="0.755556" y="0.491228" />
-                                <point x="0.711111" y="0.77193" />
-                                <point x="0.488889" y="0.824561" />
-                                <point x="0.288889" y="0.77193" />
-                                <point x="0.222222" y="0.491228" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.510638" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.212766" y="0.178571" />
-                                <point x="0.787234" y="0.178571" />
-                                <point x="0.531915" y="0.607143" />
-                                <point x="0.489362" y="0.696429" />
-                                <point x="0.319149" y="0.732143" />
-                                <point x="0.425532" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.295455" y="0.224138" />
-                                <point x="0.5" y="0.172414" />
-                                <point x="0.704545" y="0.224138" />
-                                <point x="0.75" y="0.5" />
-                                <point x="0.704545" y="0.775862" />
-                                <point x="0.5" y="0.827586" />
-                                <point x="0.295455" y="0.775862" />
-                                <point x="0.25" y="0.5" />
-                            </collision-poly>
-                        </frame>
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
-                            <collision-poly>
-                                <point x="0.282609" y="0.232143" />
-                                <point x="0.5" y="0.178571" />
-                                <point x="0.695652" y="0.25" />
-                                <point x="0.782609" y="0.5" />
-                                <point x="0.652174" y="0.714286" />
-                                <point x="0.5" y="0.785714" />
-                                <point x="0.26087" y="0.785714" />
-                                <point x="0.23913" y="0.5" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -1486,7 +1375,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="LevelButton" sid="125">
+            <object-type name="LevelButtonSM" sid="125">
                 <plugin id="Sprite" />
                 <instance-variables>
                     <instance-variable name="Level" sid="127" type="string" />
@@ -1925,6 +1814,91 @@
                 </effect-type>
             </effects>
         </object-type>
+        <object-type name="Sprite4" sid="5529980857415563">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1725750497831847" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LevelButtonBonus" sid="7158239291317128">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Stars" sid="2291270571129516" type="number" />
+                <instance-variable name="Level" sid="7857171241448166" type="number" />
+            </instance-variables>
+            <effects>
+                <effect-type name="Brightness">
+                    <effect id="brightness" />
+                </effect-type>
+            </effects>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6533001346222963" speed="5">
+                    <frame duration="1" hotspotX="0.488722" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.075188" y="0.23913" />
+                            <point x="0.488722" y="0.0543478" />
+                            <point x="0.909774" y="0.228261" />
+                            <point x="0.947368" y="0.48913" />
+                            <point x="0.902256" y="0.75" />
+                            <point x="0.488722" y="0.934783" />
+                            <point x="0.120301" y="0.684783" />
+                            <point x="0.0225564" y="0.48913" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LevelButtonBonus2" sid="1812062714102289">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Stars" sid="8383125699744047" type="number" />
+                <instance-variable name="Level" sid="5880981586300422" type="number" />
+            </instance-variables>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5958485504471031" speed="5">
+                    <frame duration="1" hotspotX="0.488722" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.075188" y="0.23913" />
+                            <point x="0.488722" y="0.0543478" />
+                            <point x="0.909774" y="0.228261" />
+                            <point x="0.947368" y="0.48913" />
+                            <point x="0.902256" y="0.75" />
+                            <point x="0.488722" y="0.934783" />
+                            <point x="0.120301" y="0.684783" />
+                            <point x="0.0225564" y="0.48913" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lock" sid="6004676030495911">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5709180944130202" speed="5">
+                    <frame duration="1" hotspotX="0.490196" hotspotY="0.507937" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Space" sid="412363965454228">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2965847797577418" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507042">
+                        <collision-poly>
+                            <point x="0.42" y="0.295775" />
+                            <point x="0.5" y="0.239437" />
+                            <point x="0.58" y="0.295775" />
+                            <point x="0.58" y="0.492958" />
+                            <point x="0.64" y="0.746479" />
+                            <point x="0.36" y="0.746479" />
+                            <point x="0.44" y="0.492958" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Blocks" plugin-id="Sprite" sid="656">
@@ -1969,8 +1943,9 @@
         </family>
     </families>
     <layout-folder expanded="1">
-        <layout-folder expanded="0" name="World1Levels">
+        <layout-folder expanded="1" name="World1Levels">
             <layout>1.xml</layout>
+            <layout>BonusLevel.xml</layout>
             <layout>2.xml</layout>
             <layout>3.xml</layout>
             <layout>4.xml</layout>
@@ -1995,7 +1970,7 @@
         <layout>UnusedLayout.xml</layout>
         <layout>Layout 1.xml</layout>
     </layout-folder>
-    <event-folder expanded="0">
+    <event-folder expanded="1">
         <event-folder expanded="1" name="GameData">
             <event-sheet>Game.xml</event-sheet>
             <event-sheet>GameOver.xml</event-sheet>
