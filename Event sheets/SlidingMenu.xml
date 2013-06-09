@@ -25,6 +25,7 @@
                 </action>
                 <action id="-25" name="Move to bottom" sid="977361960353946" type="Level4PicBonus" />
                 <action id="-25" name="Move to bottom" sid="2096593478123012" type="Level5Pic" />
+                <action id="-25" name="Move to bottom" sid="6423373291055459" type="TheBlackMan" />
             </actions>
         </event-block>
         <event-block sid="1239">

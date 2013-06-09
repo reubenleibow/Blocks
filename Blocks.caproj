@@ -2009,6 +2009,10 @@
             <plugin id="NinePatch" />
             <texture />
         </object-type>
+        <object-type name="TheBlackMan" sid="6731401713605087">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
     </object-folder>
     <families>
         <family name="Blocks" plugin-id="Sprite" sid="656">
@@ -2060,6 +2064,7 @@
             <layout>3.xml</layout>
             <layout>4.xml</layout>
             <layout>5.xml</layout>
+            <layout>6.xml</layout>
             <layout>WelcomeWorld1.xml</layout>
             <layout>Wold1EndMovie.xml</layout>
         </layout-folder>
