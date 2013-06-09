@@ -27,6 +27,28 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
+                <instance type="LevelSelecBlock" uid="1336">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>480</x>
+                        <y>270</y>
+                        <z>0</z>
+                        <width>960</width>
+                        <height>542</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="Level2Pic" uid="1338">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -47,7 +69,7 @@
                         <x>278</x>
                         <y>-179</y>
                         <z>0</z>
-                        <width>247</width>
+                        <width>246</width>
                         <height>338</height>
                         <depth>0</depth>
                         <hotspotX>0.522267222</hotspotX>
@@ -76,7 +98,7 @@
                         <x>599</x>
                         <y>-211</y>
                         <z>0</z>
-                        <width>247</width>
+                        <width>246</width>
                         <height>338</height>
                         <depth>0</depth>
                         <hotspotX>0.522267222</hotspotX>
@@ -95,35 +117,13 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>480</x>
-                        <y>254.5</y>
+                        <x>488</x>
+                        <y>265</y>
                         <z>0</z>
-                        <width>247</width>
-                        <height>338</height>
+                        <width>246</width>
+                        <height>340</height>
                         <depth>0</depth>
                         <hotspotX>0.522267222</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="LevelSelecBlock" uid="1336">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>687</x>
-                        <y>879</y>
-                        <z>0</z>
-                        <width>365</width>
-                        <height>473</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
@@ -240,8 +240,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>212</x>
-                        <y>16</y>
+                        <x>191</x>
+                        <y>-140</y>
                         <z>0</z>
                         <width>605</width>
                         <height>138</height>
@@ -272,7 +272,7 @@
                         <x>974</x>
                         <y>-166</y>
                         <z>0</z>
-                        <width>247</width>
+                        <width>246</width>
                         <height>338</height>
                         <depth>0</depth>
                         <hotspotX>0.522267222</hotspotX>
@@ -301,7 +301,7 @@
                         <x>1260</x>
                         <y>-160</y>
                         <z>0</z>
-                        <width>247</width>
+                        <width>246</width>
                         <height>338</height>
                         <depth>0</depth>
                         <hotspotX>0.522267222</hotspotX>
