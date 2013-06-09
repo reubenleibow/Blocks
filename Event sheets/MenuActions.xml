@@ -37,7 +37,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="965">
+        <event-block disabled="1" sid="965">
             <conditions>
                 <condition id="3" name="On touched object" sid="966" type="Touch">
                     <param id="0" name="Object">GoToMenuPause</param>
@@ -146,14 +146,14 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-5" name="Set width" sid="1075972529143335" type="SlidingMenu">
-                            <param id="0" name="Width">SlidingMenu.Width - MENU_STEP_SIZE</param>
+                        <action id="-5" name="Set width" sid="1075972529143335" type="9patch">
+                            <param id="0" name="Width">9patch.Width - MENU_STEP_SIZE</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="1281030663978575">
                     <conditions>
-                        <condition id="-5" name="Compare width" sid="698190241316147" type="SlidingMenu">
+                        <condition id="-5" name="Compare width" sid="698190241316147" type="9patch">
                             <param id="0" name="Comparison">3</param>
                             <param id="1" name="Width">0</param>
                         </condition>
@@ -201,14 +201,14 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-5" name="Set width" sid="1075972529143335" type="SlidingMenu">
-                            <param id="0" name="Width">SlidingMenu.Width + MENU_STEP_SIZE</param>
+                        <action id="-5" name="Set width" sid="1075972529143335" type="9patch">
+                            <param id="0" name="Width">9patch.Width + MENU_STEP_SIZE</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="8565234606903621">
                     <conditions>
-                        <condition id="-5" name="Compare width" sid="500499617308745" type="SlidingMenu">
+                        <condition id="-5" name="Compare width" sid="500499617308745" type="9patch">
                             <param id="0" name="Comparison">5</param>
                             <param id="1" name="Width">MENU_WIDTH</param>
                         </condition>

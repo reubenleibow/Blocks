@@ -10,34 +10,34 @@
     <unique-id>1emck729oxl52</unique-id>
     <saved-with-version>13300</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
-        <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
-        <plugin author="Scirra" id="Function" version="1">Function</plugin>
-        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
-        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
-        <plugin author="Scirra.com" id="win8" version="1">Windows 8</plugin>
-        <plugin author="Scirra" id="Text" version="1">Text</plugin>
-        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra.com" id="win8" version="1">Windows 8</plugin>
+        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
-        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
-        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
-        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
-        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects>
         <effect author="Scirra" id="brightness">Brightness</effect>
-        <effect author="Scirra" id="blurvertical">Blur Vertical</effect>
-        <effect author="Scirra" id="blurhorizontal">Blur Horizontal</effect>
         <effect author="Scirra" id="glowvertical">Glow Vertical</effect>
         <effect author="Scirra" id="grayscale">Grayscale</effect>
         <effect author="Scirra" id="glowhorizontal">Glow Horizontal</effect>
+        <effect author="Scirra" id="blurhorizontal">Blur Horizontal</effect>
+        <effect author="Scirra" id="blurvertical">Blur Vertical</effect>
     </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -1669,6 +1669,10 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="SlidingMenu2" sid="3135271505627162">
+                <plugin id="NinePatch" />
+                <texture />
+            </object-type>
         </object-folder>
         <object-folder expanded="0" name="Bacgrounds">
             <object-type name="HelpPictures" sid="5440234846768844">
@@ -1822,80 +1826,11 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="LevelButtonBonus" sid="7158239291317128">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="Stars" sid="2291270571129516" type="number" />
-                <instance-variable name="Level" sid="7857171241448166" type="number" />
-            </instance-variables>
-            <effects>
-                <effect-type name="Brightness">
-                    <effect id="brightness" />
-                </effect-type>
-            </effects>
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6533001346222963" speed="5">
-                    <frame duration="1" hotspotX="0.488722" hotspotY="0.5">
-                        <collision-poly>
-                            <point x="0.075188" y="0.23913" />
-                            <point x="0.488722" y="0.0543478" />
-                            <point x="0.909774" y="0.228261" />
-                            <point x="0.947368" y="0.48913" />
-                            <point x="0.902256" y="0.75" />
-                            <point x="0.488722" y="0.934783" />
-                            <point x="0.120301" y="0.684783" />
-                            <point x="0.0225564" y="0.48913" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="LevelButtonBonus2" sid="1812062714102289">
-            <plugin id="Sprite" />
-            <instance-variables>
-                <instance-variable name="Stars" sid="8383125699744047" type="number" />
-                <instance-variable name="Level" sid="5880981586300422" type="number" />
-            </instance-variables>
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5958485504471031" speed="5">
-                    <frame duration="1" hotspotX="0.488722" hotspotY="0.5">
-                        <collision-poly>
-                            <point x="0.075188" y="0.23913" />
-                            <point x="0.488722" y="0.0543478" />
-                            <point x="0.909774" y="0.228261" />
-                            <point x="0.947368" y="0.48913" />
-                            <point x="0.902256" y="0.75" />
-                            <point x="0.488722" y="0.934783" />
-                            <point x="0.120301" y="0.684783" />
-                            <point x="0.0225564" y="0.48913" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Lock" sid="6004676030495911">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5709180944130202" speed="5">
                     <frame duration="1" hotspotX="0.490196" hotspotY="0.507937" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Space" sid="412363965454228">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2965847797577418" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.507042">
-                        <collision-poly>
-                            <point x="0.42" y="0.295775" />
-                            <point x="0.5" y="0.239437" />
-                            <point x="0.58" y="0.295775" />
-                            <point x="0.58" y="0.492958" />
-                            <point x="0.64" y="0.746479" />
-                            <point x="0.36" y="0.746479" />
-                            <point x="0.44" y="0.492958" />
-                        </collision-poly>
-                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -1907,7 +1842,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite10" sid="6032928050713669">
+        <object-type name="BonusLevelButton" sid="6032928050713669">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6474410605937828" speed="5">
@@ -1926,7 +1861,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite11" sid="5423019358401046">
+        <object-type name="BonusLevelButtonLocked" sid="5423019358401046">
             <plugin id="Sprite" />
             <effects>
                 <effect-type name="Brightness">
@@ -2024,6 +1959,11 @@
         </object-type>
         <object-type name="GoToSlidingMenu2" sid="3227461045845598">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="6413878834127582">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
             <animation-folder expanded="1">
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6944335305190489" speed="5">
                     <frame duration="1" hotspotX="0.503704" hotspotY="0.503704">
@@ -2040,6 +1980,34 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="Border" sid="7940691443156182">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="5414129320444409">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="7562114223749689">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2895482011909665" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="978285211009567">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9240059809772484" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="9patch" sid="1924064481560564">
+            <plugin id="NinePatch" />
+            <texture />
         </object-type>
     </object-folder>
     <families>

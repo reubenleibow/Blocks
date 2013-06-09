@@ -3052,7 +3052,7 @@
                         <bottom-margin>5</bottom-margin>
                         <edges>Stretch</edges>
                         <fill>Tile</fill>
-                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
                         <seams>Overlap</seams>
                     </properties>
@@ -3160,10 +3160,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>-21</x>
-                        <y>0</y>
+                        <y>-10</y>
                         <z>0</z>
                         <width>22</width>
-                        <height>495</height>
+                        <height>505</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

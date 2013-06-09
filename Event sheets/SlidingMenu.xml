@@ -42,23 +42,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="446533150026139">
-            <conditions>
-                <condition id="3" name="On touched object" sid="3388695949216855" type="Touch">
-                    <param id="0" name="Object">Level4PicBonus</param>
-                </condition>
-                <condition id="1" name="Is overlapping another object" sid="6009396224102679" type="Level4PicBonus">
-                    <param id="0" name="Object">CheckSlide</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="9642473309747837" type="System">
-                    <param id="0" name="Variable">Bonus</param>
-                    <param id="1" name="Comparison">5</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
-            </conditions>
-            <actions />
-        </event-block>
-        <event-block sid="1243">
+        <event-block disabled="1" sid="1243">
             <conditions>
                 <condition id="3" name="On touched object" sid="1244" type="Touch">
                     <param id="0" name="Object">Level3Pic</param>
@@ -350,30 +334,6 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="9995829436714195">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="7569795032127681" type="Keyboard">
-                    <param id="0" name="Key">83 (S)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-36" name="Save" sid="4755889340945119" type="System">
-                    <param id="0" name="Slot">&quot;mysave&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="3415921587143992">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="1084643876384277" type="Keyboard">
-                    <param id="0" name="Key">76 (L)</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-37" name="Load" sid="5271102025234811" type="System">
-                    <param id="0" name="Slot">&quot;mysave&quot;</param>
-                </action>
-            </actions>
-        </event-block>
         <event-block sid="9762696261658594">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="484075117345141" type="System">
@@ -388,35 +348,59 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="7116660120752947">
-            <conditions>
-                <condition id="7" name="Compare key value (as number)" sid="8060458504443916" type="WebStorage">
-                    <param id="0" name="Key">&quot;energy&quot;</param>
-                    <param id="1" name="Comparison">5</param>
-                    <param id="2" name="Value">40</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Set value" sid="4623527259702629" type="System">
-                    <param id="0" name="Variable">Bonus</param>
-                    <param id="1" name="Value">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="3304599282471369">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="4830824750943835" type="System">
-                    <param id="0" name="Variable">Bonus</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">1</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="6833039741030664" type="Level4PicBonus">
-                    <param id="0" name="Animation">&quot;unlocked&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="" sid="746167435532835" title="Bonus Unlock">
+            <sub-events>
+                <event-block sid="7116660120752947">
+                    <conditions>
+                        <condition id="7" name="Compare key value (as number)" sid="8060458504443916" type="WebStorage">
+                            <param id="0" name="Key">&quot;energy&quot;</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">40</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="4623527259702629" type="System">
+                            <param id="0" name="Variable">Bonus</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3304599282471369">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="4830824750943835" type="System">
+                            <param id="0" name="Variable">Bonus</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="6833039741030664" type="Level4PicBonus">
+                            <param id="0" name="Animation">&quot;unlocked&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="446533150026139">
+                    <conditions>
+                        <condition id="3" name="On touched object" sid="3388695949216855" type="Touch">
+                            <param id="0" name="Object">Level4PicBonus</param>
+                        </condition>
+                        <condition id="1" name="Is overlapping another object" sid="6009396224102679" type="Level4PicBonus">
+                            <param id="0" name="Object">CheckSlide</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="9642473309747837" type="System">
+                            <param id="0" name="Variable">Bonus</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="8017752936976763" type="System">
+                            <param id="0" name="Layout">Bonus</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>
