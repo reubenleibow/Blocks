@@ -10,26 +10,26 @@
     <unique-id>1emck729oxl52</unique-id>
     <saved-with-version>13300</saved-with-version>
     <used-plugins>
-        <plugin author="Scirra.com" id="win8" version="1">Windows 8</plugin>
-        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
-        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
-        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Scirra" id="Text" version="1">Text</plugin>
-        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
-        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
-        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
+        <plugin author="Scirra.com" id="win8" version="1">Windows 8</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
-        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
         <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
-        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects>
         <effect author="Scirra" id="brightness">Brightness</effect>
@@ -1894,6 +1894,148 @@
                             <point x="0.64" y="0.746479" />
                             <point x="0.36" y="0.746479" />
                             <point x="0.44" y="0.492958" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="5101885834421934">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8125079558801663" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="6032928050713669">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6474410605937828" speed="5">
+                    <frame duration="1" hotspotX="0.507692" hotspotY="0.482353">
+                        <collision-poly>
+                            <point x="0.0846154" y="0.211765" />
+                            <point x="0.507692" y="0.0117647" />
+                            <point x="0.938462" y="0.2" />
+                            <point x="0.976923" y="0.482353" />
+                            <point x="0.930769" y="0.764706" />
+                            <point x="0.507692" y="0.964706" />
+                            <point x="0.130769" y="0.694118" />
+                            <point x="0.0307692" y="0.482353" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="5423019358401046">
+            <plugin id="Sprite" />
+            <effects>
+                <effect-type name="Brightness">
+                    <effect id="brightness" />
+                </effect-type>
+            </effects>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6178391049276947" speed="5">
+                    <frame duration="1" hotspotX="0.507692" hotspotY="0.482353">
+                        <collision-poly>
+                            <point x="0.0846154" y="0.211765" />
+                            <point x="0.507692" y="0.0117647" />
+                            <point x="0.938462" y="0.2" />
+                            <point x="0.976923" y="0.482353" />
+                            <point x="0.930769" y="0.764706" />
+                            <point x="0.507692" y="0.964706" />
+                            <point x="0.130769" y="0.694118" />
+                            <point x="0.0307692" y="0.482353" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="2577717477452267">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2552346783786912" speed="5">
+                    <frame duration="1" hotspotX="0.510204" hotspotY="0.516667" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="6596955332843381">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5187916210285847" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.244186" y="0.333333" />
+                            <point x="0.5" y="0.277778" />
+                            <point x="0.918605" y="0.111111" />
+                            <point x="0.674419" y="0.5" />
+                            <point x="0.656977" y="0.531746" />
+                            <point x="0.5" y="0.865079" />
+                            <point x="0.0232558" y="0.968254" />
+                            <point x="0.209302" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite14" sid="1096687690196082">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="60954121362124" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507042">
+                        <collision-poly>
+                            <point x="0.42" y="0.295775" />
+                            <point x="0.5" y="0.239437" />
+                            <point x="0.58" y="0.295775" />
+                            <point x="0.58" y="0.492958" />
+                            <point x="0.64" y="0.746479" />
+                            <point x="0.36" y="0.746479" />
+                            <point x="0.44" y="0.492958" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GoToSlidingMenu1" sid="3115904437299063">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5604853864772327" speed="5">
+                    <frame duration="1" hotspotX="0.503704" hotspotY="0.503704">
+                        <collision-poly>
+                            <point x="0.866667" y="0.496296" />
+                            <point x="0.755556" y="0.755556" />
+                            <point x="0.503704" y="0.859259" />
+                            <point x="0.244444" y="0.755556" />
+                            <point x="0.140741" y="0.496296" />
+                            <point x="0.244444" y="0.244444" />
+                            <point x="0.503704" y="0.133333" />
+                            <point x="0.762963" y="0.237037" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite25" sid="3344372339274635">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6428129224523605" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GoToSlidingMenu2" sid="3227461045845598">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6944335305190489" speed="5">
+                    <frame duration="1" hotspotX="0.503704" hotspotY="0.503704">
+                        <collision-poly>
+                            <point x="0.237037" y="0.237037" />
+                            <point x="0.496296" y="0.133333" />
+                            <point x="0.755556" y="0.244444" />
+                            <point x="0.859259" y="0.496296" />
+                            <point x="0.755556" y="0.755556" />
+                            <point x="0.496296" y="0.859259" />
+                            <point x="0.244444" y="0.755556" />
+                            <point x="0.133333" y="0.496296" />
                         </collision-poly>
                     </frame>
                 </animation>
