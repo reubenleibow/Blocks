@@ -8,36 +8,36 @@
     <author-website>asdf</author-website>
     <app-id>asdfasdf</app-id>
     <unique-id>1emck729oxl52</unique-id>
-    <saved-with-version>13300</saved-with-version>
+    <saved-with-version>13400</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
-        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
-        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
-        <plugin author="Scirra" id="NinePatch" version="1">9-patch</plugin>
-        <plugin author="Scirra" id="Text" version="1">Text</plugin>
-        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
-        <plugin author="Scirra.com" id="win8" version="1">Windows 8</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
+        <plugin author="Scirra.com" id="win8" version="1">Windows 8</plugin>
     </used-plugins>
     <used-behaviors>
-        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
-        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
-        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects>
-        <effect author="Scirra" id="brightness">Brightness</effect>
+        <effect author="Scirra" id="glowhorizontal">Glow Horizontal</effect>
         <effect author="Scirra" id="glowvertical">Glow Vertical</effect>
         <effect author="Scirra" id="grayscale">Grayscale</effect>
-        <effect author="Scirra" id="glowhorizontal">Glow Horizontal</effect>
         <effect author="Scirra" id="blurhorizontal">Blur Horizontal</effect>
         <effect author="Scirra" id="blurvertical">Blur Vertical</effect>
+        <effect author="Scirra" id="brightness">Brightness</effect>
     </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -2074,6 +2074,7 @@
             <layout>6.xml</layout>
             <layout>7.xml</layout>
             <layout>8.xml</layout>
+            <layout>9.xml</layout>
             <layout>WelcomeWorld1.xml</layout>
             <layout>Wold1EndMovie.xml</layout>
         </layout-folder>
@@ -2145,5 +2146,13 @@
     </global-instances>
     <sounds-folder expanded="1" />
     <music-folder expanded="1" />
-    <files-folder expanded="1" />
+    <files-folder expanded="1">
+        <file-folder expanded="0" name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
 </c2project>

@@ -517,8 +517,8 @@
                         <action id="-6" name="Set height" sid="7574003980955041" type="SlidingDoor">
                             <param id="0" name="Height">SlidingDoor.Height+1</param>
                         </action>
-                        <action id="4" name="Set animation" sid="1987944554136678" type="Swich">
-                            <param id="0" name="Animation">&quot;Open&quot;</param>
+                        <action id="4" name="Set animation" sid="1356881191998518" type="Swich">
+                            <param id="0" name="Animation">&quot;Closed&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
                     </actions>
@@ -547,8 +547,8 @@
                         <action id="-6" name="Set height" sid="7982748939923801" type="SlidingDoor">
                             <param id="0" name="Height">SlidingDoor.Height-1</param>
                         </action>
-                        <action id="4" name="Set animation" sid="1356881191998518" type="Swich">
-                            <param id="0" name="Animation">&quot;Closed&quot;</param>
+                        <action id="4" name="Set animation" sid="1987944554136678" type="Swich">
+                            <param id="0" name="Animation">&quot;Open&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
                     </actions>

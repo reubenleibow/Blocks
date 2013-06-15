@@ -6,12 +6,12 @@
         <variable constant="0" name="AreYouOnTheBonusLevel" sid="2917465068134299" static="0" type="number">0</variable>
         <variable constant="0" name="WhenFinished" sid="7630418223723365" static="0" type="number">0</variable>
         <variable constant="1" name="UNLOCKED_LEVEL_KEY" sid="2963868024279644" static="0" type="text">UnlockedLevelKey</variable>
-        <variable constant="1" name="TOTAL_GAME_TIME" sid="7133339750766053" static="0" type="number">50</variable>
+        <variable constant="1" name="TOTAL_GAME_TIME" sid="7133339750766053" static="0" type="number">160</variable>
         <variable constant="1" name="PORTAL_CLOSING_TIME" sid="4469883810396425" static="0" type="number">10</variable>
         <variable constant="1" name="SHOW_MENU_TIME" sid="1022769540302522" static="0" type="number">2</variable>
         <variable constant="0" name="CountdownStarted" sid="9640555897683182" static="0" type="number">0</variable>
         <variable constant="0" name="CountdownTime" sid="5350714101605865" static="0" type="number">0</variable>
-        <event-group description="" sid="5293643546838865" title="Time Level Blaaa Blaaa">
+        <event-group collapsed="1" description="" sid="5293643546838865" title="Time Level Blaaa Blaaa">
             <sub-events>
                 <event-block sid="316">
                     <conditions>
