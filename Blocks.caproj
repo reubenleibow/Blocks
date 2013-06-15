@@ -2011,6 +2011,14 @@
         </object-type>
         <object-type name="indercaterofStars" sid="6406969148442655">
             <plugin id="Text" />
+            <effects>
+                <effect-type name="GlowHorizontal">
+                    <effect id="glowhorizontal" />
+                </effect-type>
+                <effect-type name="GlowVertical">
+                    <effect id="glowvertical" />
+                </effect-type>
+            </effects>
         </object-type>
     </object-folder>
     <families>

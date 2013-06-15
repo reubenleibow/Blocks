@@ -26,6 +26,9 @@
                 <action id="-25" name="Move to bottom" sid="977361960353946" type="Level4PicBonus" />
                 <action id="-25" name="Move to bottom" sid="2096593478123012" type="Level5Pic" />
                 <action id="-25" name="Move to bottom" sid="6423373291055459" type="TheBlackMan" />
+                <action id="-24" name="Move to top" sid="655144389382824" type="LevelSelecBlock" />
+                <action id="-24" name="Move to top" sid="3968945275404472" type="NextWorldLeft" />
+                <action id="-24" name="Move to top" sid="92379918026506" type="NextWorldRight" />
             </actions>
         </event-block>
         <event-block sid="1239">
@@ -298,9 +301,12 @@
                     <param id="1" name="Y">Level4PicBonus.Y</param>
                 </action>
                 <action id="0" name="Set text" sid="8079575283918593" type="indercaterofStars">
-                    <param id="0" name="Text">&quot;WebStorage.LocalValue(EnergyBar)&quot;</param>
+                    <param id="0" name="Text">WebStorage.LocalValue(&quot;energy&quot;)&amp;&quot;% unlocked&quot;</param>
                 </action>
-                <action id="-24" name="Move to top" sid="2447691329903635" type="indercaterofStars" />
+                <action id="-3" name="Set position" sid="8879735943231495" type="indercaterofStars">
+                    <param id="0" name="X">Level4PicBonus.X-70</param>
+                    <param id="1" name="Y">380</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="1177">
