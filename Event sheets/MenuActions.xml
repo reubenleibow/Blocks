@@ -30,6 +30,11 @@
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">1</param>
                 </condition>
+                <condition id="-14" name="Compare variable" sid="4256275975879411" type="System">
+                    <param id="0" name="Variable">AreYouOnTheBonusLevel</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="964" type="System">
@@ -37,21 +42,21 @@
                 </action>
             </actions>
         </event-block>
-        <event-block disabled="1" sid="965">
+        <event-block sid="3221030542194807">
             <conditions>
-                <condition id="3" name="On touched object" sid="966" type="Touch">
+                <condition id="3" name="On touched object" sid="1228167181411075" type="Touch">
                     <param id="0" name="Object">GoToMenuPause</param>
                 </condition>
-                <condition id="-9" name="Is visible" sid="967" type="GoToMenuPause" />
-                <condition id="-14" name="Compare variable" sid="968" type="System">
-                    <param id="0" name="Variable">SelectLevel123</param>
+                <condition id="-9" name="Is visible" sid="7774733621498939" type="GoToMenuPause" />
+                <condition id="-14" name="Compare variable" sid="5097371604996196" type="System">
+                    <param id="0" name="Variable">AreYouOnTheBonusLevel</param>
                     <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">2</param>
+                    <param id="2" name="Value">1</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="969" type="System">
-                    <param id="0" name="Layout">LevelSelect2</param>
+                <action id="-2" name="Go to layout" sid="1438707240758302" type="System">
+                    <param id="0" name="Layout">Bonus</param>
                 </action>
             </actions>
         </event-block>

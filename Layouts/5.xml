@@ -674,7 +674,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TimeToNextLevel" uid="532">
+                <instance type="TimeLeftInGame" uid="532">
                     <properties>
                         <text>0</text>
                         <initial-visibility>Visible</initial-visibility>

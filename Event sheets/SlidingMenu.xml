@@ -205,7 +205,7 @@
                             <conditions>
                                 <condition id="-1" name="Compare X" sid="7930607896593288" type="Level4PicBonus">
                                     <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="X co-ordinate">488</param>
+                                    <param id="1" name="X co-ordinate">473</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -297,6 +297,10 @@
                     <param id="0" name="X">Level4PicBonus.X+250</param>
                     <param id="1" name="Y">Level4PicBonus.Y</param>
                 </action>
+                <action id="0" name="Set text" sid="8079575283918593" type="indercaterofStars">
+                    <param id="0" name="Text">&quot;WebStorage.LocalValue(EnergyBar)&quot;</param>
+                </action>
+                <action id="-24" name="Move to top" sid="2447691329903635" type="indercaterofStars" />
             </actions>
         </event-block>
         <event-block sid="1177">
@@ -378,6 +382,10 @@
                         <action id="4" name="Set animation" sid="6833039741030664" type="Level4PicBonus">
                             <param id="0" name="Animation">&quot;unlocked&quot;</param>
                             <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-27" name="Set effect enabled" sid="3518794741056047" type="Level4PicBonus">
+                            <param id="0" name="Mode">0</param>
+                            <param id="1" name="Effect">&quot;Grayscale&quot;</param>
                         </action>
                     </actions>
                 </event-block>

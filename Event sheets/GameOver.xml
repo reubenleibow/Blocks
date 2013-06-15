@@ -3,13 +3,15 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>GameOver</name>
     <events>
+        <variable constant="0" name="AreYouOnTheBonusLevel" sid="2917465068134299" static="0" type="number">0</variable>
+        <variable constant="0" name="WhenFinished" sid="7630418223723365" static="0" type="number">0</variable>
         <variable constant="1" name="UNLOCKED_LEVEL_KEY" sid="2963868024279644" static="0" type="text">UnlockedLevelKey</variable>
         <variable constant="1" name="TOTAL_GAME_TIME" sid="7133339750766053" static="0" type="number">50</variable>
         <variable constant="1" name="PORTAL_CLOSING_TIME" sid="4469883810396425" static="0" type="number">10</variable>
         <variable constant="1" name="SHOW_MENU_TIME" sid="1022769540302522" static="0" type="number">2</variable>
         <variable constant="0" name="CountdownStarted" sid="9640555897683182" static="0" type="number">0</variable>
         <variable constant="0" name="CountdownTime" sid="5350714101605865" static="0" type="number">0</variable>
-        <event-group collapsed="1" description="" sid="5293643546838865" title="Time Level Blaaa Blaaa">
+        <event-group description="" sid="5293643546838865" title="Time Level Blaaa Blaaa">
             <sub-events>
                 <event-block sid="316">
                     <conditions>
@@ -23,7 +25,7 @@
                         <action id="0" name="Set text" sid="347" type="BlockLeft">
                             <param id="0" name="Text">BlocksLeft</param>
                         </action>
-                        <action id="0" name="Set text" sid="437" type="TimeToNextLevel">
+                        <action id="0" name="Set text" sid="437" type="TimeLeftInGame">
                             <param id="0" name="Text">CountdownTime</param>
                         </action>
                         <action id="0" name="Set text" sid="708" type="FPS1">
@@ -72,7 +74,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" sid="3737329949046407" title="Finished Level">
+        <event-group description="" sid="3737329949046407" title="Finished Level">
             <sub-events>
                 <event-block sid="924">
                     <conditions>
@@ -92,7 +94,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="931">
+                <event-block disabled="1" sid="931">
                     <conditions>
                         <condition id="3" name="On touched object" sid="932" type="Touch">
                             <param id="0" name="Object">GoToMenuEnd</param>
@@ -125,7 +127,7 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="940">
+                <event-block disabled="1" sid="940">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="941" type="System">
                             <param id="0" name="Variable">CurrentLevel</param>
@@ -147,7 +149,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" sid="1971752468810086" title="Next level buttons when finnished stars">
+        <event-group description="" sid="1971752468810086" title="Next level buttons when finnished stars">
             <sub-events>
                 <event-block sid="1319">
                     <conditions>
@@ -347,6 +349,81 @@
                 <action id="0" name="Call function" sid="2637016880531341" type="Function">
                     <param id="0" name="Name">&quot;StartEndgameCountdown&quot;</param>
                     <param id="1" name="Parameter {n}">SHOW_MENU_TIME</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="528978908030171">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="4412062332046127" type="System">
+                    <param id="0" name="Variable">CollectedBlocks</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="2996728240113652" type="System">
+                    <param id="0" name="Variable">BlocksLeft</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="8589038526486016" type="System">
+                    <param id="0" name="Variable">CountdownTime</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+                <condition id="-5" name="Compare width" sid="409115543805188" type="ShowStars">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Width">950</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="8586140238621054" type="System">
+                    <param id="0" name="Variable">WhenFinished</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="6245674277671827" type="System">
+                    <param id="0" name="Variable">WhenFinished</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action id="-3" name="Create object" sid="4168413247112612" type="System">
+                    <param id="0" name="Object to create">TooLittleBlocksCollected</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">480</param>
+                    <param id="3" name="Y">225</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7753361972679565">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="8704246359424032" type="System">
+                    <param id="0" name="Variable">BlocksLeft</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="5473777126301165" type="System">
+                    <param id="0" name="Variable">CollectedBlocks</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+                <condition id="-5" name="Compare width" sid="2641576260346779" type="ShowStars">
+                    <param id="0" name="Comparison">5</param>
+                    <param id="1" name="Width">950</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="7888431238465452" type="System">
+                    <param id="0" name="Variable">WhenFinished</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="1239094214102909" type="System">
+                    <param id="0" name="Object to create">OutOfTime</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="X">460</param>
+                    <param id="3" name="Y">225</param>
+                </action>
+                <action id="-9" name="Set value" sid="162921373102538" type="System">
+                    <param id="0" name="Variable">WhenFinished</param>
+                    <param id="1" name="Value">2</param>
                 </action>
             </actions>
         </event-block>

@@ -274,6 +274,10 @@
                     <param id="0" name="Variable">SideOpenOrClosed</param>
                     <param id="1" name="Value">0</param>
                 </action>
+                <action id="-9" name="Set value" sid="3869223845416136" type="System">
+                    <param id="0" name="Variable">WhenFinished</param>
+                    <param id="1" name="Value">0</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="5820646144020085">
