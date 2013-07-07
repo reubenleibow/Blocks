@@ -123,6 +123,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -163,6 +164,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -203,6 +205,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -243,6 +246,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -283,6 +287,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -323,6 +328,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -363,6 +369,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -403,6 +410,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -443,6 +451,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -483,6 +492,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -523,6 +533,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -563,6 +574,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -603,6 +615,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -643,6 +656,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -683,6 +697,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -723,6 +738,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -763,6 +779,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -803,6 +820,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -843,6 +861,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -880,6 +899,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -917,6 +937,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -954,6 +975,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -991,6 +1013,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1028,6 +1051,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1065,6 +1089,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1128,6 +1153,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1168,6 +1194,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1208,6 +1235,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1248,6 +1276,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1288,6 +1317,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1328,6 +1358,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1368,6 +1399,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1408,6 +1440,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1448,6 +1481,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1635,6 +1669,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1675,6 +1710,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1712,6 +1748,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                         <behavior-instance type="Rotate">
@@ -1769,6 +1806,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1820,6 +1858,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1860,6 +1899,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1900,6 +1940,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -1940,6 +1981,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2006,6 +2048,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2046,6 +2089,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2138,6 +2182,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2178,6 +2223,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2218,6 +2264,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2258,6 +2305,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2298,6 +2346,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2338,6 +2387,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2378,6 +2428,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2418,6 +2469,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2458,6 +2510,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2498,6 +2551,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2538,6 +2592,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2578,6 +2633,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2618,6 +2674,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2658,6 +2715,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2698,6 +2756,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2738,6 +2797,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2778,6 +2838,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2818,6 +2879,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2858,6 +2920,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2898,6 +2961,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2938,6 +3002,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -2978,6 +3043,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3018,6 +3084,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3058,6 +3125,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3098,6 +3166,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3138,6 +3207,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3178,6 +3248,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3218,6 +3289,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3258,6 +3330,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3298,6 +3371,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3338,6 +3412,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3378,6 +3453,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3418,6 +3494,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3458,6 +3535,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3498,6 +3576,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3538,6 +3617,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3600,6 +3680,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3640,6 +3721,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3680,6 +3762,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3720,6 +3803,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3760,6 +3844,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3797,6 +3882,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3837,6 +3923,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3877,6 +3964,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3917,6 +4005,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3957,6 +4046,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -3997,6 +4087,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4037,6 +4128,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4077,6 +4169,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4117,6 +4210,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4157,6 +4251,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4197,6 +4292,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4237,6 +4333,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4277,6 +4374,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4317,6 +4415,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4357,6 +4456,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4397,6 +4497,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4454,7 +4555,11 @@
                         <seams>Overlap</seams>
                     </properties>
                     <behavior-instances>
-                        <behavior-instance type="Solid" />
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -4466,6 +4571,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4496,7 +4602,11 @@
                         <seams>Overlap</seams>
                     </properties>
                     <behavior-instances>
-                        <behavior-instance type="Solid" />
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -4508,6 +4618,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4538,7 +4649,11 @@
                         <seams>Overlap</seams>
                     </properties>
                     <behavior-instances>
-                        <behavior-instance type="Solid" />
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -4550,6 +4665,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4580,7 +4696,11 @@
                         <seams>Overlap</seams>
                     </properties>
                     <behavior-instances>
-                        <behavior-instance type="Solid" />
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
                         <behavior-instance type="Physics">
                             <properties>
                                 <immovable>Yes</immovable>
@@ -4592,6 +4712,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4631,6 +4752,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4671,6 +4793,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4708,6 +4831,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4745,6 +4869,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4782,6 +4907,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4819,6 +4945,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4856,6 +4983,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4893,6 +5021,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4930,6 +5059,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -4967,6 +5097,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -5004,6 +5135,7 @@
                                 <linear-damping>0</linear-damping>
                                 <angular-damping>0.01</angular-damping>
                                 <bullet>No</bullet>
+                                <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>

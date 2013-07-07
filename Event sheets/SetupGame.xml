@@ -278,6 +278,13 @@
                     <param id="0" name="Variable">WhenFinished</param>
                     <param id="1" name="Value">0</param>
                 </action>
+                <action id="-15" name="Set visible" sid="9177269299832493" type="Border">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="396407382779205" type="System">
+                    <param id="0" name="Variable">EGGS</param>
+                    <param id="1" name="Value">0</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="5820646144020085">
@@ -299,14 +306,11 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-12" name="Set group active" sid="204988000616806" type="System">
-                    <param id="0" name="Group name">&quot;ShowSlidingMenu&quot;</param>
-                    <param id="1" name="State">1</param>
+                <action id="-36" name="Save" sid="8015687185638747" type="System">
+                    <param id="0" name="Slot">&quot;A&quot;</param>
                 </action>
-                <action id="11" name="Set live tile text" sid="343192127387682" type="Windows8">
-                    <param id="0" name="Template">1</param>
-                    <param id="1" name="Text 1">&quot;dsadfsfasf&quot;</param>
-                    <param id="2" name="Text 2">&quot;asafdfasdfad&quot;</param>
+                <action id="-2" name="Go to layout" sid="204988000616806" type="System">
+                    <param id="0" name="Layout">Layout 2</param>
                 </action>
             </actions>
         </event-block>

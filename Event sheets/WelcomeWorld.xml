@@ -13,6 +13,12 @@
                 <action id="-2" name="Go to layout" sid="3265379251415671" type="System">
                     <param id="0" name="Layout">LevelSelect</param>
                 </action>
+                <action id="0" name="Play" sid="2154934021277593" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
     </events>

@@ -17,6 +17,12 @@
                 <action id="-2" name="Go to layout" sid="4704616525800984" type="System">
                     <param id="0" name="Layout">BonusLevel</param>
                 </action>
+                <action id="0" name="Play" sid="3617736690605031" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="7482058767178555">
@@ -28,6 +34,12 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="5724873759650948" type="System">
                     <param id="0" name="Layout">SlideMenu</param>
+                </action>
+                <action id="0" name="Play" sid="9557084955663011" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>

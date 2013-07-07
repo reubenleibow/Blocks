@@ -41,6 +41,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="6249440732849633" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-2" name="Go to layout" sid="1247" type="System">
                     <param id="0" name="Layout">WelcomeWorld1</param>
                 </action>
@@ -308,6 +314,7 @@
                     <param id="1" name="Y">380</param>
                 </action>
                 <action id="-25" name="Move to bottom" sid="1744176286345427" type="Sprite28" />
+                <action id="-24" name="Move to top" sid="7847896002640137" type="Sprite30" />
             </actions>
         </event-block>
         <event-block sid="1177">
@@ -326,6 +333,12 @@
                     <param id="0" name="Variable">SelectedLevel</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="0" name="Play" sid="2439314875659616" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="1179">
@@ -343,6 +356,12 @@
                 <action id="-10" name="Add to" sid="1182" type="System">
                     <param id="0" name="Variable">SelectedLevel</param>
                     <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="3979072411528947" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -367,7 +386,7 @@
                         <condition id="7" name="Compare key value (as number)" sid="8060458504443916" type="WebStorage">
                             <param id="0" name="Key">&quot;energy&quot;</param>
                             <param id="1" name="Comparison">5</param>
-                            <param id="2" name="Value">40</param>
+                            <param id="2" name="Value">85</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -413,6 +432,12 @@
                     <actions>
                         <action id="-2" name="Go to layout" sid="8017752936976763" type="System">
                             <param id="0" name="Layout">Bonus</param>
+                        </action>
+                        <action id="0" name="Play" sid="5846219196577872" type="Audio">
+                            <param id="0" name="Audio file">Click</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>

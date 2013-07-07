@@ -17,6 +17,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="6902595277679002" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-10" name="Add to" sid="1451821658262418" type="System">
                     <param id="0" name="Variable">PicNumber</param>
                     <param id="1" name="Value">1</param>
@@ -35,6 +41,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="6686941032758415" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-11" name="Subtract from" sid="2879751752923878" type="System">
                     <param id="0" name="Variable">PicNumber</param>
                     <param id="1" name="Value">1</param>
@@ -48,6 +60,15 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="1745274851020922" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="3808853834264345" type="System">
+                    <param id="0" name="Seconds">0.3</param>
+                </action>
                 <action id="-37" name="Load" sid="2441936857864425" type="System">
                     <param id="0" name="Slot">&quot;LevelOn&quot;</param>
                 </action>

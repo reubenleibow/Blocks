@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <event-block sid="8997013536482484">
+            <conditions>
+                <condition id="1" name="On view state changed" sid="2750747591983354" type="Windows8">
+                    <param id="0" name="State">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-37" name="Load" sid="7845564806408884" type="System">
+                    <param id="0" name="Slot">&quot;A&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

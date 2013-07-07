@@ -51,6 +51,21 @@
                 </action>
             </actions>
             <sub-events>
+                <event-block sid="4294544172111698">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="8026537744907266" type="LevelButtonSM">
+                            <param id="0" name="Instance variable">Level</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="3741870055724809" type="LevelButtonSM">
+                            <param id="0" name="Instance variable">Unlocked</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <comment>4 bottom events on every tick !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</comment>
                 <event-group description="" sid="5702870335784041" title="CalculateStars">
                     <sub-events>
@@ -112,6 +127,12 @@
                 <action id="-2" name="Go to layout" sid="1262" type="System">
                     <param id="0" name="Layout">SlideMenu</param>
                 </action>
+                <action id="0" name="Play" sid="7035041324301079" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="7622476770965982">
@@ -123,6 +144,12 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="4015260989257505" type="System">
                     <param id="0" name="Layout">SlideMenu</param>
+                </action>
+                <action id="0" name="Play" sid="3788611698731699" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -150,6 +177,12 @@
                         </action>
                         <action id="-25" name="Go to layout (by name)" sid="133" type="System">
                             <param id="0" name="Layout">str(CurrentLevel)</param>
+                        </action>
+                        <action id="0" name="Play" sid="951930217182221" type="Audio">
+                            <param id="0" name="Audio file">Click</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>

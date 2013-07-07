@@ -17,6 +17,12 @@
                     <param id="0" name="Time scale">1.0</param>
                 </action>
                 <action id="-26" name="Restart layout" sid="1124" type="System" />
+                <action id="0" name="Play" sid="5443172715722396" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="960">
@@ -40,6 +46,12 @@
                 <action id="-2" name="Go to layout" sid="964" type="System">
                     <param id="0" name="Layout">LevelSelect</param>
                 </action>
+                <action id="0" name="Play" sid="7127715288516356" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="3221030542194807">
@@ -58,6 +70,12 @@
                 <action id="-2" name="Go to layout" sid="1438707240758302" type="System">
                     <param id="0" name="Layout">Bonus</param>
                 </action>
+                <action id="0" name="Play" sid="9661055349425555" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="770">
@@ -69,6 +87,12 @@
             </conditions>
             <actions>
                 <action id="-26" name="Restart layout" sid="772" type="System" />
+                <action id="0" name="Play" sid="2542682296114508" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="611">
@@ -82,6 +106,12 @@
                 <action id="-12" name="Set group active" sid="4206596434110357" type="System">
                     <param id="0" name="Group name">&quot;ShowSlidingMenu&quot;</param>
                     <param id="1" name="State">1</param>
+                </action>
+                <action id="0" name="Play" sid="7116996602676518" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -97,6 +127,12 @@
                     <param id="0" name="Group name">&quot;HideSlidingMenu&quot;</param>
                     <param id="1" name="State">1</param>
                 </action>
+                <action id="0" name="Play" sid="345036689766692" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="832">
@@ -111,6 +147,12 @@
                     <param id="0" name="Time scale">1</param>
                 </action>
                 <action id="-26" name="Restart layout" sid="848" type="System" />
+                <action id="0" name="Play" sid="8924513116014887" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="177957077212279">
@@ -121,6 +163,10 @@
                 <action id="0" name="Call function" sid="3510097992025573" type="Function">
                     <param id="0" name="Name">&quot;MakeGrayscale&quot;</param>
                     <param id="1" name="Parameter {n}">0</param>
+                </action>
+                <action id="-10" name="Set value" sid="7142965888857128" type="SoundPause">
+                    <param id="0" name="Instance variable">OnOrOff</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
@@ -352,14 +398,6 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="6462549907684682">
-            <conditions>
-                <condition id="3" name="On touched object" sid="6179459952859899" type="Touch">
-                    <param id="0" name="Object">SoundPause</param>
-                </condition>
-            </conditions>
-            <actions />
-        </event-block>
         <event-block sid="9327897933567806">
             <conditions>
                 <condition id="3" name="On touched object" sid="2315865855466742" type="Touch">
@@ -373,6 +411,76 @@
                 </action>
                 <action id="-2" name="Go to layout" sid="9648896359454175" type="System">
                     <param id="0" name="Layout">Help</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6462549907684682">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6179459952859899" type="Touch">
+                    <param id="0" name="Object">SoundPause</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="3518124629294062" type="SoundPause">
+                    <param id="0" name="Instance variable">OnOrOff</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="7047168397195177" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8503860404447089">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="5187341453054584" type="SoundPause">
+                    <param id="0" name="Instance variable">OnOrOff</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="2267585121883565" type="SoundPause">
+                    <param id="0" name="Instance variable">OnOrOff</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3374093025317612">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="5614582225370019" type="SoundPause">
+                    <param id="0" name="Instance variable">OnOrOff</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="86996060520971" type="SoundPause">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="8" name="Set silent" sid="1363474702307873" type="Audio">
+                    <param id="0" name="Mode">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5620428636149618">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="3645595068572841" type="SoundPause">
+                    <param id="0" name="Instance variable">OnOrOff</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6663875254795979" type="SoundPause">
+                    <param id="0" name="Animation">&quot;Off&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="8" name="Set silent" sid="6640296268248048" type="Audio">
+                    <param id="0" name="Mode">0</param>
                 </action>
             </actions>
         </event-block>

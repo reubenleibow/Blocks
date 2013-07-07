@@ -18,6 +18,10 @@
                 <action behavior="Physics" id="16" name="Set density" sid="8094908198199915" type="ObBlocks">
                     <param id="0" name="Density">0.5</param>
                 </action>
+                <action id="-10" name="Set value" sid="9541576811404971" type="SoundR">
+                    <param id="0" name="Instance variable">OnOrOff</param>
+                    <param id="1" name="Value">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="9488879572169918">
@@ -82,6 +86,12 @@
                 <action id="-2" name="Go to layout" sid="7318413606024787" type="System">
                     <param id="0" name="Layout">Help</param>
                 </action>
+                <action id="0" name="Play" sid="5990194776012522" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="7673395087309235">
@@ -93,6 +103,76 @@
             <actions>
                 <action id="-2" name="Go to layout" sid="772826136906964" type="System">
                     <param id="0" name="Layout">SlideMenu</param>
+                </action>
+                <action id="0" name="Play" sid="9623166597149714" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9675900043715015">
+            <conditions>
+                <condition id="3" name="On touched object" sid="7473787099509875" type="Touch">
+                    <param id="0" name="Object">SoundR</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="5745839680076301" type="SoundR">
+                    <param id="0" name="Instance variable">OnOrOff</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="3312433757256582" type="Audio">
+                    <param id="0" name="Audio file">Click</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5280031665963607">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="6117893644646975" type="SoundR">
+                    <param id="0" name="Instance variable">OnOrOff</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="2854771264809926" type="SoundR">
+                    <param id="0" name="Instance variable">OnOrOff</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9192700290613482">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="3874627277043915" type="SoundR">
+                    <param id="0" name="Instance variable">OnOrOff</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="2563780369246832" type="SoundR">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8793662274039905">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="4775867064646466" type="SoundR">
+                    <param id="0" name="Instance variable">OnOrOff</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="7703051725089552" type="SoundR">
+                    <param id="0" name="Animation">&quot;Off&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
