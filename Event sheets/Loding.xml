@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Loding</name>
+    <events>
+        <event-block sid="4480834302709645">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="8047437415617757" type="System" />
+            </conditions>
+            <actions>
+                <action id="-1" name="Set X" sid="1023207983062285" type="LightBlocks2">
+                    <param id="0" name="X">loadingprogress+LightBlocks2.Distance</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7182061067708042">
+            <conditions>
+                <condition behavior="Fade" id="0" name="On fade out finished" sid="952806864322828" type="Sprite11" />
+            </conditions>
+            <actions>
+                <action behavior="Fade" id="1" name="Start fade" sid="4027798542252723" type="Sprite11" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

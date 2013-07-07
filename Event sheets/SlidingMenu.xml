@@ -307,6 +307,7 @@
                     <param id="0" name="X">Level4PicBonus.X-70</param>
                     <param id="1" name="Y">380</param>
                 </action>
+                <action id="-25" name="Move to bottom" sid="1744176286345427" type="Sprite28" />
             </actions>
         </event-block>
         <event-block sid="1177">

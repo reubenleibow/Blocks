@@ -2,7 +2,7 @@
 <c2layout>
     <name>Bonus</name>
     <sid>1803703672711816</sid>
-    <event-sheet>SelectLevelMenu</event-sheet>
+    <event-sheet>Bonus</event-sheet>
     <size>
         <width>960</width>
         <height>540</height>

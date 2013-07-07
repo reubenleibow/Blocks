@@ -636,5 +636,50 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="7216578495849448">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="3851339257912114" type="System">
+                    <param id="0" name="Variable">AreYouOnTheBonusLevel</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="113505434399721" type="NextLevelEnd" />
+            </actions>
+        </event-block>
+        <event-block sid="5460597172789241">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="7373609380148962" type="LightBlocks">
+                    <param id="0" name="Object">Platform</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="7835670073065961" type="Audio">
+                    <param id="0" name="Audio file">CLICK1</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block disabled="1" sid="7075345277930523">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="2191191859378164" type="System">
+                    <param id="0" name="Interval (seconds)">0.1</param>
+                </condition>
+                <condition id="-7" name="Compare instance variable" sid="6468540780113642" type="LightBlocks">
+                    <param id="0" name="Instance variable">tap</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Subtract from" sid="3403789711181819" type="LightBlocks">
+                    <param id="0" name="Instance variable">tap</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

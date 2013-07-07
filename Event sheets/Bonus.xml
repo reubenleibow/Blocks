@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Bonus</name>
+    <events>
+        <event-block sid="5101434779183198">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2848291155427223" type="Touch">
+                    <param id="0" name="Object">BonusLevelButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="3673966877473997" type="System">
+                    <param id="0" name="Variable">AreYouOnTheBonusLevel</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="4704616525800984" type="System">
+                    <param id="0" name="Layout">BonusLevel</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7482058767178555">
+            <conditions>
+                <condition id="3" name="On touched object" sid="6520549941057189" type="Touch">
+                    <param id="0" name="Object">GoToSlidingMenu1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5724873759650948" type="System">
+                    <param id="0" name="Layout">SlideMenu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

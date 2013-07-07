@@ -15,10 +15,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout>UnusedLayout</layout>
         <layout>StartScreen</layout>
         <layout>Logo</layout>
-        <layout>SlideMenu</layout>
+        <layout active="1">SlideMenu</layout>
         <layout>Layout 1</layout>
-        <layout>LevelSelect3</layout>
-        <layout>LevelSelect2</layout>
         <layout>LevelSelect</layout>
         <layout>Wold1EndMovie</layout>
         <layout>WelcomeWorld1</layout>
@@ -29,7 +27,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout>6</layout>
         <layout>7</layout>
         <layout>8</layout>
-        <layout active="1">9</layout>
+        <layout>9</layout>
+        <layout>Loding</layout>
+        <layout>Help</layout>
+        <layout>10</layout>
         <event-sheet>SelectLevelMenu</event-sheet>
         <event-sheet>World1EndMovie</event-sheet>
         <event-sheet>SlidingMenu</event-sheet>
@@ -38,6 +39,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet>MenuActions</event-sheet>
         <event-sheet>SetupGame</event-sheet>
         <event-sheet>StartScreen</event-sheet>
+        <event-sheet>Loding</event-sheet>
+        <event-sheet>Bonus</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
